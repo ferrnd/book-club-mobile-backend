@@ -55,6 +55,133 @@ async function main() {
     },
   });
 
+  console.log("📚 Inserindo contos...");
+
+  await prisma.conto.createMany({
+    data: [
+      {
+        titulo_pt: "Olhos D'água",
+        titulo_en: "Water Eyes",
+        resumo_pt: "A narradora vive atormentada pela dúvida sobre qual era a cor dos olhos de sua mãe. Ao retornar à casa materna, ela mergulha em uma jornada de autodescoberta e ancestralidade. Ela finalmente compreende que os olhos da mãe eram 'cor de olhos d'água': uma imagem poética que funde o rio, o mar e, principalmente, a umidade constante das lágrimas — tanto as de sofrimento pela fome quanto as de alegria pela sobrevivência de suas filhas.",
+        resumo_en: "The narrator lives tormented by doubt about the color of her mother's eyes. Upon returning to her mother's house, she immerses herself in a journey of self-discovery and ancestrality. She finally understands that her mother's eyes were 'water-colored eyes': a poetic image that merges the river, the sea, and above all, the constant moisture of tears — both from suffering caused by hunger and from joy for the survival of her daughters.",
+        analise_pt: "A análise foca no conceito de ancestralidade. A busca da narradora pela cor dos olhos da mãe é uma metáfora para a busca das raízes da população negra, que muitas vezes foram apagadas. A água simboliza tanto a dor (lágrimas) quanto a vida (fertilidade e renovação), consolidando a ideia de que o trauma e a força caminham juntos na história das mulheres negras.",
+        analise_en: "The analysis focuses on the concept of ancestrality. The narrator's search for the color of her mother's eyes is a metaphor for the quest for the roots of the Black population, which have often been erased. Water symbolizes both pain (tears) and life (fertility and renewal), consolidating the idea that trauma and strength walk together in the history of Black women.",
+      },
+      {
+        titulo_pt: "Ana Davenga",
+        titulo_en: "Ana Davenga",
+        resumo_pt: "Ana vive um amor intenso e marginal com Davenga em uma favela. O barraco deles é o único refúgio contra um mundo que os hostiliza. No entanto, a felicidade do casal é interrompida brutalmente por uma operação policial de madrugada. O conto descreve com crueza o momento em que as balas atravessam o corpo de Ana, que estava grávida, simbolizando como a violência do Estado extermina o futuro das comunidades periféricas.",
+        resumo_en: "Ana lives an intense and marginal love with Davenga in a favela. Their shack is the only refuge against a world that hostilizes them. However, the couple's happiness is brutally interrupted by a police operation in the early morning. The short story describes with harshness the moment when bullets pierce Ana's body, who was pregnant, symbolizing how State violence exterminates the future of peripheral communities.",
+        analise_pt: "Este conto analisa a criminalização da pobreza e a desumanização dos corpos negros. A morte de Ana, uma mulher grávida e inocente, demonstra que, para o braço armado do Estado, não há distinção entre 'criminoso' e 'morador'. A análise destaca como o amor periférico é constantemente atravessado pela tragédia e pela falta de direito à paz.",
+        analise_en: "This short story analyzes the criminalization of poverty and the dehumanization of Black bodies. The death of Ana, a pregnant and innocent woman, demonstrates that, for the armed branch of the State, there is no distinction between 'criminal' and 'resident'. The analysis highlights how peripheral love is constantly crossed by tragedy and the lack of right to peace.",
+      },
+      {
+        titulo_pt: "A Gente Combinamos de Não Morrer",
+        titulo_en: "We Agreed Not to Die",
+        resumo_pt: "Neste conto, a morte é uma vizinha constante, mas os personagens estabelecem um pacto silencioso de resistência. Através de uma linguagem que mistura o lírico com o popular, a autora mostra jovens que, apesar de cercados pelo tráfico e pela falta de oportunidades, tentam criar estratégias para continuar respirando. O título é um grito de guerra: a gramática pode ser 'errada' para os padrões, mas a vontade de viver é absoluta e coletiva.",
+        resumo_en: "In this short story, death is a constant neighbor, but the characters establish a silent pact of resistance. Through a language that mixes the lyrical with the popular, the author shows young people who, despite being surrounded by drug trafficking and lack of opportunities, try to create strategies to keep breathing. The title is a war cry: grammar may be 'wrong' by standard rules, but the will to live is absolute and collective.",
+        analise_pt: "A análise gira em torno da substantividade do verbo. O erro gramatical proposital no título é um ato político: ele valida a língua falada pelo povo e reforça que a sobrevivência é um 'combinado' coletivo. É uma crítica direta ao extermínio da juventude negra e uma exaltação do pacto de proteção mútua nas comunidades.",
+        analise_en: "The analysis revolves around the substantivity of the verb. The intentional grammatical error in the title is a political act: it validates the language spoken by the people and reinforces that survival is a collective 'agreement'. It is a direct critique of the extermination of Black youth and an exaltation of the pact of mutual protection in communities.",
+      },
+      {
+        titulo_pt: "Beijo na Face",
+        titulo_en: "Kiss on the Face",
+        resumo_pt: "A narrativa acompanha uma mulher que passou a vida sendo tratada como um objeto de serviço ou de desejo bruto. Ela redescobre sua própria humanidade através de um gesto simples de carinho: um beijo na face. O conto explora a ideia de que, para quem sempre viveu na dureza da sobrevivência, o afeto é uma forma revolucionária de recuperar a dignidade perdida.",
+        resumo_en: "The narrative follows a woman who spent her life being treated as an object of service or crude desire. She rediscovers her own humanity through a simple gesture of affection: a kiss on the face. The short story explores the idea that, for those who have always lived in the harshness of survival, affection is a revolutionary way to recover lost dignity.",
+        analise_pt: "O ponto central aqui é a humanização através do afeto. Em uma sociedade que vê a mulher negra apenas como força de trabalho, o direito ao carinho é uma conquista política. A análise explora como pequenos gestos de ternura podem restaurar a psique de indivíduos que foram condicionados a apenas suportar a dor.",
+        analise_en: "The central point here is humanization through affection. In a society that sees Black women only as a labor force, the right to care is a political achievement. The analysis explores how small gestures of tenderness can restore the psyche of individuals who have been conditioned to only endure pain.",
+      },
+      {
+        titulo_pt: "Ei, Arnaldo!",
+        titulo_en: "Hey, Arnaldo!",
+        resumo_pt: "Arnaldo é um homem que se desintegrou sob o peso da desilusão social. O conto é narrado como um apelo desesperado de alguém que o conheceu antes da queda. Através da figura de Arnaldo, Evaristo discute a saúde mental e o abandono de homens negros que, sem perspectivas, acabam se tornando sombras vagando pelas ruas, invisíveis aos olhos de quem passa com pressa.",
+        resumo_en: "Arnaldo is a man who disintegrated under the weight of social disillusionment. The short story is narrated as a desperate appeal from someone who knew him before his fall. Through the figure of Arnaldo, Evaristo discusses mental health and the abandonment of Black men who, without prospects, end up becoming shadows wandering the streets, invisible to the eyes of those who pass in haste.",
+        analise_pt: "Este conto analisa a solidão do homem negro. Arnaldo representa a falência das promessas sociais e como o racismo pode levar à degradação mental e ao vício. A narrativa em forma de apelo ressalta a importância da rede de apoio e denuncia como a sociedade descarta rapidamente aqueles que não servem mais ao sistema produtivo.",
+        analise_en: "This short story analyzes the loneliness of the Black man. Arnaldo represents the failure of social promises and how racism can lead to mental degradation and addiction. The narrative in the form of an appeal highlights the importance of support networks and denounces how society quickly discards those who no longer serve the productive system.",
+      },
+      {
+        titulo_pt: "Di mên",
+        titulo_en: "Minors",
+        resumo_pt: "O título faz referência à expressão 'menor de idade'. O conto foca em crianças que habitam as frestas da cidade, dormindo em papelões e vivendo de pequenos furtos para aplacar a fome. A autora humaniza esses meninos, mostrando que, por trás do medo que eles causam nos passantes, existem seres humanos que nunca tiveram o direito de brincar ou de ter um lar seguro.",
+        resumo_en: "The title refers to the expression 'minor' or 'underage'. The short story focuses on children who inhabit the city's cracks, sleeping on cardboard and living off petty theft to assuage hunger. The author humanizes these boys, showing that, behind the fear they cause in passersby, there are human beings who never had the right to play or have a safe home.",
+        analise_pt: "A análise foca na infância interrompida. Evaristo denuncia como o Estado trata a criança negra carente como um 'problema de segurança' antes de tratá-la como um cidadão com direitos. O conto subverte o olhar do leitor, obrigando-o a ver a vulnerabilidade onde o senso comum enxerga apenas ameaça.",
+        analise_en: "The analysis focuses on interrupted childhood. Evaristo denounces how the State treats the poor Black child as a 'security problem' before treating it as a citizen with rights. The short story subverts the reader's gaze, forcing them to see vulnerability where common sense sees only threat.",
+      },
+      {
+        titulo_pt: "Lumbiá",
+        titulo_en: "Lumbiá",
+        resumo_pt: "Lumbiá é um homem que vive da mendicância, mas possui uma riqueza espiritual profunda. Ele cria um mundo particular com objetos que encontra no lixo, transformando o refugo em arte ou objetos sagrados. O conto é uma crítica à sociedade de consumo e mostra que a sensibilidade artística não é privilégio dos ricos, florescendo mesmo na mais profunda miséria.",
+        resumo_en: "Lumbiá is a man who lives from begging but possesses a deep spiritual richness. He creates a particular world with objects he finds in the trash, transforming refuse into art or sacred objects. The short story is a critique of consumer society and shows that artistic sensitivity is not a privilege of the rich, flourishing even in the deepest misery.",
+        analise_pt: "Aqui, a análise destaca a resistência cultural e espiritual. Lumbiá, embora desprovido de tudo, não é pobre de espírito. O conto sugere que a capacidade de criar beleza e atribuir significado ao mundo é uma ferramenta de sobrevivência que o sistema capitalista não consegue confiscar.",
+        analise_en: "Here, the analysis highlights cultural and spiritual resistance. Lumbiá, although deprived of everything, is not poor in spirit. The short story suggests that the ability to create beauty and give meaning to the world is a survival tool that the capitalist system cannot confiscate.",
+      },
+      {
+        titulo_pt: "O Cooper de Cida",
+        titulo_en: "Cida's Run",
+        resumo_pt: "Cida resolve exercitar-se na orla marítima, um território onde corpos negros geralmente só entram para servir. Enquanto corre, ela sente o peso dos olhares vigilantes e o julgamento silencioso da elite branca. O conto é uma poderosa análise sobre o racismo geográfico e como a presença de uma mulher negra em espaços de lazer ainda é vista como uma 'invasão' que gera desconforto.",
+        resumo_en: "Cida decides to exercise herself on the waterfront, a territory where Black bodies generally only enter to serve. As she runs, she feels the weight of watchful gazes and the silent judgment of the white elite. The short story is a powerful analysis of geographic racism and how the presence of a Black woman in leisure spaces is still seen as an 'invasion' that generates discomfort.",
+        analise_pt: "Este texto analisa a territorialidade e o corpo. O corpo negro 'em movimento' em um bairro de elite gera pânico moral. A análise explora o racismo recreativo e a vigilância constante que recai sobre pessoas negras quando elas tentam usufruir de espaços públicos destinados ao lazer da classe alta.",
+        analise_en: "This text analyzes territoriality and the body. The Black body 'in motion' in an elite neighborhood generates moral panic. The analysis explores recreational racism and the constant surveillance that falls on Black people when they try to enjoy public spaces intended for the leisure of the upper class.",
+      },
+      {
+        titulo_pt: "Maria",
+        titulo_en: "Maria",
+        resumo_pt: "Maria é uma trabalhadora doméstica que, ao pegar o ônibus para voltar para casa, é confundida com uma cúmplice de um assalto ou simplesmente se torna o alvo da fúria da multidão. O conto descreve a passividade dos passageiros enquanto Maria é linchada verbal e fisicamente. É uma denúncia dolorosa sobre a fragilidade da vida negra em espaços públicos e a rapidez com que a sociedade condena sem provas.",
+        resumo_en: "Maria is a domestic worker who, when getting on the bus to go back home, is mistaken for an accomplice to a robbery or simply becomes the target of the crowd's fury. The short story describes the passivity of passengers while Maria is lynched verbally and physically. It is a painful denunciation of the fragility of Black life in public spaces and the speed with which society condemns without proof.",
+        analise_pt: "A análise é uma denúncia da indiferença social. O linchamento de Maria dentro de um transporte público serve como uma metáfora da omissão da sociedade brasileira diante da violência contra a mulher negra. Mostra como o preconceito pré-julga e condena sem dar direito à voz ou à defesa.",
+        analise_en: "The analysis is a denunciation of social indifference. Maria's lynching inside public transportation serves as a metaphor for Brazilian society's omission in the face of violence against Black women. It shows how prejudice prejudges and condemns without giving the right to voice or defense.",
+      },
+      {
+        titulo_pt: "Vó Bina",
+        titulo_en: "Grandmother Bina",
+        resumo_pt: "Vó Bina é o elo com o passado africano e a memória da escravidão. Ela é a matriarca que guarda os segredos das plantas medicinais e das histórias contadas ao pé do ouvido. A relação com sua neta mostra que, embora o sistema tente apagar a história dos negros no Brasil, a tradição oral e o respeito aos mais velhos mantêm essa herança viva e pulsante.",
+        resumo_en: "Grandmother Bina is the link to the African past and the memory of slavery. She is the matriarch who guards the secrets of medicinal plants and stories told in whispers. Her relationship with her granddaughter shows that, although the system tries to erase the history of Black people in Brazil, oral tradition and respect for the elderly keep this heritage alive and pulsating.",
+        analise_pt: "Foca na matripotência (o poder das matriarcas). Vó Bina é o arquivo vivo de uma história que os livros didáticos não contam. A análise ressalta que a educação não formal e os laços intergeracionais são os verdadeiros pilares que sustentam a identidade negra através do tempo.",
+        analise_en: "Focuses on matriarchal power. Grandmother Bina is the living archive of a history that textbooks do not tell. The analysis emphasizes that non-formal education and intergenerational bonds are the true pillars that sustain Black identity through time.",
+      },
+      {
+        titulo_pt: "Ayoluwa",
+        titulo_en: "Ayoluwa",
+        resumo_pt: "A chegada de Ayoluwa é aguardada como um evento sagrado por toda a comunidade. Em um ambiente marcado pela escassez, o nascimento desta criança simboliza que a vida insiste em florescer. O nome, que significa 'a alegria do nosso povo', reforça a ideia de que cada nova geração negra é uma vitória contra o projeto de extermínio que tenta silenciá-los.",
+        resumo_en: "The arrival of Ayoluwa is awaited as a sacred event by the entire community. In an environment marked by scarcity, the birth of this child symbolizes that life insists on flourishing. The name, which means 'the joy of our people', reinforces the idea that each new Black generation is a victory against the extermination project that tries to silence them.",
+        analise_pt: "Esta é uma análise sobre esperança e futurismo negro. Em um livro cercado de mortes, Ayoluwa representa a vitória da vida. O nascimento é tratado como uma promessa de que, apesar de todas as tentativas de apagamento, o povo negro continuará nascendo, crescendo e ocupando o mundo com alegria.",
+        analise_en: "This is an analysis of hope and Black futurism. In a book surrounded by deaths, Ayoluwa represents the victory of life. Birth is treated as a promise that, despite all attempts at erasure, Black people will continue being born, growing, and occupying the world with joy.",
+      },
+      {
+        titulo_pt: "A deusa de Piche",
+        titulo_en: "The Goddess of Pitch",
+        resumo_pt: "A autora constrói uma ode à beleza da mulher retinta. Através de metáforas que exaltam o brilho da pele negra e a força das formas femininas, o conto combate séculos de pregação estética eurocêntrica. É uma celebração do erotismo e do amor-próprio, transformando o que a sociedade muitas vezes marginaliza em um padrão de divindade.",
+        resumo_en: "The author builds an ode to the beauty of the dark-skinned woman. Through metaphors that exalt the brightness of Black skin and the strength of feminine forms, the short story combats centuries of Eurocentric aesthetic preaching. It is a celebration of eroticism and self-love, transforming what society often marginalizes into a standard of divinity.",
+        analise_pt: "Analisa a estética e o desejo. O conto é uma ferramenta de descolonização do olhar. Ao transformar a 'pele de piche' em algo divino, a autora combate o colorismo e o ódio ao próprio corpo que o padrão de beleza branco impõe às mulheres retintas.",
+        analise_en: "Analyzes aesthetics and desire. The short story is a tool for decolonizing the gaze. By transforming 'pitch-colored skin' into something divine, the author combats colorism and self-hatred that the white beauty standard imposes on dark-skinned women.",
+      },
+      {
+        titulo_pt: "Zaíta esqueceu de guardar os brinquedos",
+        titulo_en: "Zaíta Forgot to Put Away the Toys",
+        resumo_pt: "Zaíta é uma menina que vive a pureza da infância até que o som dos tiros interrompe sua brincadeira. O conto choca pelo contraste entre a inocência dos brinquedos espalhados pelo chão e a brutalidade de uma bala que invade o ambiente doméstico. O final silencioso é um protesto contra a morte prematura de crianças nas favelas brasileiras.",
+        resumo_en: "Zaíta is a girl who lives the purity of childhood until the sound of gunshots interrupts her play. The short story shocks with the contrast between the innocence of toys scattered on the ground and the brutality of a bullet that invades the domestic environment. The silent ending is a protest against the premature death of children in Brazilian favelas.",
+        analise_pt: "A análise foca no impacto do trauma na infância. A morte de Zaíta é apresentada de forma seca e brutal para gerar indignação. O brinquedo esquecido simboliza a vida que não pôde ser vivida plenamente, denunciando a barbárie cotidiana que acontece nas periferias sob o pretexto de 'combate ao crime'.",
+        analise_en: "The analysis focuses on the impact of trauma on childhood. Zaíta's death is presented in a dry and brutal way to generate indignation. The forgotten toy symbolizes the life that could not be fully lived, denouncing the daily barbarity that happens in the peripheries under the guise of 'fighting crime'.",
+      },
+      {
+        titulo_pt: "Duzu-Querença",
+        titulo_en: "Duzu-Querença",
+        resumo_pt: "Duzu é uma mulher marcada pela loucura e pela exposição constante ao tempo e à crueldade das ruas. Ela vive em um estado de transe, onde o passado de dores se mistura com o presente de privações. O conto obriga o leitor a olhar diretamente para aqueles que desviamos o olhar no dia a dia, revelando a alma ferida de quem foi empurrado para as margens da sanidade.",
+        resumo_en: "Duzu is a woman marked by madness and constant exposure to time and the cruelty of the streets. She lives in a trance state, where a past of pain mingles with a present of deprivation. The short story forces the reader to look directly at those we avert our gaze from in everyday life, revealing the wounded soul of one who was pushed to the margins of sanity.",
+        analise_pt: "Este conto analisa a loucura como refúgio. Para Duzu, a realidade é tão insuportável que a mente se fragmenta. A análise aponta para a intersecção entre gênero, raça e abandono social, mostrando que a sanidade é quase um luxo impossível para quem vive no limite da exclusão.",
+        analise_en: "This short story analyzes madness as refuge. For Duzu, reality is so unbearable that the mind fragments. The analysis points to the intersection of gender, race, and social abandonment, showing that sanity is almost an impossible luxury for those living at the limit of exclusion.",
+      },
+      {
+        titulo_pt: "Luamanda",
+        titulo_en: "Luamanda",
+        resumo_pt: "Luamanda decide que não quer mais ser apenas a engrenagem que faz o mundo dos outros girar. Ela rompe com o cansaço crônico de uma vida de servidão e se redescobre como sujeito de desejos e vontades. O conto encerra o livro com uma nota de libertação individual, mostrando que o autoconhecimento é o primeiro passo para a quebra das correntes sociais.",
+        resumo_en: "Luamanda decides she no longer wants to be merely the cog that makes the world of others turn. She breaks with the chronic exhaustion of a life of servitude and rediscovers herself as a subject of desires and will. The short story closes the book on a note of individual liberation, showing that self-knowledge is the first step toward breaking social chains.",
+        analise_pt: "A análise encerra o livro com o tema da emancipação. Luamanda representa o despertar da consciência. Ela para de trabalhar para os outros e começa a olhar para si. É uma análise sobre o 'basta' necessário para que a mulher negra deixe de ser um objeto de exploração e se torne protagonista de sua vida.",
+        analise_en: "The analysis closes the book with the theme of emancipation. Luamanda represents the awakening of consciousness. She stops working for others and begins to look at herself. It is an analysis of the 'enough' necessary for Black women to stop being an object of exploitation and become protagonists of their own lives.",
+      },
+    ],
+  });
+
   console.log("✅ Seed concluído!");
 }
 
