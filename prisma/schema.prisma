@@ -27,3 +27,17 @@ model Livro {
     @@map("livro")
 }
 
+model Conto {
+    id          Int         @id @default(autoincrement())
+    titulo_pt   String
+    titulo_en   String
+    resumo_pt   String      @db.Text
+    resumo_en   String      @db.Text
+    analise_pt  String      @db.Text
+    analise_en  String      @db.Text
+    createdAt   DateTime    @default(now())
+    updatedAt   DateTime    @updatedAt
+
+    @@map("conto")
+}
+
