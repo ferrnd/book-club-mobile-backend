@@ -92,6 +92,19 @@ model VideoAula {
     @@map("videoaula")
 }
 
+model Dica {
+    id          Int      @id @default(autoincrement())
+    tipo        String   
+    titulo_pt   String
+    titulo_en   String
+    conteudo_pt String   @db.Text
+    conteudo_en String   @db.Text
+    url         String?  
+    createdAt   DateTime @default(now())
+
+    @@map("dica")
+}
+
 model Membro {
     id        Int      @id @default(autoincrement())
     nome      String
