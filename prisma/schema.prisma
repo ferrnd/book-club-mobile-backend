@@ -78,3 +78,17 @@ model Quiz {
 
     @@map("quiz")
 }
+
+model Membro {
+    id        Int      @id @default(autoincrement())
+    nome      String
+    funcao    String   
+    sobre     String   @db.Text
+    fotoUrl   String?  
+    github    String?  
+    linkedin  String?  
+    createdAt DateTime @default(now())
+    updatedAt DateTime @updatedAt
+
+    @@map("membro")
+}
