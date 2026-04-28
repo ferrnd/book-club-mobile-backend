@@ -16,7 +16,7 @@ model Livro {
     genero_en            String      @db.Text
     resumo_pt            String      @db.Text
     resumo_en            String      @db.Text
-    personagens         String[]     
+    personagens          String[]     
     contextoHistorico_pt String      @db.Text
     contextoHistorico_en String      @db.Text
     analise_pt           String      @db.Text
@@ -77,6 +77,19 @@ model Quiz {
     updatedAt        DateTime    @updatedAt
 
     @@map("quiz")
+}
+
+model VideoAula {
+    id           Int      @id @default(autoincrement())
+    titulo_pt    String
+    titulo_en    String
+    descricao_pt String?  @db.Text
+    descricao_en String?  @db.Text
+    url          String  
+    createdAt    DateTime @default(now())
+    updatedAt    DateTime @updatedAt
+
+    @@map("videoaula")
 }
 
 model Membro {
