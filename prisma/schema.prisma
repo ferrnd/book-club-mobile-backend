@@ -82,6 +82,7 @@ model Quiz {
 model Membro {
     id        Int      @id @default(autoincrement())
     nome      String
+    curso     String
     funcao    String   
     sobre     String   @db.Text
     fotoUrl   String?  
