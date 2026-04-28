@@ -63,3 +63,18 @@ model Citacao {
 
     @@map("citacao")
 }
+
+model Quiz {
+    id               Int         @id @default(autoincrement())
+    pergunta_pt      String      @db.Text
+    pergunta_en      String      @db.Text
+    opcoes_pt        String[]    
+    opcoes_en        String[]    
+    respostaCorreta  Int
+    explicacao_pt    String      @db.Text
+    explicacao_en    String      @db.Text
+    createdAt        DateTime    @default(now())
+    updatedAt        DateTime    @updatedAt
+
+    @@map("quiz")
+}
