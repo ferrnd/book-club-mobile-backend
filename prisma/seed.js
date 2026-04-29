@@ -210,7 +210,7 @@ async function main() {
       },
       {
         nome: "Dito",
-        fotoUrl: null,
+        fotoUrl: "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/characters/dito.png",
         caracteristicas_pt: "Etnia: Homem negro jovem, pele tom marrom-escuro (subtom quente/avermelhado). Cabelo: Cabelo crespo cortado bem baixo ou com um desenho de 'disfarce' (fade), típico de quem vive na periferia. Rosto: Traços marcantes, olhar intenso e vigilante, mas que se abranda quando olha para Ana. Pode ter uma pequena cicatriz ou marca que indique uma vida de conflitos. Corpo: Porte físico robusto, ombros largos. Veste roupas casuais de morro: uma regata ou camisa de time, e talvez uma corrente de prata no pescoço. O Diferencial: O ambiente é o interior de um barraco simples, com luz de penumbra ou luz de fim de tarde entrando pela janela. Ele representa o amor marginal — um homem perigoso para o mundo, mas doce para a sua mulher.",
         caracteristicas_en: "Ethnicity: Young Black man, dark brown skin tone (warm/reddish undertone). Hair: Curly hair cut very short or with a 'fade' design, typical of those living in the periphery. Face: Striking features, intense and vigilant gaze, but softens when looking at Ana. May have a small scar or mark indicating a life of conflict. Body: Robust physical stature, broad shoulders. Wears casual hill clothes: a tank top or team shirt, and perhaps a silver chain around his neck. The Differentiator: The setting is the interior of a simple shack, with dim light or late afternoon light entering through the window. He represents marginal love—a man dangerous to the world, but sweet to his woman.",
         descricao_pt:
