@@ -182,6 +182,111 @@ async function main() {
     ],
   });
 
+  console.log("👥 Inserindo personagens...");
+
+  await prisma.personagem.deleteMany();
+
+  await prisma.personagem.createMany({
+    data: [
+      {
+        nome: "A Mãe",
+        fotoUrl: null,
+        descricao_pt:
+          "É a figura matriarcal que sustenta toda a carga simbólica da obra. Ela não é apenas uma genitora, mas o próprio tronco de uma árvore genealógica marcada pela sobrevivência. Suas mãos, calejadas pelo trabalho braçal de lavadeira, e seus olhos, que a narradora descreve como 'cor de olhos d'água', carregam a memória coletiva de um povo que chora para não sufocar. Ela personifica a 'escrevivência' de Conceição Evaristo: uma vida que se escreve com o sangue e o suor de quem veio antes.",
+        descricao_en:
+          "She is the matriarchal figure who sustains all the symbolic weight of the work. She is not merely a mother, but the very trunk of a family tree marked by survival. Her hands, calloused by the hard labor of a washerwoman, and her eyes, which the narrator describes as 'the color of water eyes,' carry the collective memory of a people who cry so as not to suffocate. She embodies Conceição Evaristo's 'life-writing': a life written in the blood and sweat of those who came before.",
+      },
+      {
+        nome: "Ana Davenga",
+        fotoUrl: null,
+        descricao_pt:
+          "Protagonista de um dos contos mais viscerais, Ana representa a busca pelo afeto em meio ao caos da periferia. Seu amor por Davenga é o que lhe dá identidade e um sentido de pertencimento. Ela vive a dualidade de ser uma mulher comum que deseja a paz de um lar, mas que é tragada pela violência estrutural. Sua morte, grávida e dentro de seu próprio barraco, simboliza o extermínio de gerações inteiras e a interrupção violenta do ciclo da vida negra pelo braço armado do Estado.",
+        descricao_en:
+          "Protagonist of one of the most visceral tales, Ana represents the search for affection amidst the chaos of the periphery. Her love for Davenga is what gives her identity and a sense of belonging. She lives the duality of being an ordinary woman who desires the peace of a home, yet is engulfed by structural violence. Her death, pregnant and inside her own shack, symbolizes the extermination of entire generations and the violent interruption of the cycle of Black life by the armed hand of the State.",
+      },
+      {
+        nome: "Dito",
+        fotoUrl: null,
+        descricao_pt:
+          "Companheiro de Ana Davenga, Dito é o homem negro que vive na marginalidade não por escolha, mas como uma consequência de um sistema que oferece poucas saídas. Apesar da sua vida no crime, ele é humanizado através do seu cuidado e proteção para com Ana. Sua figura serve para discutir como a masculinidade negra é frequentemente empurrada para a violência e como o Estado responde a isso com o aniquilamento, em vez de justiça ou oportunidade.",
+        descricao_en:
+          "Ana Davenga's companion, Dito is the Black man who lives on the margins not by choice, but as a consequence of a system that offers few alternatives. Despite his life in crime, he is humanized through his care and protection of Ana. His figure serves to discuss how Black masculinity is often pushed toward violence and how the State responds to this with annihilation, rather than justice or opportunity.",
+      },
+      {
+        nome: "Vó Bina",
+        fotoUrl: null,
+        descricao_pt:
+          "Vó Bina é o arquivo vivo da ancestralidade africana no Brasil. Ela é a guardiã das memórias que o tempo e o racismo tentaram apagar. Sua personagem destaca a importância da tradição oral e do saber ancestral (curas, rezas e histórias de família). Ela representa a resistência silenciosa das idosas negras que, através do afeto e da memória, garantem que as novas gerações saibam quem são e de onde vieram, conectando o presente com as raízes de antes da diáspora.",
+        descricao_en:
+          "Grandmother Bina is the living archive of African ancestry in Brazil. She is the guardian of memories that time and racism tried to erase. Her character highlights the importance of oral tradition and ancestral knowledge (cures, prayers, and family stories). She represents the silent resistance of elderly Black women who, through affection and memory, ensure that new generations know who they are and where they came from, connecting the present to the roots before the diaspora.",
+      },
+      {
+        nome: "Maria",
+        fotoUrl: null,
+        descricao_pt:
+          "Maria é a personificação da vulnerabilidade da mulher negra no cotidiano urbano. Trabalhadora doméstica, sua vida é marcada pela invisibilidade até o momento em que se torna alvo de um ódio irracional. Sua personagem revela a face cruel do racismo estrutural: a rapidez com que a sociedade condena um corpo negro sem provas e a passividade daqueles que assistem à violência sem intervir. Ela é o símbolo do 'linchamento cotidiano', seja ele físico ou moral.",
+        descricao_en:
+          "Maria is the embodiment of the vulnerability of Black women in urban daily life. A domestic worker, her life is marked by invisibility until the moment she becomes the target of irrational hatred. Her character reveals the cruel face of structural racism: the speed with which society condemns a Black body without proof and the passivity of those who witness violence without intervening. She is the symbol of 'everyday lynching,' whether physical or moral.",
+      },
+      {
+        nome: "Cida",
+        fotoUrl: null,
+        descricao_pt:
+          "Cida representa o corpo negro em movimento e a conquista de espaços de poder e lazer. Ao praticar seu 'cooper' na orla marítima — um espaço higienizado e ocupado pela elite — ela desafia a norma social que reserva esses locais apenas para brancos ou para negros em posição de serviço. Sua personagem é fundamental para analisar o racismo geográfico e a vigilância constante que tenta 'enquadrar' e constranger pessoas negras que ousam ocupar a cidade com liberdade.",
+        descricao_en:
+          "Cida represents the Black body in motion and the conquest of spaces of power and leisure. By practicing her 'running' on the waterfront—a sanitized space occupied by the elite—she challenges the social norm that reserves these spaces only for white people or for Black people in service positions. Her character is fundamental to analyzing geographical racism and the constant surveillance that tries to 'frame' and constrain Black people who dare to occupy the city with freedom.",
+      },
+      {
+        nome: "Lumbiá",
+        fotoUrl: null,
+        descricao_pt:
+          "Um personagem que transita entre o realismo e o lúdico. Lumbiá é um homem em situação de rua que subverte a lógica do descarte. Enquanto a sociedade o vê como lixo, ele vê beleza e sagrado nos objetos que recolhe. Ele é a prova de que a sensibilidade artística e a conexão espiritual não podem ser confiscadas pela miséria material. Lumbiá representa a resistência do imaginário e a capacidade humana de criar novos mundos, mesmo quando o mundo real é hostil.",
+        descricao_en:
+          "A character who moves between realism and playfulness. Lumbiá is a homeless man who subverts the logic of disposability. While society sees him as garbage, he sees beauty and the sacred in the objects he collects. He is proof that artistic sensitivity and spiritual connection cannot be confiscated by material misery. Lumbiá represents the resistance of imagination and the human capacity to create new worlds, even when the real world is hostile.",
+      },
+      {
+        nome: "Zaíta",
+        fotoUrl: null,
+        descricao_pt:
+          "A pequena Zaíta é o símbolo da infância roubada. Sua personagem é construída com delicadeza para contrastar com o final brutal de sua história. Ela representa todas as crianças cujos sonhos e brincadeiras são interrompidos por balas que atravessam as paredes de zinco. O 'esquecimento dos brinquedos' após sua morte é uma metáfora poderosa para o futuro que foi deixado para trás e para a negligência da sociedade com a vida das crianças periféricas.",
+        descricao_en:
+          "Little Zaíta is the symbol of stolen childhood. Her character is constructed with delicacy to contrast with the brutal ending of her story. She represents all children whose dreams and play are interrupted by bullets that pierce metal walls. The 'forgetting of toys' after her death is a powerful metaphor for the future left behind and for society's neglect of the lives of peripheral children.",
+      },
+      {
+        nome: "Duzu-Querença",
+        fotoUrl: null,
+        descricao_pt:
+          "Duzu é a representação da exclusão total. Mulher, negra, idosa e considerada 'louca' pela sociedade, ela vive nas margens da sanidade como uma forma de escapar de uma realidade de dores insuportáveis. Sua personagem obriga o leitor a confrontar o abandono social e a solidão profunda. Duzu é o espelho de um Brasil que empurra seus indivíduos mais vulneráveis para o esquecimento, tratando o trauma social como se fosse apenas doença mental.",
+        descricao_en:
+          "Duzu is the representation of total exclusion. A woman, Black, elderly, and considered 'mad' by society, she lives on the margins of sanity as a way to escape from a reality of unbearable suffering. Her character forces the reader to confront social abandonment and profound loneliness. Duzu is the mirror of a Brazil that pushes its most vulnerable individuals into oblivion, treating social trauma as if it were merely mental illness.",
+      },
+      {
+        nome: "Arnaldo",
+        fotoUrl: null,
+        descricao_pt:
+          "Arnaldo ilustra a falência das expectativas sociais para o homem negro. Narrado por alguém que o conheceu em tempos melhores, ele é o retrato da desintegração de um indivíduo sob o peso do racismo e da falta de perspectivas. Sua queda representa o 'nó na garganta' de muitos que tentaram vencer o sistema e acabaram sendo vencidos por ele, tornando-se sombras invisíveis que habitam as ruas das grandes metrópoles.",
+        descricao_en:
+          "Arnaldo illustrates the collapse of social expectations for the Black man. Narrated by someone who knew him in better times, he is the portrait of an individual's disintegration under the weight of racism and lack of prospects. His fall represents the 'lump in the throat' of many who tried to overcome the system and ended up being defeated by it, becoming invisible shadows that haunt the streets of great metropolises.",
+      },
+      {
+        nome: "Luamanda",
+        fotoUrl: null,
+        descricao_pt:
+          "Luamanda é a força do despertar. Ela representa a mulher negra que decide dizer 'não' à exploração histórica de seu corpo e de sua força de trabalho. Sua jornada é de libertação interna: ela deixa de ser a engrenagem que serve aos outros para se tornar o centro de sua própria existência. Ela simboliza a quebra do ciclo de servidão e a reconquista da autonomia sobre seus próprios desejos, tempo e destino.",
+        descricao_en:
+          "Luamanda is the force of awakening. She represents the Black woman who decides to say 'no' to the historical exploitation of her body and her labor. Her journey is one of inner liberation: she stops being the cog that serves others to become the center of her own existence. She symbolizes the breaking of the cycle of servitude and the reclaiming of autonomy over her own desires, time, and destiny.",
+      },
+      {
+        nome: "Ayoluwa",
+        fotoUrl: null,
+        descricao_pt:
+          "Ayoluwa é o raio de sol que encerra a obra. Seu nome, que em iorubá significa 'a alegria do nosso povo', define sua função na narrativa: ela é a prova de que o projeto de morte não venceu. Sua personagem é uma mensagem de futurismo negro, indicando que, apesar das águas de lágrimas que banham o livro, novas vidas continuarão a nascer com a missão de renovar a esperança e a alegria da comunidade.",
+        descricao_en:
+          "Ayoluwa is the ray of sunshine that closes the work. Her name, which in Yoruba means 'the joy of our people,' defines her role in the narrative: she is proof that the project of death has not triumphed. Her character is a message of Black futurism, indicating that despite the waters of tears that bathe the book, new lives will continue to be born with the mission to renew hope and joy in the community.",
+      },
+    ],
+  });
+
   console.log("✅ Seed concluído!");
 }
 
