@@ -42,13 +42,15 @@ model Conto {
 }
 
 model Personagem {
-    id           Int         @id @default(autoincrement())
-    nome         String
-    fotoUrl      String?
-    descricao_pt String      @db.Text
-    descricao_en String      @db.Text
-    createdAt    DateTime    @default(now())
-    updatedAt    DateTime    @updatedAt
+    id                   Int         @id @default(autoincrement())
+    nome                 String
+    fotoUrl              String?
+    caracteristicas_pt   String      @db.Text
+    caracteristicas_en   String      @db.Text
+    descricao_pt         String      @db.Text
+    descricao_en         String      @db.Text
+    createdAt            DateTime    @default(now())
+    updatedAt            DateTime    @updatedAt
 
     @@map("personagem")
 }
