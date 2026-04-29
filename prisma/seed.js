@@ -250,7 +250,7 @@ async function main() {
       },
       {
         nome: "Lumbiá",
-        fotoUrl: null,
+        fotoUrl: "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/characters/lumbia.png",
         caracteristicas_pt: "Etnia: Homem negro idoso, pele muito escura e castigada pelo sol (aspecto ressecado). Cabelo: Barba e cabelos crespos longos, totalmente grisalhos e desgrenhados. Rosto: Sorriso largo que revela a falta de alguns dentes, mas demonstra uma alegria infantil. Olhos muito vivos. Corpo: Veste várias camadas de roupas velhas e coloridas, como um 'andarilho iluminado'. O Diferencial: Ele deve estar segurando um objeto 'inútil' (um pedaço de espelho ou uma flor de plástico) como se fosse um tesouro real.",
         caracteristicas_en: "Ethnicity: Elderly Black man, very dark skin weathered by the sun (dried appearance). Hair: Long curly beard and hair, completely gray and disheveled. Face: Wide smile that reveals missing teeth, but shows childlike joy. Very bright eyes. Body: Wears several layers of old and colorful clothes, like an 'enlightened wanderer'. The Differentiator: He should be holding a 'useless' object (a piece of mirror or plastic flower) as if it were a real treasure.",
         descricao_pt:
