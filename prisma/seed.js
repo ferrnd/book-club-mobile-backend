@@ -220,7 +220,7 @@ async function main() {
       },
       {
         nome: "Vó Bina",
-        fotoUrl: null,
+        fotoUrl: "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/characters/Vo-bina.png",
         caracteristicas_pt: "Etnia: Mulher negra idosa, pele retinta (muito escura) e extremamente rugosa, com brilho acetinado. Cabelo: Cabelos crespos totalmente brancos, curtos e finos, aparecendo por baixo de um turbante de tecido rústico. Rosto: Rosto magro, maçãs do rosto salientes, olhos pequenos que brilham com sabedoria ancestral. Corpo: Magra e levemente curvada. Mãos longas com veias aparentes, segurando um terço de sementes ou ervas. O Diferencial: Transmite uma aura de mistério e autoridade espiritual.",
         caracteristicas_en: "Ethnicity: Elderly Black woman, very dark skin and extremely wrinkled, with a satiny shine. Hair: Completely white curly hair, short and fine, appearing beneath a rustic fabric turban. Face: Thin face, prominent cheekbones, small eyes that shine with ancestral wisdom. Body: Thin and slightly bent. Long hands with visible veins, holding a string of seeds or herbs. The Differentiator: Transmits an aura of mystery and spiritual authority.",
         descricao_pt:
