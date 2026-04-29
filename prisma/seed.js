@@ -260,7 +260,7 @@ async function main() {
       },
       {
         nome: "Zaíta",
-        fotoUrl: null,
+        fotoUrl: "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/characters/zaita.png",
         caracteristicas_pt: "Etnia: Criança negra (menina de uns 7 anos), pele tom chocolate. Cabelo: Cabelo crespo em vários 'birotinhos' (coques pequenos) com elásticos coloridos. Rosto: Rosto redondo, nariz batatinha, sorriso aberto e olhar de pura curiosidade infantil. Corpo: Magrinha, veste uma camiseta de personagem ou vestido simples. O Diferencial: Deve estar cercada de brinquedos simples no chão, em um cenário de quintal de terra ou beco.",
         caracteristicas_en: "Ethnicity: Black child (girl around 7 years old), chocolate-toned skin. Hair: Curly hair in several 'small buns' with colorful elastic bands. Face: Round face, button nose, open smile and look of pure childlike curiosity. Body: Thin, wears a character t-shirt or simple dress. The Differentiator: Should be surrounded by simple toys on the ground, in a scene of a dirt yard or alley.",
         descricao_pt:
