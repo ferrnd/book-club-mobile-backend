@@ -290,7 +290,7 @@ async function main() {
       },
       {
         nome: "Luamanda",
-        fotoUrl: null,
+        fotoUrl: "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/characters/luamanda.png",
         caracteristicas_pt: "Etnia: Mulher negra adulta (30-40 anos), pele escura e reluzente. Cabelo: Cabelo com tranças nagô (rente ao couro cabeludo) ou um turbante alto e elegante. Rosto: Maquiagem leve, destacando os lábios cheios. Expressão de quem acabou de acordar para a própria força. Corpo: Postura ereta, mãos na cintura ou braços cruzados. Transmite poder e autossuficiência. O Diferencial: Uma aura de libertação; ela não olha mais para o chão.",
         caracteristicas_en: "Ethnicity: Adult Black woman (30-40 years old), dark and gleaming skin. Hair: Hair with nagô braids (close to the scalp) or a tall and elegant turban. Face: Light makeup, highlighting full lips. Expression of someone who has just awakened to their own strength. Body: Upright posture, hands on hips or arms crossed. Transmits power and self-sufficiency. The Differentiator: An aura of liberation; she no longer looks at the ground.",
         descricao_pt:
