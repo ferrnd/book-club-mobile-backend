@@ -230,7 +230,7 @@ async function main() {
       },
       {
         nome: "Maria",
-        fotoUrl: null,
+        fotoUrl: "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/characters/maria.png",
         caracteristicas_pt: "Etnia: Mulher negra de meia-idade, pele tom café com leite (parda a preta). Cabelo: Cabelo crespo bem rente à cabeça ou preso de forma funcional para o trabalho. Rosto: Expressão de cansaço profundo e resignação. Olheiras leves e lábios cerrados. Corpo: Postura curvada, ombros baixos, carregando uma sacola de compras ou marmita. Veste uniforme de doméstica ou roupa de cores neutras e gastas. O Diferencial: O olhar é de quem tenta ser invisível para evitar o perigo.",
         caracteristicas_en: "Ethnicity: Middle-aged Black woman, coffee-with-milk skin tone (brown to Black). Hair: Curly hair close to the head or tied functionally for work. Face: Expression of deep tiredness and resignation. Light dark circles and closed lips. Body: Bent posture, low shoulders, carrying shopping bags or lunch boxes. Wears a maid's uniform or neutral-colored worn-out clothes. The Differentiator: The gaze is of someone trying to be invisible to avoid danger.",
         descricao_pt:
