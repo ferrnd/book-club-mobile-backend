@@ -19,7 +19,7 @@ async function main() {
   await prisma.livro.create({
     data: {
       titulo: "Olhos d'Água",
-      capa: "https://m.media-amazon.com/images/I/51RjYjNVpRL._SY425_.jpg",
+      capa: "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/bookCover/olhos-dagua.png",
       autor: "Conceição Evaristo",
       anoPublicacao: 2014,
       genero_pt:
