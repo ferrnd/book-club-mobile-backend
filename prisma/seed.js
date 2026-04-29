@@ -200,7 +200,7 @@ async function main() {
       },
       {
         nome: "Ana Davenga",
-        fotoUrl: null,
+        fotoUrl: "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/characters/maria.png",
         caracteristicas_pt: "Etnia: Jovem mulher negra, pele de tom marrom-médio a escuro (subtom quente). Cabelo: Cabelo crespo volumoso, estilo black power curto ou preso com uma fita colorida. Rosto: Traços negros harmoniosos, lábios cheios e bem desenhados, nariz de base larga. Corpo: Curvilíneo, postura de quem é vibrante e cheia de vida. Veste um vestido de algodão simples ou regata. O Diferencial: Ela está visivelmente grávida. O olhar é apaixonado e sonhador, contrastando com o ambiente de uma favela ao fundo.",
         caracteristicas_en: "Ethnicity: Young Black woman, skin tone medium to dark brown (warm undertone). Hair: Voluminous curly hair, short black power style or tied with a colorful ribbon. Face: Harmonious Black features, full and well-drawn lips, wide-based nose. Body: Curvilinear, posture of someone who is vibrant and full of life. Wears a simple cotton dress or tank top. The Differentiator: She is visibly pregnant. The gaze is passionate and dreamy, contrasting with the favela environment in the background.",
         descricao_pt:
