@@ -280,7 +280,7 @@ async function main() {
       },
       {
         nome: "Arnaldo",
-        fotoUrl: null,
+        fotoUrl: "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/characters/arnaldo.png",
         caracteristicas_pt: "Etnia: Homem negro de pele retinta (tom muito escuro), porém com um aspecto opaco e ressecado devido à exposição ao tempo. Cabelo/Barba: Cabelo crespo curto e grisalho, com falhas. A barba é por fazer, também grisalha, dando um ar de desleixo involuntário. Rosto: Olhos profundos com olheiras marcadas, transmitindo uma tristeza 'vazia' ou desorientação. Os traços são fortes, mas o rosto parece ter 'emagrecido' pela desilusão. Corpo: Postura curvada, ombros caídos. Veste um casaco velho ou uma camisa surrada de cores desbotadas. O Diferencial: Deve parecer uma 'sombra' em meio à multidão de uma cidade grande. O foco é a invisibilidade social.",
         caracteristicas_en: "Ethnicity: Black man with very dark skin, but with an opaque and dried appearance due to exposure to the elements. Hair/Beard: Short and graying curly hair with gaps. The beard is unshaven, also gray, giving an air of involuntary neglect. Face: Deep eyes with marked dark circles, transmitting an 'empty' sadness or disorientation. The features are strong, but the face seems to have 'thinned' from disillusionment. Body: Bent posture, slumped shoulders. Wears an old coat or tattered shirt in faded colors. The Differentiator: Should seem like a 'shadow' amid the crowd of a big city. The focus is on social invisibility.",
         descricao_pt:
