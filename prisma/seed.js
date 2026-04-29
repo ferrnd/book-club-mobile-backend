@@ -270,7 +270,7 @@ async function main() {
       },
       {
         nome: "Duzu-Querença",
-        fotoUrl: null,
+        fotoUrl: "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/characters/duzu-querenca.png",
         caracteristicas_pt: "Etnia: Mulher negra idosa, pele retinta e opaca. Cabelo: Cabelo crespo grisalho, muito curto e desleixado. Rosto: Olhar fixo no vazio (olhar de transe), boca levemente aberta como se falasse sozinha. Corpo: Envolta em panos velhos e mantas, postura sentada no chão ou encostada em uma parede descascada. O Diferencial: Representa a solidão absoluta; parece uma estátua de dor.",
         caracteristicas_en: "Ethnicity: Elderly Black woman, very dark and opaque skin. Hair: Gray curly hair, very short and neglected. Face: Gaze fixed in the void (trance-like gaze), mouth slightly open as if talking to herself. Body: Wrapped in old cloths and blankets, posture sitting on the ground or leaning against a peeling wall. The Differentiator: Represents absolute loneliness; seems like a statue of pain.",
         descricao_pt:
