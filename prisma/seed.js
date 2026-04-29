@@ -191,6 +191,8 @@ async function main() {
       {
         nome: "A Mãe",
         fotoUrl: null,
+        caracteristicas_pt: "Aparência: Uma mulher de idade avançada, com a pele retinta e profundamente marcada por rugas que parecem contar histórias. Suas mãos são grossas e calejadas pelo trabalho de lavadeira, com unhas gastas pela água e pelo sabão. Destaque: O olhar é sua característica principal; olhos úmidos, profundos e expressivos, que parecem estar sempre prestes a transbordar, mas que mantêm uma lucidez cortante.",
+        caracteristicas_en: "Appearance: An elderly woman with deep dark skin deeply marked by wrinkles that seem to tell stories. Her hands are thick and calloused from her work as a washerwoman, with nails worn down by water and soap. Highlight: The gaze is her main characteristic; moist, deep and expressive eyes that seem always on the verge of overflowing, yet maintain sharp lucidity.",
         descricao_pt:
           "É a figura matriarcal que sustenta toda a carga simbólica da obra. Ela não é apenas uma genitora, mas o próprio tronco de uma árvore genealógica marcada pela sobrevivência. Suas mãos, calejadas pelo trabalho braçal de lavadeira, e seus olhos, que a narradora descreve como 'cor de olhos d'água', carregam a memória coletiva de um povo que chora para não sufocar. Ela personifica a 'escrevivência' de Conceição Evaristo: uma vida que se escreve com o sangue e o suor de quem veio antes.",
         descricao_en:
@@ -199,6 +201,8 @@ async function main() {
       {
         nome: "Ana Davenga",
         fotoUrl: null,
+        caracteristicas_pt: "Etnia: Jovem mulher negra, pele de tom marrom-médio a escuro (subtom quente). Cabelo: Cabelo crespo volumoso, estilo black power curto ou preso com uma fita colorida. Rosto: Traços negros harmoniosos, lábios cheios e bem desenhados, nariz de base larga. Corpo: Curvilíneo, postura de quem é vibrante e cheia de vida. Veste um vestido de algodão simples ou regata. O Diferencial: Ela está visivelmente grávida. O olhar é apaixonado e sonhador, contrastando com o ambiente de uma favela ao fundo.",
+        caracteristicas_en: "Ethnicity: Young Black woman, skin tone medium to dark brown (warm undertone). Hair: Voluminous curly hair, short black power style or tied with a colorful ribbon. Face: Harmonious Black features, full and well-drawn lips, wide-based nose. Body: Curvilinear, posture of someone who is vibrant and full of life. Wears a simple cotton dress or tank top. The Differentiator: She is visibly pregnant. The gaze is passionate and dreamy, contrasting with the favela environment in the background.",
         descricao_pt:
           "Protagonista de um dos contos mais viscerais, Ana representa a busca pelo afeto em meio ao caos da periferia. Seu amor por Davenga é o que lhe dá identidade e um sentido de pertencimento. Ela vive a dualidade de ser uma mulher comum que deseja a paz de um lar, mas que é tragada pela violência estrutural. Sua morte, grávida e dentro de seu próprio barraco, simboliza o extermínio de gerações inteiras e a interrupção violenta do ciclo da vida negra pelo braço armado do Estado.",
         descricao_en:
@@ -207,6 +211,8 @@ async function main() {
       {
         nome: "Dito",
         fotoUrl: null,
+        caracteristicas_pt: "Etnia: Homem negro jovem, pele tom marrom-escuro (subtom quente/avermelhado). Cabelo: Cabelo crespo cortado bem baixo ou com um desenho de 'disfarce' (fade), típico de quem vive na periferia. Rosto: Traços marcantes, olhar intenso e vigilante, mas que se abranda quando olha para Ana. Pode ter uma pequena cicatriz ou marca que indique uma vida de conflitos. Corpo: Porte físico robusto, ombros largos. Veste roupas casuais de morro: uma regata ou camisa de time, e talvez uma corrente de prata no pescoço. O Diferencial: O ambiente é o interior de um barraco simples, com luz de penumbra ou luz de fim de tarde entrando pela janela. Ele representa o amor marginal — um homem perigoso para o mundo, mas doce para a sua mulher.",
+        caracteristicas_en: "Ethnicity: Young Black man, dark brown skin tone (warm/reddish undertone). Hair: Curly hair cut very short or with a 'fade' design, typical of those living in the periphery. Face: Striking features, intense and vigilant gaze, but softens when looking at Ana. May have a small scar or mark indicating a life of conflict. Body: Robust physical stature, broad shoulders. Wears casual hill clothes: a tank top or team shirt, and perhaps a silver chain around his neck. The Differentiator: The setting is the interior of a simple shack, with dim light or late afternoon light entering through the window. He represents marginal love—a man dangerous to the world, but sweet to his woman.",
         descricao_pt:
           "Companheiro de Ana Davenga, Dito é o homem negro que vive na marginalidade não por escolha, mas como uma consequência de um sistema que oferece poucas saídas. Apesar da sua vida no crime, ele é humanizado através do seu cuidado e proteção para com Ana. Sua figura serve para discutir como a masculinidade negra é frequentemente empurrada para a violência e como o Estado responde a isso com o aniquilamento, em vez de justiça ou oportunidade.",
         descricao_en:
@@ -215,6 +221,8 @@ async function main() {
       {
         nome: "Vó Bina",
         fotoUrl: null,
+        caracteristicas_pt: "Etnia: Mulher negra idosa, pele retinta (muito escura) e extremamente rugosa, com brilho acetinado. Cabelo: Cabelos crespos totalmente brancos, curtos e finos, aparecendo por baixo de um turbante de tecido rústico. Rosto: Rosto magro, maçãs do rosto salientes, olhos pequenos que brilham com sabedoria ancestral. Corpo: Magra e levemente curvada. Mãos longas com veias aparentes, segurando um terço de sementes ou ervas. O Diferencial: Transmite uma aura de mistério e autoridade espiritual.",
+        caracteristicas_en: "Ethnicity: Elderly Black woman, very dark skin and extremely wrinkled, with a satiny shine. Hair: Completely white curly hair, short and fine, appearing beneath a rustic fabric turban. Face: Thin face, prominent cheekbones, small eyes that shine with ancestral wisdom. Body: Thin and slightly bent. Long hands with visible veins, holding a string of seeds or herbs. The Differentiator: Transmits an aura of mystery and spiritual authority.",
         descricao_pt:
           "Vó Bina é o arquivo vivo da ancestralidade africana no Brasil. Ela é a guardiã das memórias que o tempo e o racismo tentaram apagar. Sua personagem destaca a importância da tradição oral e do saber ancestral (curas, rezas e histórias de família). Ela representa a resistência silenciosa das idosas negras que, através do afeto e da memória, garantem que as novas gerações saibam quem são e de onde vieram, conectando o presente com as raízes de antes da diáspora.",
         descricao_en:
@@ -223,6 +231,8 @@ async function main() {
       {
         nome: "Maria",
         fotoUrl: null,
+        caracteristicas_pt: "Etnia: Mulher negra de meia-idade, pele tom café com leite (parda a preta). Cabelo: Cabelo crespo bem rente à cabeça ou preso de forma funcional para o trabalho. Rosto: Expressão de cansaço profundo e resignação. Olheiras leves e lábios cerrados. Corpo: Postura curvada, ombros baixos, carregando uma sacola de compras ou marmita. Veste uniforme de doméstica ou roupa de cores neutras e gastas. O Diferencial: O olhar é de quem tenta ser invisível para evitar o perigo.",
+        caracteristicas_en: "Ethnicity: Middle-aged Black woman, coffee-with-milk skin tone (brown to Black). Hair: Curly hair close to the head or tied functionally for work. Face: Expression of deep tiredness and resignation. Light dark circles and closed lips. Body: Bent posture, low shoulders, carrying shopping bags or lunch boxes. Wears a maid's uniform or neutral-colored worn-out clothes. The Differentiator: The gaze is of someone trying to be invisible to avoid danger.",
         descricao_pt:
           "Maria é a personificação da vulnerabilidade da mulher negra no cotidiano urbano. Trabalhadora doméstica, sua vida é marcada pela invisibilidade até o momento em que se torna alvo de um ódio irracional. Sua personagem revela a face cruel do racismo estrutural: a rapidez com que a sociedade condena um corpo negro sem provas e a passividade daqueles que assistem à violência sem intervir. Ela é o símbolo do 'linchamento cotidiano', seja ele físico ou moral.",
         descricao_en:
@@ -231,6 +241,8 @@ async function main() {
       {
         nome: "Cida",
         fotoUrl: null,
+        caracteristicas_pt: "Etnia: Mulher negra jovem/adulta, pele retinta e brilhante de suor. Cabelo: Cabelo crespo curto (estilo tapered cut) ou tranças curtas. Rosto: Expressão de foco e determinação. Mandíbula marcada. Corpo: Forte, atlético, músculos das pernas e braços definidos. Veste roupas de ginástica modernas (top e bermuda de compressão). O Diferencial: Ela está em movimento (correndo). O contraste é a postura altiva dela contra um fundo de calçadão de praia de luxo.",
+        caracteristicas_en: "Ethnicity: Young/adult Black woman, dark skin glistening with sweat. Hair: Short curly hair (tapered cut style) or short braids. Face: Expression of focus and determination. Marked jawline. Body: Strong, athletic, defined leg and arm muscles. Wears modern gym clothes (top and compression shorts). The Differentiator: She is in motion (running). The contrast is her proud posture against a backdrop of a luxurious beach promenade.",
         descricao_pt:
           "Cida representa o corpo negro em movimento e a conquista de espaços de poder e lazer. Ao praticar seu 'cooper' na orla marítima — um espaço higienizado e ocupado pela elite — ela desafia a norma social que reserva esses locais apenas para brancos ou para negros em posição de serviço. Sua personagem é fundamental para analisar o racismo geográfico e a vigilância constante que tenta 'enquadrar' e constranger pessoas negras que ousam ocupar a cidade com liberdade.",
         descricao_en:
@@ -239,6 +251,8 @@ async function main() {
       {
         nome: "Lumbiá",
         fotoUrl: null,
+        caracteristicas_pt: "Etnia: Homem negro idoso, pele muito escura e castigada pelo sol (aspecto ressecado). Cabelo: Barba e cabelos crespos longos, totalmente grisalhos e desgrenhados. Rosto: Sorriso largo que revela a falta de alguns dentes, mas demonstra uma alegria infantil. Olhos muito vivos. Corpo: Veste várias camadas de roupas velhas e coloridas, como um 'andarilho iluminado'. O Diferencial: Ele deve estar segurando um objeto 'inútil' (um pedaço de espelho ou uma flor de plástico) como se fosse um tesouro real.",
+        caracteristicas_en: "Ethnicity: Elderly Black man, very dark skin weathered by the sun (dried appearance). Hair: Long curly beard and hair, completely gray and disheveled. Face: Wide smile that reveals missing teeth, but shows childlike joy. Very bright eyes. Body: Wears several layers of old and colorful clothes, like an 'enlightened wanderer'. The Differentiator: He should be holding a 'useless' object (a piece of mirror or plastic flower) as if it were a real treasure.",
         descricao_pt:
           "Um personagem que transita entre o realismo e o lúdico. Lumbiá é um homem em situação de rua que subverte a lógica do descarte. Enquanto a sociedade o vê como lixo, ele vê beleza e sagrado nos objetos que recolhe. Ele é a prova de que a sensibilidade artística e a conexão espiritual não podem ser confiscadas pela miséria material. Lumbiá representa a resistência do imaginário e a capacidade humana de criar novos mundos, mesmo quando o mundo real é hostil.",
         descricao_en:
@@ -247,6 +261,8 @@ async function main() {
       {
         nome: "Zaíta",
         fotoUrl: null,
+        caracteristicas_pt: "Etnia: Criança negra (menina de uns 7 anos), pele tom chocolate. Cabelo: Cabelo crespo em vários 'birotinhos' (coques pequenos) com elásticos coloridos. Rosto: Rosto redondo, nariz batatinha, sorriso aberto e olhar de pura curiosidade infantil. Corpo: Magrinha, veste uma camiseta de personagem ou vestido simples. O Diferencial: Deve estar cercada de brinquedos simples no chão, em um cenário de quintal de terra ou beco.",
+        caracteristicas_en: "Ethnicity: Black child (girl around 7 years old), chocolate-toned skin. Hair: Curly hair in several 'small buns' with colorful elastic bands. Face: Round face, button nose, open smile and look of pure childlike curiosity. Body: Thin, wears a character t-shirt or simple dress. The Differentiator: Should be surrounded by simple toys on the ground, in a scene of a dirt yard or alley.",
         descricao_pt:
           "A pequena Zaíta é o símbolo da infância roubada. Sua personagem é construída com delicadeza para contrastar com o final brutal de sua história. Ela representa todas as crianças cujos sonhos e brincadeiras são interrompidos por balas que atravessam as paredes de zinco. O 'esquecimento dos brinquedos' após sua morte é uma metáfora poderosa para o futuro que foi deixado para trás e para a negligência da sociedade com a vida das crianças periféricas.",
         descricao_en:
@@ -255,6 +271,8 @@ async function main() {
       {
         nome: "Duzu-Querença",
         fotoUrl: null,
+        caracteristicas_pt: "Etnia: Mulher negra idosa, pele retinta e opaca. Cabelo: Cabelo crespo grisalho, muito curto e desleixado. Rosto: Olhar fixo no vazio (olhar de transe), boca levemente aberta como se falasse sozinha. Corpo: Envolta em panos velhos e mantas, postura sentada no chão ou encostada em uma parede descascada. O Diferencial: Representa a solidão absoluta; parece uma estátua de dor.",
+        caracteristicas_en: "Ethnicity: Elderly Black woman, very dark and opaque skin. Hair: Gray curly hair, very short and neglected. Face: Gaze fixed in the void (trance-like gaze), mouth slightly open as if talking to herself. Body: Wrapped in old cloths and blankets, posture sitting on the ground or leaning against a peeling wall. The Differentiator: Represents absolute loneliness; seems like a statue of pain.",
         descricao_pt:
           "Duzu é a representação da exclusão total. Mulher, negra, idosa e considerada 'louca' pela sociedade, ela vive nas margens da sanidade como uma forma de escapar de uma realidade de dores insuportáveis. Sua personagem obriga o leitor a confrontar o abandono social e a solidão profunda. Duzu é o espelho de um Brasil que empurra seus indivíduos mais vulneráveis para o esquecimento, tratando o trauma social como se fosse apenas doença mental.",
         descricao_en:
@@ -263,6 +281,8 @@ async function main() {
       {
         nome: "Arnaldo",
         fotoUrl: null,
+        caracteristicas_pt: "Etnia: Homem negro de pele retinta (tom muito escuro), porém com um aspecto opaco e ressecado devido à exposição ao tempo. Cabelo/Barba: Cabelo crespo curto e grisalho, com falhas. A barba é por fazer, também grisalha, dando um ar de desleixo involuntário. Rosto: Olhos profundos com olheiras marcadas, transmitindo uma tristeza 'vazia' ou desorientação. Os traços são fortes, mas o rosto parece ter 'emagrecido' pela desilusão. Corpo: Postura curvada, ombros caídos. Veste um casaco velho ou uma camisa surrada de cores desbotadas. O Diferencial: Deve parecer uma 'sombra' em meio à multidão de uma cidade grande. O foco é a invisibilidade social.",
+        caracteristicas_en: "Ethnicity: Black man with very dark skin, but with an opaque and dried appearance due to exposure to the elements. Hair/Beard: Short and graying curly hair with gaps. The beard is unshaven, also gray, giving an air of involuntary neglect. Face: Deep eyes with marked dark circles, transmitting an 'empty' sadness or disorientation. The features are strong, but the face seems to have 'thinned' from disillusionment. Body: Bent posture, slumped shoulders. Wears an old coat or tattered shirt in faded colors. The Differentiator: Should seem like a 'shadow' amid the crowd of a big city. The focus is on social invisibility.",
         descricao_pt:
           "Arnaldo ilustra a falência das expectativas sociais para o homem negro. Narrado por alguém que o conheceu em tempos melhores, ele é o retrato da desintegração de um indivíduo sob o peso do racismo e da falta de perspectivas. Sua queda representa o 'nó na garganta' de muitos que tentaram vencer o sistema e acabaram sendo vencidos por ele, tornando-se sombras invisíveis que habitam as ruas das grandes metrópoles.",
         descricao_en:
@@ -271,6 +291,8 @@ async function main() {
       {
         nome: "Luamanda",
         fotoUrl: null,
+        caracteristicas_pt: "Etnia: Mulher negra adulta (30-40 anos), pele escura e reluzente. Cabelo: Cabelo com tranças nagô (rente ao couro cabeludo) ou um turbante alto e elegante. Rosto: Maquiagem leve, destacando os lábios cheios. Expressão de quem acabou de acordar para a própria força. Corpo: Postura ereta, mãos na cintura ou braços cruzados. Transmite poder e autossuficiência. O Diferencial: Uma aura de libertação; ela não olha mais para o chão.",
+        caracteristicas_en: "Ethnicity: Adult Black woman (30-40 years old), dark and gleaming skin. Hair: Hair with nagô braids (close to the scalp) or a tall and elegant turban. Face: Light makeup, highlighting full lips. Expression of someone who has just awakened to their own strength. Body: Upright posture, hands on hips or arms crossed. Transmits power and self-sufficiency. The Differentiator: An aura of liberation; she no longer looks at the ground.",
         descricao_pt:
           "Luamanda é a força do despertar. Ela representa a mulher negra que decide dizer 'não' à exploração histórica de seu corpo e de sua força de trabalho. Sua jornada é de libertação interna: ela deixa de ser a engrenagem que serve aos outros para se tornar o centro de sua própria existência. Ela simboliza a quebra do ciclo de servidão e a reconquista da autonomia sobre seus próprios desejos, tempo e destino.",
         descricao_en:
@@ -279,6 +301,8 @@ async function main() {
       {
         nome: "Ayoluwa",
         fotoUrl: null,
+        caracteristicas_pt: "Etnia: Bebê negro, pele retinta, muito lisa e saudável. Cabelo: Pequenos fios de cabelo crespo bem macios começando a crescer. Rosto: Bochechas grandes, olhos negros imensos e brilhantes. Corpo: Bebê gordinho, enrolado em um tecido de estampa africana (tipo Kente ou Ankara). O Diferencial: Transmite uma pureza absoluta e uma esperança que ilumina o ambiente.",
+        caracteristicas_en: "Ethnicity: Black baby, very dark, smooth and healthy skin. Hair: Small soft curly hair beginning to grow. Face: Large cheeks, huge and bright black eyes. Body: Chubby baby, wrapped in African-patterned fabric (like Kente or Ankara). The Differentiator: Transmits absolute purity and a hope that illuminates the environment.",
         descricao_pt:
           "Ayoluwa é o raio de sol que encerra a obra. Seu nome, que em iorubá significa 'a alegria do nosso povo', define sua função na narrativa: ela é a prova de que o projeto de morte não venceu. Sua personagem é uma mensagem de futurismo negro, indicando que, apesar das águas de lágrimas que banham o livro, novas vidas continuarão a nascer com a missão de renovar a esperança e a alegria da comunidade.",
         descricao_en:
