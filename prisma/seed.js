@@ -190,7 +190,7 @@ async function main() {
     data: [
       {
         nome: "A Mãe",
-        fotoUrl: null,
+        fotoUrl: "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/characters/mae.png",
         caracteristicas_pt: "Aparência: Uma mulher de idade avançada, com a pele retinta e profundamente marcada por rugas que parecem contar histórias. Suas mãos são grossas e calejadas pelo trabalho de lavadeira, com unhas gastas pela água e pelo sabão. Destaque: O olhar é sua característica principal; olhos úmidos, profundos e expressivos, que parecem estar sempre prestes a transbordar, mas que mantêm uma lucidez cortante.",
         caracteristicas_en: "Appearance: An elderly woman with deep dark skin deeply marked by wrinkles that seem to tell stories. Her hands are thick and calloused from her work as a washerwoman, with nails worn down by water and soap. Highlight: The gaze is her main characteristic; moist, deep and expressive eyes that seem always on the verge of overflowing, yet maintain sharp lucidity.",
         descricao_pt:
