@@ -300,7 +300,7 @@ async function main() {
       },
       {
         nome: "Ayoluwa",
-        fotoUrl: null,
+        fotoUrl: "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/characters/ayoluwa.png",
         caracteristicas_pt: "Etnia: Bebê negro, pele retinta, muito lisa e saudável. Cabelo: Pequenos fios de cabelo crespo bem macios começando a crescer. Rosto: Bochechas grandes, olhos negros imensos e brilhantes. Corpo: Bebê gordinho, enrolado em um tecido de estampa africana (tipo Kente ou Ankara). O Diferencial: Transmite uma pureza absoluta e uma esperança que ilumina o ambiente.",
         caracteristicas_en: "Ethnicity: Black baby, very dark, smooth and healthy skin. Hair: Small soft curly hair beginning to grow. Face: Large cheeks, huge and bright black eyes. Body: Chubby baby, wrapped in African-patterned fabric (like Kente or Ankara). The Differentiator: Transmits absolute purity and a hope that illuminates the environment.",
         descricao_pt:
