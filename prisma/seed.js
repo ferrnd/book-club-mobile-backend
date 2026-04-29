@@ -240,7 +240,7 @@ async function main() {
       },
       {
         nome: "Cida",
-        fotoUrl: null,
+        fotoUrl: "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/characters/cida.png",
         caracteristicas_pt: "Etnia: Mulher negra jovem/adulta, pele retinta e brilhante de suor. Cabelo: Cabelo crespo curto (estilo tapered cut) ou tranças curtas. Rosto: Expressão de foco e determinação. Mandíbula marcada. Corpo: Forte, atlético, músculos das pernas e braços definidos. Veste roupas de ginástica modernas (top e bermuda de compressão). O Diferencial: Ela está em movimento (correndo). O contraste é a postura altiva dela contra um fundo de calçadão de praia de luxo.",
         caracteristicas_en: "Ethnicity: Young/adult Black woman, dark skin glistening with sweat. Hair: Short curly hair (tapered cut style) or short braids. Face: Expression of focus and determination. Marked jawline. Body: Strong, athletic, defined leg and arm muscles. Wears modern gym clothes (top and compression shorts). The Differentiator: She is in motion (running). The contrast is her proud posture against a backdrop of a luxurious beach promenade.",
         descricao_pt:
