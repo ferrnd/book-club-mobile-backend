@@ -278,7 +278,7 @@ async function main() {
       },
       {
         nome: "Duzu-Querença",
-        fotoUrl: "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/characters/duzu-querenca.png",
+        fotoUrl: "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/characters/duzu-querenca-novo.png",
         caracteristicas_pt: "Mendiga descrita como uma 'palavra siamesa' — Duzu é o nome, Querença é o sonho que ela carrega consigo. Corpo marcado pelas ruas, pelo tempo e pela miséria. Figura que habita as margens invisíveis da cidade.",
         caracteristicas_en: "A beggar described as a 'Siamese word' — Duzu is the name, Querença is the dream she carries with her. A body marked by the streets, time, and misery. A figure that inhabits the invisible margins of the city.",
         descricao_pt:
