@@ -230,7 +230,7 @@ async function main() {
         nome: "Ana Davenga",
         fotoUrl: "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/characters/maria.png",
         caracteristicas_pt: "Mulher negra adulta, de corpo cheio e exuberante. Seios grandes e salientes, quadris marcados. Pele negra. Presença física imponente — quando dança no samba, seu corpo se move com graça e sensualidade natural. Veste-se de forma simples, como moradora de favela. Expressão no rosto que alterna entre a preocupação e o afeto profundo.",
-        caracteristicas_en: "Black woman with an exuberant body, prominent 'apple-breasts' that provoked the gaze of others. Black skin and striking physical presence — her physicality is described as a set of vitality and sensuality that 'exploded through her entire body'.",
+        caracteristicas_en: "An adult Black woman with a full, exuberant body. She has large, prominent breasts and shapely hips. Deep black skin. A commanding physical presence—when she dances samba, her body moves with grace and natural sensuality. She dresses simply, like a resident of the favela. Her facial expression shifts between worry and profound affection.",
         descricao_pt:
           "Companheira de Davenga, chefe de uma quadrilha numa favela. Aprende a conviver com a vida do crime sem se envolver diretamente — 'cega, surda e muda' quanto aos assuntos dos homens. Tem presença firme e é respeitada. Apaixonada por Davenga, enxuga as lágrimas dele no 'gozo-pranto'. Sua noite de paz se rompe com a chegada dos companheiros sem o marido — prenúncio trágico.",
         descricao_en:
