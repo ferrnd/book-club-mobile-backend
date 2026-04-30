@@ -27,6 +27,20 @@ model Livro {
     @@map("livro")
 }
 
+model Autor {
+  id                Int      @id @default(autoincrement())
+  nome              String
+  fotoUrl           String?
+  nascimento        String
+  nacionalidade     String  
+  biografia_pt      String   @db.Text
+  biografia_en      String   @db.Text
+  estilo_escrita_pt String   @db.Text
+  estilo_escrita_en String   @db.Text
+  createdAt         DateTime @default(now())
+  updatedAt         DateTime @updatedAt
+}
+
 model Conto {
     id          Int         @id @default(autoincrement())
     titulo_pt   String
