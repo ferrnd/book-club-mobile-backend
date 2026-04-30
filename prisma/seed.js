@@ -228,7 +228,7 @@ async function main() {
     data: [
       {
         nome: "Ana Davenga",
-        fotoUrl: "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/characters/maria.png",
+        fotoUrl: "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/characters/ana-davenga-novo.png",
         caracteristicas_pt: "Mulher negra adulta, de corpo cheio e exuberante. Seios grandes e salientes, quadris marcados. Pele negra. Presença física imponente — quando dança no samba, seu corpo se move com graça e sensualidade natural. Veste-se de forma simples, como moradora de favela. Expressão no rosto que alterna entre a preocupação e o afeto profundo.",
         caracteristicas_en: "An adult Black woman with a full, exuberant body. She has large, prominent breasts and shapely hips. Deep black skin. A commanding physical presence—when she dances samba, her body moves with grace and natural sensuality. She dresses simply, like a resident of the favela. Her facial expression shifts between worry and profound affection.",
         descricao_pt:
