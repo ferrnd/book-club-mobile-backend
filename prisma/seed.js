@@ -318,7 +318,7 @@ async function main() {
       },
       {
         nome: "Salinda",
-        fotoUrl: "",
+        fotoUrl: "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/characters/salinda.png",
         caracteristicas_pt: "Mulher negra marcada fisicamente pelo sofrimento de uma violência sofrida. Corpo que carrega as marcas do que foi feito a ela sem consentimento. Aparência que guarda, na face, o paradoxo do título — um beijo que não deveria existir, dado onde não devia ser dado.",
         caracteristicas_en: "Black woman physically marked by the suffering of violence endured. A body that carries the marks of what was done to her without consent. An appearance that holds, in her face, the paradox of the title — a kiss that should not exist, given where it should not be given.",
         descricao_pt:
