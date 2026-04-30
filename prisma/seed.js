@@ -308,7 +308,7 @@ async function main() {
       },
       {
         nome: "Natalina",
-        fotoUrl: "",
+        fotoUrl: "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/characters/natalina.png",
         caracteristicas_pt: "Negra, começa a história ainda quase menina — 'ia fazer catorze anos' na primeira gravidez, com 'corpão de moça' aos onze. Corpo que amadurece precocemente, marcado pelas gestações repetidas, pelos chás que tomou, pelas náuseas do terceiro filho. Corpo jovem obrigado a envelhecer rápido demais.",
         caracteristicas_en: "Black, begins the story still almost a girl — 'she was about to turn fourteen' in her first pregnancy, with a 'voluptuous body' at eleven. A body that matures prematurely, marked by repeated pregnancies, the teas she took, the nausea of the third child. A young body forced to age far too quickly.",
         descricao_pt:
