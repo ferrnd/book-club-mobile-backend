@@ -338,7 +338,7 @@ async function main() {
       },
       {
         nome: "Kimbá",
-        fotoUrl: "",
+        fotoUrl: "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/characters/kimba.png",
         caracteristicas_pt: "Jovem negro alto, forte e visivelmente bonito — ele próprio tem consciência disso e gosta. Corpo atlético e imponente. Caminha com passos firmes e calmos. Antes chamado Zezinho, ganhou o apelido Kimbá de um amigo que o achava parecido com alguém da Nigéria. Tem presença física marcante, do tipo que atrai olhares — de mulheres e, para seu próprio desconforto, de homens também.",
         caracteristicas_en: "A tall, strong, and strikingly handsome young Black man—he is well aware of his looks and embraces them. He has an athletic, imposing physique and walks with firm, calm strides. Formerly known as Zezinho, he was nicknamed Kimbá by a friend who thought he resembled someone from Nigeria. He has a powerful physical presence that draws eyes—from women and, to his own discomfort, from men as well.",
         descricao_pt:
