@@ -55,6 +55,26 @@ async function main() {
     },
   });
 
+    console.log("Inserindo Autor...");
+
+  await prisma.autor.deleteMany();
+  await prisma.autor.create({
+    data: {
+      nome: "Conceição Evaristo",
+      fotoUrl: "",
+      nascimento: "29 de novembro de 1946, nascida em Belo Horizonte (MG)",
+      nacionalidade: "Brasileira",
+      biografia_pt:
+        "Maria da Conceição Evaristo de Brito (Belo Horizonte, 1946) é uma das maiores vozes da literatura brasileira contemporânea. De origem humilde, trabalhou como empregada doméstica enquanto concluía seus estudos, mudando-se para o Rio de Janeiro, onde se formou em Letras e, mais tarde, tornou-se Mestra e Doutora em Literatura. Sua escrita é marcada pelo conceito que ela própria criou: a escrevivência — a escrita que nasce da vivência profunda das mulheres negras na sociedade brasileira. Em obras como \"Olhos D'água\" e \"Ponciá Vicêncio\", ela mistura a realidade crua da violência e do racismo com uma sensibilidade poética ancestral. Suas histórias não são apenas ficção; são gritos de resistência, memória e esperança de um povo que, através da sua voz, deixa de ser objeto e passa a ser protagonista da própria história.",
+      biografia_en:
+        "Maria da Conceição Evaristo de Brito (Belo Horizonte, 1946) is one of the greatest voices in contemporary Brazilian literature. Born into humble origins, she worked as a domestic servant while finishing her studies, later moving to Rio de Janeiro where she graduated in Literature and later became a Master's and Doctorate holder in Literature. Her writing is marked by the concept she created herself: escrevivência — the writing that is born from the deep lived experience of Black women in Brazilian society. In works such as \"Olhos D'água\" and \"Ponciá Vicêncio\", she mixes the raw reality of violence and racism with an ancestral poetic sensibility. Her stories are not just fiction; they are cries of resistance, memory, and hope from a people who, through her voice, stop being objects and become protagonists of their own history.",
+      estilo_escrita_pt:
+        "A escrita de Conceição Evaristo nasce diretamente de sua trajetória de vida, criando uma ligação profunda que dá autenticidade à sua obra através do conceito de escrevivência. Mais do que narrar histórias, ela escreve a partir da própria experiência, transformando vivências marcadas pela pobreza e pelo racismo em uma literatura potente. Sua linguagem equilibra a realidade crua com a poesia, preservando a oralidade das ruas e das memórias familiares. Através de metáforas ligadas à natureza — como água, sangue e terra — ela aborda temas como o luto e o abandono, tornando a dor profundamente humana. Seu trabalho dá protagonismo às vozes silenciadas, conferindo dignidade a personagens que a sociedade costuma ignorar. Além disso, sua narrativa rompe o tempo linear para resgatar a ancestralidade, mostrando que a memória é um ato de resistência e esperança.",
+      estilo_escrita_en:
+        "Conceição Evaristo’s writing arises directly from her life journey, creating a deep connection that gives authenticity to her work through the concept of escrevivência. More than narrating stories, she writes from her own experience, transforming lives marked by poverty and racism into powerful literature. Her language balances raw reality with poetry, preserving the oral quality of the streets and family memories. Through metaphors linked to nature — such as water, blood, and earth — she addresses themes like grief and abandonment, making pain deeply human. Her work gives protagonism to silenced voices, granting dignity to characters that society often ignores. Furthermore, her narrative breaks linear time to recover ancestry, showing that memory is an act of resistance and hope.",
+    },
+  });
+
   console.log("📚 Inserindo contos...");
 
   await prisma.conto.createMany({
