@@ -339,7 +339,7 @@ async function main() {
       {
         nome: "Kimbá",
         fotoUrl: "",
-        caracteristicas_pt: "Jovem negro, 'bem alto, forte e bonito' — ele mesmo gostava de saber que era atraente. Antes chamado Zezinho, ganhou o apelido Kimbá de um amigo rico e viajado, que o achava parecido com alguém da Nigéria. Caminha com 'passos firmes e calmos' ao tomar distância do morro, numa manhã que promete sol.",
+        caracteristicas_pt: "Jovem negro alto, forte e visivelmente bonito — ele próprio tem consciência disso e gosta. Corpo atlético e imponente. Caminha com passos firmes e calmos. Antes chamado Zezinho, ganhou o apelido Kimbá de um amigo que o achava parecido com alguém da Nigéria. Tem presença física marcante, do tipo que atrai olhares — de mulheres e, para seu próprio desconforto, de homens também.",
         caracteristicas_en: "Young Black man, 'very tall, strong and handsome' — he himself liked to know that he was attractive. Previously called Zezinho, he gained the nickname Kimbá from a rich and well-traveled friend, who thought he looked like someone from Nigeria. He walks with 'firm and calm steps' as he moves away from the favela, on a morning that promises sun.",
         descricao_pt:
           "Jovem que acorda antes de todos num barraco onde vivem sua vó Lidumira, mãe, tias e duas irmãs, além do irmão mais velho Raimundo — sempre bêbado. Kimbá decide que é preciso 'movimentar a vida até a morte' e parte. A descoberta de que era atraente também para homens é descrita como 'perturbadora' para ele. Representa o jovem negro que tenta construir um caminho próprio fora da violência do morro, carregando ao mesmo tempo a beleza e a vulnerabilidade de existir num mundo que criminaliza corpos como o seu.",
