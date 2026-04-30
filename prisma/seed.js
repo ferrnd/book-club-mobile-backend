@@ -61,7 +61,7 @@ async function main() {
   await prisma.autor.create({
     data: {
       nome: "Conceição Evaristo",
-      fotoUrl: "",
+      fotoUrl: "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/author/conceicao-evaristo.png",
       nascimento: "29 de novembro de 1946, nascida em Belo Horizonte (MG)",
       nacionalidade: "Brasileira",
       biografia_pt:
