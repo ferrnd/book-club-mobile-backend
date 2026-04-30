@@ -328,7 +328,7 @@ async function main() {
       },
       {
         nome: "Di Lixão",
-        fotoUrl: "",
+        fotoUrl: "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/characters/di-lixao.png",
         caracteristicas_pt: "Menino negro cuja alcunha já diz tudo sobre o lugar que a sociedade lhe reservou — ele veio do lixo, vive no lixo, é tratado como lixo. Corpo de criança marcado pela fome, pela rua e pelo abandono. Sua aparência carrega a sujeira literal e simbólica do descarte social.",
         caracteristicas_en: "Black boy whose nickname says everything about the place society has reserved for him — he came from garbage, lives in garbage, is treated as garbage. A child's body marked by hunger, the street, and abandonment. His appearance carries the literal and symbolic dirt of social discarding.",
         descricao_pt:
