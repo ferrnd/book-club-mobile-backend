@@ -258,7 +258,7 @@ async function main() {
       },
       {
         nome: "Lumbiá",
-        fotoUrl: "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/characters/lumbia.png",
+        fotoUrl: "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/characters/lumbia-novo.png",
         caracteristicas_pt: "Menino negro da rua, descrito como 'pivete'. Corpo de criança que se encolhe, se enrosca — em uma das passagens mais simbólicas do livro, Lumbiá 'foi se encolhendo, se enroscando até ganhar a posição de feto'. Seu corpo regride à posição mais vulnerável e primordial — o nascituro que nunca deveria ter saído do ventre para o mundo que o aguardava.",
         caracteristicas_en: "Street Black boy, described as an 'urchin'. A child's body that shrinks, coils — in one of the most symbolic passages in the book, Lumbiá 'kept shrinking, coiling until he gained the position of a fetus'. His body regresses to the most vulnerable and primordial position — the unborn who should never have left the womb to the world that awaited him.",
         descricao_pt:
