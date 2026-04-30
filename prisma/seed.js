@@ -14,7 +14,7 @@ async function main() {
   // Remove todos os registros
   await prisma.livro.deleteMany();
 
-  console.log("📦 Inserindo novos registros...");
+  console.log("📦 Inserindo Dados Do Livro...");
 
   await prisma.livro.create({
     data: {
