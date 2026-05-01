@@ -49,6 +49,8 @@ model Conto {
     resumo_en  String   @db.Text
     analise_pt String   @db.Text
     analise_en String   @db.Text
+    personagens Personagem[]
+    citacoes   Citacao[]
     createdAt  DateTime @default(now())
     updatedAt  DateTime @updatedAt
 
@@ -63,6 +65,8 @@ model Personagem {
     caracteristicas_en String   @db.Text
     descricao_pt       String   @db.Text
     descricao_en       String   @db.Text
+    conto              Conto    @relation(fields: [contoId], references: [id])
+    contoId            Int
     createdAt          DateTime @default(now())
     updatedAt          DateTime @updatedAt
 
@@ -73,7 +77,8 @@ model Citacao {
     id         Int      @id @default(autoincrement())
     texto_pt   String   @db.Text
     texto_en   String   @db.Text
-    conto      String
+    conto      Conto    @relation(fields: [contoId], references: [id])
+    contoId    Int
     personagem String
     createdAt  DateTime @default(now())
     updatedAt  DateTime @updatedAt
