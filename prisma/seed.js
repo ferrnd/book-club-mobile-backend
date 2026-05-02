@@ -746,6 +746,30 @@ async function main() {
           "'Querença' means deep desire, longing. The character's name is a Siamese word: Duzu (proper name) + Querença (the dream she carries). The sentence reveals that, despite being a beggar and former prostitute, Duzu never stopped nourishing her querença — the inner strength of someone who refuses to give up on themselves.",
         resposta: "B",
       },
+      {
+        pergunta_pt:
+          "No conto \"Beijo na face\", o que o espelho representa para Salinda?",
+        pergunta_en:
+          "In the story \"Kiss on the Face\", what does the mirror represent for Salinda?",
+        opcaoA_pt: "A vaidade que ela precisa abandonar.",
+        opcaoA_en: "The vanity she needs to abandon.",
+        opcaoB_pt:
+          "Um espaço de reconhecimento de si mesma e do amor que sente pela amiga.",
+        opcaoB_en:
+          "A space for recognizing herself and the love she feels for her friend.",
+        opcaoC_pt: "O medo de envelhecer sozinha.",
+        opcaoC_en: "The fear of growing old alone.",
+        opcaoD_pt: "A culpa que ela carrega pela separação.",
+        opcaoD_en: "The guilt she carries for the separation.",
+        opcaoE_pt: "Um objeto que seu marido usa para vigiá-la.",
+        opcaoE_en: "An object her husband uses to watch her.",
+        resposta: "B",
+        explicacao_pt:
+          "Salinda se contempla no espelho após se equilibrar sobre a dor e o susto. No reflexo, em vez do próprio rosto, vê o rosto da amiga — 'para afirmar a força de um amor entre duas iguais'. O espelho é o lugar onde Salinda se reconhece e reconhece o amor que 'se tornava uma certeza, uma presença incrustada nos poros da pele e da memória'.",
+        explicacao_en:
+          "Salinda contemplates herself in the mirror after balancing on pain and shock. In the reflection, instead of her own face, she sees her friend's face — 'to affirm the strength of a love between two equals.' The mirror is the place where Salinda recognizes herself and the love that 'became a certainty, a presence embedded in the pores of skin and memory.'",
+        resposta: "B",
+      },
     ],
   });
 
