@@ -17,6 +17,7 @@ async function main() {
   await prisma.autor.deleteMany();
   await prisma.conto.deleteMany();
   await prisma.personagem.deleteMany();
+  await prisma.citacao.deleteMany();
 
   console.log("📦 Inserindo Dados Do Projeto...");
 
@@ -378,6 +379,25 @@ async function main() {
           "Young man who wakes before everyone else in a shack where his grandmother Lidumira, mother, aunts, and two sisters live, as well as his older brother Raimundo — always drunk. Kimbá decides that it is necessary to 'move life until death' and leaves. The discovery that he was also attractive to men is described as 'disturbing' for him. He represents the young Black man who tries to build his own path outside the violence of the favela, carrying at the same time the beauty and vulnerability of existing in a world that criminalizes bodies like his.",
         contoId: contos.find(c => c.titulo_pt === "Os amores de Kimbá")?.id
       },
+    ],
+  });
+
+  console.log("💬 Inserindo citações...");
+
+  const citacoes = await prisma.conto.findMany({
+    select: { id: true, titulo_pt: true }
+  });
+
+  await prisma.citacao.createMany({
+    data: [
+      {
+        texto_pt: "O amor se guarda só na ponta de um falo, ou nasce também dos lábios vaginais de um coração de uma mulher para outra?",
+        texto_en: "Is love kept only at the tip of a phallus, or is it also born from the vaginal lips of a woman's heart to another woman's?",
+        explicacao_pt: "A frase aparece logo após Luamanda experimentar, pela primeira vez, o amor com outra mulher. No texto, ela encontra um 'falo ausente' no corpo da outra, mas se afunda num 'doce e feminil carinho', sem sentir vazio algum. A pergunta surge imediatamente depois dessa experiência, como uma reflexão do narrador sobre o que Luamanda está vivendo.",
+        explicacao_en: "The phrase appears right after Luamanda experiences love with another woman for the first time. In the text, she finds an 'absent phallus' in the other's body, but sinks into a 'sweet and feminine care' without feeling any emptiness. The question emerges immediately after this experience, as the narrator's reflection on what Luamanda is experiencing.",
+        personagem: "narrador onisciente",
+        contoId: citacoes.find(c => c.titulo_pt === "Luamanda")?.id,
+      }
     ],
   });
 
