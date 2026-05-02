@@ -397,7 +397,15 @@ async function main() {
         explicacao_en: "The phrase appears right after Luamanda experiences love with another woman for the first time. In the text, she finds an 'absent phallus' in the other's body, but sinks into a 'sweet and feminine care' without feeling any emptiness. The question emerges immediately after this experience, as the narrator's reflection on what Luamanda is experiencing.",
         personagem: "narrador onisciente",
         contoId: citacoes.find(c => c.titulo_pt === "Luamanda")?.id,
-      }
+      },
+      {
+        texto_pt: "Querença, haveria de sempre umedecer seus sonhos para que eles florescessem e se cumprissem vivos e reais. Era preciso reinventar a vida, encontrar novos caminhos.",
+        texto_en: "Querença, she would always have to moisten her dreams so that they would flourish and come true, alive and real. It was necessary to reinvent life, to find new paths.",
+        explicacao_pt: "Pensamento atribuído a Duzu-Querença pelo narrador onisciente. Não é uma fala direta da personagem, mas o que vive dentro dela. A frase é o coração do conto.",
+        explicacao_en: "A thought attributed to Duzu-Querença by the omniscient narrator. It is not a direct speech from the character, but what lives within her. The phrase is the heart of the story.",
+        personagem: "narrador onisciente",
+        contoId: citacoes.find(c => c.titulo_pt === "Duzu-Querença")?.id,
+      },
     ],
   });
 
