@@ -446,6 +446,14 @@ async function main() {
         personagem: "Ana Davenga",
         contoId: citacoes.find(c => c.titulo_pt === "Ana Davenga")?.id,
       },
+      {
+        texto_pt: "Se ao menos o medo me fizesse recuar, pelo contrário, avanço mais e mais na mesma proporção desse medo. É como se o medo fosse uma coragem ao contrário.",
+        texto_en: "If only fear made me retreat, on the contrary, I advance more and more in the same proportion as this fear. It's as if fear were courage in reverse.",
+        explicacao_pt: "A frase aparece em meio a uma cena de tiroteio, seguida de 'Medo, coragem, medo, coragemedo, coragemedo de dor e pânico. A festa está se dando. Balas enfeitam o coração da noite.' Este conto é o único do livro com múltiplos narradores em 1ª pessoa — não é possível identificar com precisão qual dos personagens fala esse trecho específico, mas é uma voz masculina jovem da favela.",
+        explicacao_en: "The phrase appears in the midst of a shootout scene, followed by 'Fear, courage, fear, fearecourage, fearecourage of pain and panic. The party is happening. Bullets adorn the heart of the night.' This story is the only one in the book with multiple first-person narrators — it is not possible to precisely identify which of the characters speaks this specific passage, but it is a young male voice from the favela.",
+        personagem: "jovem do morro",
+        contoId: citacoes.find(c => c.titulo_pt === "A gente combinamos de não morrer")?.id,
+      },
     ],
   });
 
