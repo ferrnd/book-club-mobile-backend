@@ -12,7 +12,25 @@ async function main() {
   console.log("🌱 Resetando tabela...");
 
   // Remove todos os registros
+  await prisma.projeto.deleteMany();
   await prisma.livro.deleteMany();
+
+  console.log("📦 Inserindo Dados Do Projeto...");
+
+  await prisma.projeto.create({
+    data: {
+      nome_pt: "Olhos D'Água",
+      nome_en: "watery eyes",
+      apresentacao_pt:
+        "O projeto Conexão Literária é uma plataforma mobile desenvolvida em parceria entre SENAI e SESI, unindo tecnologia e literatura para facilitar o estudo de obras obrigatórias. Nosso foco é a obra 'Olhos D’água', de Conceição Evaristo. Através desta interface, buscamos democratizar o acesso a análises profundas, contextos históricos e simulados, preparando estudantes para os desafios do vestibular com uma abordagem moderna e bilíngue.",
+      apresentacao_en:
+        "The Literary Connection project is a mobile platform created through a partnership between SENAI and SESI. By merging technology and literature, we aim to streamline the study of mandatory reading lists. Our focus is the powerful book 'Olhos D’água' by Conceição Evaristo. This app provides in-depth analysis, historical context, and practice quizzes, equipping students for university entrance exams through a modern, bilingual experience.",
+      objetivo_pt:
+        "O objetivo central deste projeto é integrar o desenvolvimento de sistemas (Backend em Node.js e Mobile em React Native) com a análise crítica literária. Visamos construir uma ferramenta que não apenas exiba dados, mas que sirva como um guia de estudo colaborativo. Além de explorar o universo de Conceição Evaristo, o aplicativo integra-se às APIs de outras equipes, formando uma biblioteca digital completa para o estudante.",
+      objetivo_en:
+        "The core goal of this project is to integrate systems development (Node.js Backend and React Native Mobile) with critical literary analysis. We aim to build a tool that goes beyond displaying data, serving as a collaborative study guide. In addition to exploring Conceição Evaristo’s work, the app connects with other teams' APIs, creating a comprehensive digital library for students.",
+    },
+  });
 
   console.log("📦 Inserindo Dados Do Livro...");
 
