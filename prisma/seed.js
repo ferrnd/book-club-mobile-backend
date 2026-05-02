@@ -649,6 +649,30 @@ async function main() {
       },
       {
         pergunta_pt:
+          "No conto \"Maria\", o que o encontro no ônibus com o pai de seu filho revela sobre a personagem?",
+        pergunta_en:
+          "In the story \"Maria\", what does the encounter on the bus with her child's father reveal about the character?",
+        opcaoA_pt: "Que Maria ainda o amava e queria reatar.",
+        opcaoA_en: "That Maria still loved him and wanted to get back together.",
+        opcaoB_pt: "Que Maria o odiava profundamente.",
+        opcaoB_en: "That Maria hated him deeply.",
+        opcaoC_pt:
+          "Que Maria guarda uma mágoa silenciosa e o desejo de que as coisas pudessem ter sido diferentes.",
+        opcaoC_en:
+          "That Maria harbors a silent resentment and the wish that things could have been different.",
+        opcaoD_pt: "Que Maria havia esquecido completamente o homem.",
+        opcaoD_en: "That Maria had completely forgotten the man.",
+        opcaoE_pt: "Que Maria pretendia contar ao filho sobre o pai.",
+        opcaoE_en: "That Maria intended to tell her child about his father.",
+        resposta: "C",
+        explicacao_pt:
+          "O narrador descreve que 'Maria sentiu uma mágoa imensa. Por que não podia ser de uma outra forma?' Ela não fala, não reage — apenas observa. E 'Maria queria tanto dizer ao filho que o pai havia mandado um abraço', mas não o faz. O silêncio de Maria carrega toda a dor de uma vida que não foi como ela queria.",
+        explicacao_en:
+          "The narrator describes that 'Maria felt immense resentment. Why couldn't it be different?' She does not speak, she does not react — she only observes. And 'Maria wanted so much to tell her son that his father had sent a hug,' but she does not. Maria's silence carries all the pain of a life that was not what she wanted.",
+        resposta: "C",
+      },
+      {
+        pergunta_pt:
           "O que a frase \"Querença haveria de sempre umedecer seus sonhos para que eles florescessem e se cumprissem vivos e reais\" revela sobre Duzu-Querença?",
         pergunta_en:
           "What does the sentence \"Querença would always have to moisten her dreams so they would flourish and come true, alive and real\" reveal about Duzu-Querença?",
