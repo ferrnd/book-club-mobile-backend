@@ -625,6 +625,28 @@ async function main() {
         explicacao_en:
           "The question 'What color were my mother's eyes?' is the central axis of the story. It appears like a hammer in the narrator's mind, who wakes up at dawn disturbed by not being able to remember the color of her own mother's eyes. The answer only comes at the end: her mother's eyes are 'water-eye-colored, Waters of Mother Oxum' — a revelation that gives title to the entire book.",
       },
+      {
+        pergunta_pt: "No conto \"Ana Davenga\", de que forma Ana decide passar a se chamar com esse nome?",
+        pergunta_en: "In the story \"Ana Davenga\", how does Ana decide to start calling herself by that name?",
+        opcaoA_pt: "Seu pai a registrou com esse nome ao nascer.",
+        opcaoA_en: "Her father registered her with that name at birth.",
+        opcaoB_pt: "Ela escolheu o nome ao ingressar na vida do crime.",
+        opcaoB_en: "She chose the name when entering the life of crime.",
+        opcaoC_pt:
+          "Ela adota o sobrenome de Davenga por amor, querendo a marca dele no nome e no corpo.",
+        opcaoC_en:
+          "She adopts Davenga's surname out of love, wanting his mark on her name and her body.",
+        opcaoD_pt: "Os comparsas de Davenga lhe deram o apelido.",
+        opcaoD_en: "Davenga's comrades gave her the nickname.",
+        opcaoE_pt: "O nome foi uma homenagem à mãe de Davenga.",
+        opcaoE_en: "The name was a tribute to Davenga's mother.",
+        resposta: "C",
+        explicacao_pt:
+          "Na noite em que os dois ficam juntos pela primeira vez, Ana decide que se chamará Ana Davenga. O texto é explícito: 'ela queria a marca do homem dela no seu corpo e no seu nome'. É um gesto de amor e pertencimento — ela escolhe ativamente carregar o nome dele.",
+        explicacao_en:
+          "On the night they are together for the first time, Ana decides that she will call herself Ana Davenga. The text is explicit: 'she wanted his mark on her body and on her name.' It is a gesture of love and belonging — she actively chooses to carry his name.",
+        resposta: "C",
+      },
     ],
   });
 
