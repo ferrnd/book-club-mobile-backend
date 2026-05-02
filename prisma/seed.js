@@ -19,6 +19,7 @@ async function main() {
   await prisma.personagem.deleteMany();
   await prisma.citacao.deleteMany();
   await prisma.quiz.deleteMany();
+  await prisma.membro.deleteMany();
 
   console.log("📦 Inserindo Dados Do Projeto...");
 
@@ -849,6 +850,22 @@ async function main() {
           "O protagonista era chamado Zezinho e ganhou o apelido Kimbá de um amigo rico e viajado que o achou parecido com alguém da Nigéria. O apelido carrega uma dimensão de identidade diaspórica — uma ligação simbólica com a África que o amigo enxerga nele, mesmo que Kimbá ainda não a veja em si mesmo.",
         explicacao_en:
           "The protagonist was called Zezinho and received the nickname Kimbá from a wealthy, well-traveled friend who thought he looked like someone from Nigeria. The nickname carries a dimension of diasporic identity — a symbolic link to Africa that the friend sees in him, even if Kimbá does not yet see it in himself.",
+      },
+    ],
+  });
+
+  console.log("👥 Inserindo membros...");
+
+  await prisma.membro.createMany({
+    data: [
+      {
+        nome: "Fernando Santos",
+        curso_pt: "Desenvolvimento de Sistemas",
+        curso_en: "Systems Development",
+        fotoUrl: "",
+        github: "",
+        linkedin: "",
+        email: "",
       },
     ],
   });
