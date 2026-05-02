@@ -930,6 +930,15 @@ async function main() {
         linkedin: "",
         email: "",
       },
+      {
+        nome: "Rafaela Barros",
+        curso_pt: "Eletro Eletronica",
+        curso_en: "Electro Electronics",
+        fotoUrl: "",
+        github: "",
+        linkedin: "",
+        email: "",
+      },
     ],
   });
 
