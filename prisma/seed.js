@@ -14,6 +14,7 @@ async function main() {
   // Remove todos os registros
   await prisma.projeto.deleteMany();
   await prisma.livro.deleteMany();
+  await prisma.autor.deleteMany();
 
   console.log("📦 Inserindo Dados Do Projeto...");
 
@@ -75,7 +76,6 @@ async function main() {
 
     console.log("Inserindo Autor...");
 
-  await prisma.autor.deleteMany();
   await prisma.autor.create({
     data: {
       nome: "Conceição Evaristo",
