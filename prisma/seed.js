@@ -948,6 +948,15 @@ async function main() {
         linkedin: "",
         email: "",
       },
+      {
+        nome: "Giovanni Cocielo",
+        curso_pt: "Eletro Eletronica",
+        curso_en: "Electro Electronics",
+        fotoUrl: "",
+        github: "",
+        linkedin: "",
+        email: "",
+      },
     ],
   });
 
