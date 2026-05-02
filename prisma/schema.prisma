@@ -42,17 +42,17 @@ model Autor {
 }
 
 model Conto {
-    id         Int      @id @default(autoincrement())
-    titulo_pt  String
-    titulo_en  String
-    resumo_pt  String   @db.Text
-    resumo_en  String   @db.Text
-    analise_pt String   @db.Text
-    analise_en String   @db.Text
+    id          Int          @id @default(autoincrement())
+    titulo_pt   String
+    titulo_en   String
+    resumo_pt   String       @db.Text
+    resumo_en   String       @db.Text
+    analise_pt  String       @db.Text
+    analise_en  String       @db.Text
     personagens Personagem[]
-    citacoes   Citacao[]
-    createdAt  DateTime @default(now())
-    updatedAt  DateTime @updatedAt
+    citacoes    Citacao[]
+    createdAt   DateTime     @default(now())
+    updatedAt   DateTime     @updatedAt
 
     @@map("conto")
 }
@@ -87,16 +87,24 @@ model Citacao {
 }
 
 model Quiz {
-    id              Int      @id @default(autoincrement())
-    pergunta_pt     String   @db.Text
-    pergunta_en     String   @db.Text
-    opcoes_pt       String[]
-    opcoes_en       String[]
-    respostaCorreta Int
-    explicacao_pt   String   @db.Text
-    explicacao_en   String   @db.Text
-    createdAt       DateTime @default(now())
-    updatedAt       DateTime @updatedAt
+    id            Int      @id @default(autoincrement())
+    pergunta_pt   String   @db.Text
+    pergunta_en   String   @db.Text
+    opcaoA_pt     String   @db.Text
+    opcaoA_en     String   @db.Text
+    opcaoB_pt     String   @db.Text
+    opcaoB_en     String   @db.Text
+    opcaoC_pt     String   @db.Text
+    opcaoC_en     String   @db.Text
+    opcaoD_pt     String   @db.Text
+    opcaoD_en     String   @db.Text
+    opcaoE_pt     String   @db.Text
+    opcaoE_en     String   @db.Text
+    resposta      String
+    explicacao_pt String   @db.Text
+    explicacao_en String   @db.Text
+    createdAt     DateTime @default(now())
+    updatedAt     DateTime @updatedAt
 
     @@map("quiz")
 }
@@ -130,12 +138,16 @@ model Dica {
 model Membro {
     id        Int      @id @default(autoincrement())
     nome      String
-    curso     String
-    funcao    String
-    sobre     String   @db.Text
+    curso_pt  String
+    curso_en  String
+    funcao_pt String   @db.Text
+    funcao_en String   @db.Text
+    sobre_pt  String   @db.Text
+    sobre_en  String   @db.Text
     fotoUrl   String?
     github    String?
     linkedin  String?
+    email     String?
     social    String?
     createdAt DateTime @default(now())
     updatedAt DateTime @updatedAt
