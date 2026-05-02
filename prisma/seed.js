@@ -894,6 +894,15 @@ async function main() {
         linkedin: "",
         email: "",
       },
+      {
+        nome: "Daniel Casalli",
+        curso_pt: "Desenvolvimento de Sistemas",
+        curso_en: "Systems Development",
+        fotoUrl: "",
+        github: "",
+        linkedin: "",
+        email: "",
+      },
     ],
   });
 
