@@ -438,6 +438,14 @@ async function main() {
         personagem: "narradora",
         contoId: citacoes.find(c => c.titulo_pt === "Olhos d'água")?.id,
       },
+      {
+        texto_pt: "Achava também que qualquer vida era um risco e o risco maior era o de não tentar viver.",
+        texto_en: "She also believed that any life was a risk and the greatest risk was not trying to live.",
+        explicacao_pt: "A frase aparece quando o narrador descreve os pensamentos dela — ela sabia dos riscos que corria ao lado de Davenga, mas achava também que qualquer vida era um risco e o risco maior era o de não tentar viver. É o pensamento interno de Ana, narrado em 3ª pessoa. Não é uma fala em voz alta — é o que ela pensa ao aceitar a vida que escolheu.",
+        explicacao_en: "The phrase appears when the narrator describes her thoughts — she knew the risks she was taking by Davenga's side, but she also believed that any life was a risk and the greatest risk was not trying to live. It is Ana's internal thought, narrated in the third person. It is not spoken aloud — it is what she thinks when accepting the life she chose.",
+        personagem: "Ana Davenga",
+        contoId: citacoes.find(c => c.titulo_pt === "Ana Davenga")?.id,
+      },
     ],
   });
 
