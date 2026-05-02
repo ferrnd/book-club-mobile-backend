@@ -673,6 +673,30 @@ async function main() {
       },
       {
         pergunta_pt:
+          "O conto \"Quantos filhos Natalina teve?\" questiona principalmente:",
+        pergunta_en:
+          "The story \"How many children did Natalina have?\" primarily questions:",
+        opcaoA_pt: "A importância do casamento para a estabilidade familiar.",
+        opcaoA_en: "The importance of marriage for family stability.",
+        opcaoB_pt: "O papel do Estado no registro civil de crianças.",
+        opcaoB_en: "The role of the State in registering children.",
+        opcaoC_pt:
+          "O direito das mulheres sobre seus próprios corpos e a maternidade compulsória.",
+        opcaoC_en:
+          "Women's right over their own bodies and compulsory motherhood.",
+        opcaoD_pt: "A relação entre pobreza e número de filhos.",
+        opcaoD_en: "The relationship between poverty and number of children.",
+        opcaoE_pt: "A dificuldade de criar filhos sozinha na favela.",
+        opcaoE_en: "The difficulty of raising children alone in the favela.",
+        resposta: "C",
+        explicacao_pt:
+          "Natalina engravida ainda quase criança, toma chás para interromper a gestação e recusa ficar com o pai do filho mesmo sendo pressionada. O título é uma pergunta irônica: quantos filhos Natalina teve, e quantos ela de fato quis? O conto denuncia a maternidade imposta e reivindica a autonomia da mulher sobre sua própria fertilidade.",
+        explicacao_en:
+          "Natalina becomes pregnant while still almost a child, takes teas to interrupt the pregnancy, and refuses to stay with the child's father despite being pressured. The title is an ironic question: how many children did Natalina have, and how many did she actually want? The story denounces imposed motherhood and claims a woman's autonomy over her own fertility.",
+        resposta: "C",
+      },
+      {
+        pergunta_pt:
           "O que a frase \"Querença haveria de sempre umedecer seus sonhos para que eles florescessem e se cumprissem vivos e reais\" revela sobre Duzu-Querença?",
         pergunta_en:
           "What does the sentence \"Querença would always have to moisten her dreams so they would flourish and come true, alive and real\" reveal about Duzu-Querença?",
