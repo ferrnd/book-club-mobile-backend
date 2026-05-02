@@ -18,6 +18,7 @@ async function main() {
   await prisma.conto.deleteMany();
   await prisma.personagem.deleteMany();
   await prisma.citacao.deleteMany();
+  await prisma.quiz.deleteMany();
 
   console.log("📦 Inserindo Dados Do Projeto...");
 
@@ -597,6 +598,32 @@ async function main() {
         contoId: citacoes.find(
           (c) => c.titulo_pt === "A gente combinamos de não morrer",
         )?.id,
+      },
+    ],
+  });
+
+  console.log("📝 Inserindo perguntas...");
+
+  await prisma.quiz.createMany({
+    data: [
+      {
+        pergunta_pt: "Qual pergunta obsessiva abre o conto \"Olhos d'água\" e percorre toda a narrativa?",
+        pergunta_en: "Which obsessive question opens the story \"Olhos d'água\" and runs through the entire narrative?",
+        opcaoA_pt: "Por que minha mãe sempre chorava?",
+        opcaoA_en: "Why did my mother always cry?",
+        opcaoB_pt: "De que cor eram os olhos de minha mãe?",
+        opcaoB_en: "What color were my mother's eyes?",
+        opcaoC_pt: "Onde foi parar minha família?",
+        opcaoC_en: "Where did my family end up?",
+        opcaoD_pt: "Quando verei minha mãe novamente?",
+        opcaoD_en: "When will I see my mother again?",
+        opcaoE_pt: "O que minha mãe guardava em segredo?",
+        opcaoE_en: "What was my mother keeping secret?",
+        resposta: "B",
+        explicacao_pt:
+          "A pergunta 'De que cor eram os olhos de minha mãe?' é o eixo central do conto. Ela surge como um martelo na mente da narradora, que acorda de madrugada perturbada por não conseguir lembrar a cor dos olhos da própria mãe. A resposta só vem ao final: os olhos da mãe são 'cor de olhos d'água, águas de Mamãe Oxum' — revelação que dá título ao livro inteiro.",
+        explicacao_en:
+          "The question 'What color were my mother's eyes?' is the central axis of the story. It appears like a hammer in the narrator's mind, who wakes up at dawn disturbed by not being able to remember the color of her own mother's eyes. The answer only comes at the end: her mother's eyes are 'water-eye-colored, Waters of Mother Oxum' — a revelation that gives title to the entire book.",
       },
     ],
   });
