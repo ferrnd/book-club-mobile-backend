@@ -966,6 +966,15 @@ async function main() {
         linkedin: "",
         email: "",
       },
+      {
+        nome: "Lucas Magalhaes",
+        curso_pt: "Mecanica",
+        curso_en: "Mechanics",
+        fotoUrl: "",
+        github: "",
+        linkedin: "",
+        email: "",
+      },
     ],
   });
 
