@@ -793,6 +793,32 @@ async function main() {
           "Cida 'remembered that she was a woman and not a wild, mad machine programmed to runrun.' The cooper is the metaphor of the Black working woman who runs incessantly — in domestic work, on buses, raising children — but in the same place, without moving forward.",
         resposta: "A",
       },
+      {
+        pergunta_pt:
+          "O que torna o final do conto \"Zaíta esqueceu de guardar os brinquedos\" tão devastador?",
+        pergunta_en:
+          "What makes the ending of the story \"Zaíta Forgot to Put Away the Toys\" so devastating?",
+        opcaoA_pt: "Zaíta descobre que o irmão é traficante e vai embora de casa.",
+        opcaoA_en: "Zaíta discovers that her brother is a trafficker and leaves home.",
+        opcaoB_pt: "A irmã gêmea Naíta some sem deixar rastros.",
+        opcaoB_en: "The twin sister Naíta disappears without a trace.",
+        opcaoC_pt:
+          "Zaíta é morta por uma bala perdida, e a última frase da irmã é sobre os brinquedos esquecidos no chão.",
+        opcaoC_en:
+          "Zaíta is killed by a stray bullet, and the sister's final line is about the toys left on the ground.",
+        opcaoD_pt: "Zaíta perde a figurinha-flor que procurava e chora até adormecer.",
+        opcaoD_en: "Zaíta loses the flower sticker she was looking for and cries herself to sleep.",
+        opcaoE_pt:
+          "O barraco da família é destruído num tiroteio.",
+        opcaoE_en:
+          "The family's shanty is destroyed in a shootout.",
+        resposta: "E",
+        explicacao_pt:
+          "Zaíta é assassinada por uma bala perdida num confronto na favela. A frase final — 'Zaíta, você esqueceu de guardar os brinquedos!' — dita pela irmã Naíta, é uma das mais dilacerantes da obra. A crueldade está no contraste: a morte de uma criança é reduzida, aos olhos da irmã que ainda não compreende, a um brinquedo esquecido.",
+        explicacao_en:
+          "Zaíta is killed by a stray bullet in a confrontation in the favela. The final line — 'Zaíta, you forgot to put away the toys!' — said by her sister Naíta, is one of the most devastating in the work. The cruelty lies in the contrast: a child's death is reduced, in her sister's still-uncomprehending eyes, to a forgotten toy.",
+        resposta: "E",
+      },
     ],
   });
 
