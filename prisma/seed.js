@@ -16,6 +16,7 @@ async function main() {
   await prisma.livro.deleteMany();
   await prisma.autor.deleteMany();
   await prisma.conto.deleteMany();
+  await prisma.personagem.deleteMany();
 
   console.log("📦 Inserindo Dados Do Projeto...");
 
@@ -238,8 +239,6 @@ async function main() {
   });
 
   console.log("👥 Inserindo personagens...");
-
-  await prisma.personagem.deleteMany();
 
   const contos = await prisma.conto.findMany({
     select: { id: true, titulo_pt: true }
