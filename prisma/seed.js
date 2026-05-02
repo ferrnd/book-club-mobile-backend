@@ -957,6 +957,15 @@ async function main() {
         linkedin: "",
         email: "",
       },
+      {
+        nome: "Ana Gabriely Paslauski",
+        curso_pt: "Mecanica",
+        curso_en: "Mechanics",
+        fotoUrl: "",
+        github: "",
+        linkedin: "",
+        email: "",
+      },
     ],
   });
 
