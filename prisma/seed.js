@@ -975,6 +975,15 @@ async function main() {
         linkedin: "",
         email: "",
       },
+      {
+        nome: "Guilherme Batista",
+        curso_pt: "Mecanica",
+        curso_en: "Mechanics",
+        fotoUrl: "",
+        github: "",
+        linkedin: "",
+        email: "",
+      },
     ],
   });
 
