@@ -15,6 +15,7 @@ async function main() {
   await prisma.projeto.deleteMany();
   await prisma.livro.deleteMany();
   await prisma.autor.deleteMany();
+  await prisma.conto.deleteMany();
 
   console.log("📦 Inserindo Dados Do Projeto...");
 
@@ -94,8 +95,6 @@ async function main() {
   });
 
   console.log("📚 Inserindo contos...");
-
-  await prisma.conto.deleteMany();
 
   const contos = await prisma.conto.createMany({
     data: [
