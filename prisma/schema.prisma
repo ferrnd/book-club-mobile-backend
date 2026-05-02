@@ -90,9 +90,17 @@ model Quiz {
     id              Int      @id @default(autoincrement())
     pergunta_pt     String   @db.Text
     pergunta_en     String   @db.Text
-    opcoes_pt       String[]
-    opcoes_en       String[]
-    respostaCorreta Int
+    opcaoA_pt       String   @db.Text
+    opcaoA_en       String   @db.Text
+    opcaoB_pt       String   @db.Text
+    opcaoB_en       String   @db.Text
+    opcaoC_pt       String   @db.Text
+    opcaoC_en       String   @db.Text
+    opcaoD_pt       String   @db.Text
+    opcaoD_en       String   @db.Text
+    opcaoE_pt       String   @db.Text
+    opcaoE_en       String   @db.Text
+    resposta        String
     explicacao_pt   String   @db.Text
     explicacao_en   String   @db.Text
     createdAt       DateTime @default(now())
