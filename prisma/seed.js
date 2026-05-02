@@ -912,6 +912,15 @@ async function main() {
         linkedin: "",
         email: "",
       },
+      {
+        nome: "Gustavo Lima",
+        curso_pt: "Eletro Eletronica",
+        curso_en: "Electro Electronics",
+        fotoUrl: "",
+        github: "",
+        linkedin: "",
+        email: "",
+      },
     ],
   });
 
