@@ -751,24 +751,47 @@ async function main() {
           "No conto \"Beijo na face\", o que o espelho representa para Salinda?",
         pergunta_en:
           "In the story \"Kiss on the Face\", what does the mirror represent for Salinda?",
-        opcaoA_pt: "A vaidade que ela precisa abandonar.",
-        opcaoA_en: "The vanity she needs to abandon.",
-        opcaoB_pt:
+        opcaoA_pt:
           "Um espaço de reconhecimento de si mesma e do amor que sente pela amiga.",
-        opcaoB_en:
+        opcaoA_en:
           "A space for recognizing herself and the love she feels for her friend.",
+        opcaoB_pt: "A vaidade que ela precisa abandonar.",
+        opcaoB_en: "The vanity she needs to abandon.",
         opcaoC_pt: "O medo de envelhecer sozinha.",
         opcaoC_en: "The fear of growing old alone.",
         opcaoD_pt: "A culpa que ela carrega pela separação.",
         opcaoD_en: "The guilt she carries for the separation.",
         opcaoE_pt: "Um objeto que seu marido usa para vigiá-la.",
         opcaoE_en: "An object her husband uses to watch her.",
-        resposta: "B",
+        resposta: "A",
         explicacao_pt:
           "Salinda se contempla no espelho após se equilibrar sobre a dor e o susto. No reflexo, em vez do próprio rosto, vê o rosto da amiga — 'para afirmar a força de um amor entre duas iguais'. O espelho é o lugar onde Salinda se reconhece e reconhece o amor que 'se tornava uma certeza, uma presença incrustada nos poros da pele e da memória'.",
         explicacao_en:
           "Salinda contemplates herself in the mirror after balancing on pain and shock. In the reflection, instead of her own face, she sees her friend's face — 'to affirm the strength of a love between two equals.' The mirror is the place where Salinda recognizes herself and the love that 'became a certainty, a presence embedded in the pores of skin and memory.'",
-        resposta: "B",
+      },
+      {
+        pergunta_pt:
+          "A metáfora do \"cooper\" no conto \"O Cooper de Cida\" representa:",
+        pergunta_en:
+          "The metaphor of \"cooper\" in the story \"Cida's Run\" represents:",
+        opcaoA_pt:
+          "O esforço exaustivo e contínuo de Cida para se manter na \"corda bamba do tempo\", equilibrando trabalho, filhos e casa.",
+        opcaoA_en:
+          "The exhausting and continuous effort of Cida to stay on the 'tightrope of time,' balancing work, children, and home.",
+        opcaoB_pt: "A prática de corrida que Cida adota para emagrecer.",
+        opcaoB_en: "The running practice that Cida adopts to lose weight.",
+        opcaoC_pt: "A leveza com que Cida enfrenta a vida.",
+        opcaoC_en: "The lightness with which Cida faces life.",
+        opcaoD_pt: "O transporte público que Cida usa todos os dias.",
+        opcaoD_en: "The public transportation Cida uses every day.",
+        opcaoE_pt: "A rotina de exercícios recomendada pelo médico de Cida.",
+        opcaoE_en: "The exercise routine recommended by Cida's doctor.",
+        resposta: "A",
+        explicacao_pt:
+          "Cida 'lembrou-se de que era uma mulher e não uma máquina desenfreada, louca, programada para corrercorrer.' O cooper é a metáfora da mulher negra trabalhadora que corre incessantemente — no trabalho doméstico, nos ônibus, na criação dos filhos — mas no mesmo lugar, sem avançar.",
+        explicacao_en:
+          "Cida 'remembered that she was a woman and not a wild, mad machine programmed to runrun.' The cooper is the metaphor of the Black working woman who runs incessantly — in domestic work, on buses, raising children — but in the same place, without moving forward.",
+        resposta: "A",
       },
     ],
   });
