@@ -6,6 +6,20 @@ datasource db {
     provider = "postgresql"
 }
 
+model Projeto {
+  id              Int     @id @default(autoincrement())
+  nome_pt         String
+  nome_en         String
+  apresentacao_pt String  @db.Text
+  apresentacao_en String  @db.Text
+  objetivo_pt     String  @db.Text
+  objetivo_en     String  @db.Text
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  @@map("projeto")
+}
+
 model Livro {
     id                   Int      @id @default(autoincrement())
     titulo               String
