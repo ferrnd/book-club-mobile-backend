@@ -903,6 +903,15 @@ async function main() {
         linkedin: "",
         email: "",
       },
+      {
+        nome: "Maria Eduarda de Andrade",
+        curso_pt: "Desenvolvimento de Sistemas",
+        curso_en: "Systems Development",
+        fotoUrl: "",
+        github: "",
+        linkedin: "",
+        email: "",
+      },
     ],
   });
 
