@@ -939,6 +939,15 @@ async function main() {
         linkedin: "",
         email: "",
       },
+      {
+        nome: "Natalie",
+        curso_pt: "Eletro Eletronica",
+        curso_en: "Electro Electronics",
+        fotoUrl: "",
+        github: "",
+        linkedin: "",
+        email: "",
+      },
     ],
   });
 
