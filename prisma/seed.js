@@ -421,7 +421,15 @@ async function main() {
         explicacao_en: "A poetic conclusion to the story, still about Salinda and her friend. One of the most lyrical passages in the entire book.",
         personagem: "narrador",
         contoId: citacoes.find(c => c.titulo_pt === "Beijo na face")?.id,
-      }
+      },
+      {
+        texto_pt: "Lembrou-se então de que era uma mulher e não uma máquina desenfreada, louca, programada para corrercorrer.",
+        texto_en: "Then she remembered that she was a woman and not a wild, mad machine programmed to runrun.",
+        explicacao_pt: "Narrado em 3ª pessoa sobre Cida. O verbo 'corrercorrer' (sem espaço) é um dos neologismos da autora — a fusão da palavra imita visualmente o ritmo exaustivo e ininterrupto da vida da personagem.",
+        explicacao_en: "Narrated in the third person about Cida. The verb 'runrun' (without a space) is one of the author's neologisms — the fusion of the word visually imitates the exhausting and uninterrupted rhythm of the character's life.",
+        personagem: "narrador",
+        contoId: citacoes.find(c => c.titulo_pt === "O cooper de Cida")?.id,
+      },
     ],
   });
 
