@@ -430,6 +430,14 @@ async function main() {
         personagem: "narrador",
         contoId: citacoes.find(c => c.titulo_pt === "O cooper de Cida")?.id,
       },
+      {
+        texto_pt: "A mãe só ria, de uma maneira triste e com um sorriso molhado.",
+        texto_en: "The mother only laughed, in a sad way and with a wet smile.",
+        explicacao_pt: "A narradora descreve a mãe durante as brincadeiras inventadas para 'distrair a fome' das filhas. A contradição do 'sorriso molhado' é símbolo de toda a maternidade negra e pobre retratada no livro.",
+        explicacao_en: "The narrator describes the mother during games invented to 'distract from hunger' of her daughters. The contradiction of the 'wet smile' is a symbol of all the Black and poor motherhood portrayed in the book.",
+        personagem: "narradora",
+        contoId: citacoes.find(c => c.titulo_pt === "Olhos d'água")?.id,
+      },
     ],
   });
 
