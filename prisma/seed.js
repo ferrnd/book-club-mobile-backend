@@ -876,6 +876,15 @@ async function main() {
         linkedin: "",
         email: "",
       },
+      {
+        nome: "João Pedro Piva",
+        curso_pt: "Desenvolvimento de Sistemas",
+        curso_en: "Systems Development",
+        fotoUrl: "",
+        github: "",
+        linkedin: "",
+        email: "",
+      },
     ],
   });
 
