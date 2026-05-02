@@ -413,6 +413,14 @@ async function main() {
         explicacao_en: "The daughter who narrated the entire story finally finds the answer to the question that tormented her. It is the climax of the story that opens and names the book.",
         personagem: "narradora",
         contoId: citacoes.find(c => c.titulo_pt === "Olhos d'água")?.id,
+      },
+      {
+        texto_pt: "E um leve e fugaz beijo na face, sombra rasurada de uma asa amarela de borboleta, se tornava uma certeza, uma presença incrustada nos poros da pele e da memória.",
+        texto_en: "And a light and fleeting kiss on the face, the faint shadow of a yellow butterfly's wing, became a certainty, a presence embedded in the pores of skin and memory.",
+        explicacao_pt: "Conclusão poética do conto, ainda sobre Salinda e sua amiga. Um dos trechos mais líricos do livro inteiro.",
+        explicacao_en: "A poetic conclusion to the story, still about Salinda and her friend. One of the most lyrical passages in the entire book.",
+        personagem: "narrador",
+        contoId: citacoes.find(c => c.titulo_pt === "Beijo na face")?.id,
       }
     ],
   });
