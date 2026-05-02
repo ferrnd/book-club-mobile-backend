@@ -406,6 +406,14 @@ async function main() {
         personagem: "narrador onisciente",
         contoId: citacoes.find(c => c.titulo_pt === "Duzu-Querença")?.id,
       },
+      {
+        texto_pt: "Vi só lágrimas e lágrimas. Entretanto, ela sorria feliz. Mas eram tantas lágrimas, que eu me perguntei se minha mãe tinha olhos ou rios caudalosos sobre a face. E só então compreendi. Minha mãe trazia, serenamente em si, águas correntezas. Por isso, prantos e prantos a enfeitar o seu rosto. A cor dos olhos de minha mãe era cor de olhos d'água. Águas de Mamãe Oxum!",
+        texto_en: "I saw only tears and tears. Yet, she smiled happily. But there were so many tears that I wondered if my mother had eyes or rushing rivers on her face. And only then did I understand. My mother carried, serenely within herself, flowing waters. That's why tears and tears adorned her face. The color of my mother's eyes was the color of water eyes. Waters of Mother Oxum!",
+        explicacao_pt: "A filha que narrou a história inteira finalmente encontra a resposta para a pergunta que a atormentava. É o clímax do conto que abre e nomeia o livro.",
+        explicacao_en: "The daughter who narrated the entire story finally finds the answer to the question that tormented her. It is the climax of the story that opens and names the book.",
+        personagem: "narradora",
+        contoId: citacoes.find(c => c.titulo_pt === "Olhos d'água")?.id,
+      }
     ],
   });
 
