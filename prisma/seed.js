@@ -819,6 +819,31 @@ async function main() {
           "Zaíta is killed by a stray bullet in a confrontation in the favela. The final line — 'Zaíta, you forgot to put away the toys!' — said by her sister Naíta, is one of the most devastating in the work. The cruelty lies in the contrast: a child's death is reduced, in her sister's still-uncomprehending eyes, to a forgotten toy.",
         resposta: "E",
       },
+      {
+        pergunta_pt:
+          "No conto \"Os amores de Kimbá\", por que o protagonista era chamado de Zezinho antes de ganhar o apelido?",
+        pergunta_en:
+          "In the story \"The Loves of Kimbá\", why was the protagonist called Zezinho before he got the nickname?",
+        opcaoA_pt: "Zezinho era seu nome de batismo, dado pelo pai.",
+        opcaoA_en: "Zezinho was his baptismal name, given by his father.",
+        opcaoB_pt: "Kimbá era apenas um apelido carinhoso da mãe.",
+        opcaoB_en: "Kimbá was just an affectionate nickname from his mother.",
+        opcaoC_pt:
+          "Zezinho era seu nome de registro; recebeu o apelido Kimbá de um amigo que o achou parecido com alguém da Nigéria.",
+        opcaoC_en:
+          "Zezinho was his registered name; he received the nickname Kimbá from a friend who thought he looked like someone from Nigeria.",
+        opcaoD_pt:
+          "Um amigo o apelidou de Kimbá porque o achou parecido com alguém da Nigéria.",
+        opcaoD_en:
+          "A friend nicknamed him Kimbá because he thought he looked like someone from Nigeria.",
+        opcaoE_pt: "Kimbá foi o nome que ele escolheu ao sair do morro.",
+        opcaoE_en: "Kimbá was the name he chose when he left the hill.",
+        resposta: "D",
+        explicacao_pt:
+          "O protagonista era chamado Zezinho e ganhou o apelido Kimbá de um amigo rico e viajado que o achou parecido com alguém da Nigéria. O apelido carrega uma dimensão de identidade diaspórica — uma ligação simbólica com a África que o amigo enxerga nele, mesmo que Kimbá ainda não a veja em si mesmo.",
+        explicacao_en:
+          "The protagonist was called Zezinho and received the nickname Kimbá from a wealthy, well-traveled friend who thought he looked like someone from Nigeria. The nickname carries a dimension of diasporic identity — a symbolic link to Africa that the friend sees in him, even if Kimbá does not yet see it in himself.",
+      },
     ],
   });
 
