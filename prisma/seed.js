@@ -647,6 +647,32 @@ async function main() {
           "On the night they are together for the first time, Ana decides that she will call herself Ana Davenga. The text is explicit: 'she wanted his mark on her body and on her name.' It is a gesture of love and belonging — she actively chooses to carry his name.",
         resposta: "C",
       },
+      {
+        pergunta_pt:
+          "O que a frase \"Querença haveria de sempre umedecer seus sonhos para que eles florescessem e se cumprissem vivos e reais\" revela sobre Duzu-Querença?",
+        pergunta_en:
+          "What does the sentence \"Querença would always have to moisten her dreams so they would flourish and come true, alive and real\" reveal about Duzu-Querença?",
+        opcaoA_pt: "Que Duzu era uma agricultora que cuidava de plantas.",
+        opcaoA_en: "That Duzu was a farmer who tended plants.",
+        opcaoB_pt:
+          "Que o desejo de reinventar a vida nunca abandonou Duzu, mesmo nas piores condições.",
+        opcaoB_en:
+          "That the desire to reinvent her life never abandoned Duzu, even in the worst conditions.",
+        opcaoC_pt:
+          "Que Duzu tinha medo de que seus sonhos secassem como plantas sem água.",
+        opcaoC_en:
+          "That Duzu was afraid her dreams would dry up like plants without water.",
+        opcaoD_pt: "Que Querença era o nome de sua neta preferida.",
+        opcaoD_en: "That Querença was the name of her favorite granddaughter.",
+        opcaoE_pt: "Que Duzu acreditava em horóscopos e profecias.",
+        opcaoE_en: "That Duzu believed in horoscopes and prophecies.",
+        resposta: "B",
+        explicacao_pt:
+          "'Querença' significa desejo profundo, anseio. O nome da personagem é uma palavra-siamesa: Duzu (nome próprio) + Querença (o sonho que ela carrega). A frase revela que, apesar de mendiga e ex-prostituta, Duzu nunca deixou de alimentar sua querença — a força interior de quem se recusa a desistir de si mesmo.",
+        explicacao_en:
+          "'Querença' means deep desire, longing. The character's name is a Siamese word: Duzu (proper name) + Querença (the dream she carries). The sentence reveals that, despite being a beggar and former prostitute, Duzu never stopped nourishing her querença — the inner strength of someone who refuses to give up on themselves.",
+        resposta: "B",
+      },
     ],
   });
 
