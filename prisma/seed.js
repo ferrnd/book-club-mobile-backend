@@ -607,8 +607,10 @@ async function main() {
   await prisma.quiz.createMany({
     data: [
       {
-        pergunta_pt: "Qual pergunta obsessiva abre o conto \"Olhos d'água\" e percorre toda a narrativa?",
-        pergunta_en: "Which obsessive question opens the story \"Olhos d'água\" and runs through the entire narrative?",
+        pergunta_pt:
+          'Qual pergunta obsessiva abre o conto "Olhos d\'água" e percorre toda a narrativa?',
+        pergunta_en:
+          'Which obsessive question opens the story "Olhos d\'água" and runs through the entire narrative?',
         opcaoA_pt: "Por que minha mãe sempre chorava?",
         opcaoA_en: "Why did my mother always cry?",
         opcaoB_pt: "De que cor eram os olhos de minha mãe?",
@@ -626,8 +628,10 @@ async function main() {
           "The question 'What color were my mother's eyes?' is the central axis of the story. It appears like a hammer in the narrator's mind, who wakes up at dawn disturbed by not being able to remember the color of her own mother's eyes. The answer only comes at the end: her mother's eyes are 'water-eye-colored, Waters of Mother Oxum' — a revelation that gives title to the entire book.",
       },
       {
-        pergunta_pt: "No conto \"Ana Davenga\", de que forma Ana decide passar a se chamar com esse nome?",
-        pergunta_en: "In the story \"Ana Davenga\", how does Ana decide to start calling herself by that name?",
+        pergunta_pt:
+          'No conto "Ana Davenga", de que forma Ana decide passar a se chamar com esse nome?',
+        pergunta_en:
+          'In the story "Ana Davenga", how does Ana decide to start calling herself by that name?',
         opcaoA_pt: "Seu pai a registrou com esse nome ao nascer.",
         opcaoA_en: "Her father registered her with that name at birth.",
         opcaoB_pt: "Ela escolheu o nome ao ingressar na vida do crime.",
@@ -649,11 +653,12 @@ async function main() {
       },
       {
         pergunta_pt:
-          "No conto \"Maria\", o que o encontro no ônibus com o pai de seu filho revela sobre a personagem?",
+          'No conto "Maria", o que o encontro no ônibus com o pai de seu filho revela sobre a personagem?',
         pergunta_en:
-          "In the story \"Maria\", what does the encounter on the bus with her child's father reveal about the character?",
+          'In the story "Maria", what does the encounter on the bus with her child\'s father reveal about the character?',
         opcaoA_pt: "Que Maria ainda o amava e queria reatar.",
-        opcaoA_en: "That Maria still loved him and wanted to get back together.",
+        opcaoA_en:
+          "That Maria still loved him and wanted to get back together.",
         opcaoB_pt: "Que Maria o odiava profundamente.",
         opcaoB_en: "That Maria hated him deeply.",
         opcaoC_pt:
@@ -673,9 +678,9 @@ async function main() {
       },
       {
         pergunta_pt:
-          "O conto \"Quantos filhos Natalina teve?\" questiona principalmente:",
+          'O conto "Quantos filhos Natalina teve?" questiona principalmente:',
         pergunta_en:
-          "The story \"How many children did Natalina have?\" primarily questions:",
+          'The story "How many children did Natalina have?" primarily questions:',
         opcaoA_pt: "A importância do casamento para a estabilidade familiar.",
         opcaoA_en: "The importance of marriage for family stability.",
         opcaoB_pt: "O papel do Estado no registro civil de crianças.",
@@ -697,9 +702,9 @@ async function main() {
       },
       {
         pergunta_pt:
-          "No conto \"Luamanda\", qual é a estrutura que organiza a narrativa da protagonista?",
+          'No conto "Luamanda", qual é a estrutura que organiza a narrativa da protagonista?',
         pergunta_en:
-          "In the story \"Luamanda\", what structure organizes the protagonist's narrative?",
+          'In the story "Luamanda", what structure organizes the protagonist\'s narrative?',
         opcaoA_pt: "Uma linha do tempo cronológica de seus empregos.",
         opcaoA_en: "A chronological timeline of her jobs.",
         opcaoB_pt:
@@ -708,8 +713,7 @@ async function main() {
           "A series of questions about love in each phase of her romantic and erotic life.",
         opcaoC_pt: "Cartas que Luamanda escreve para seus filhos.",
         opcaoC_en: "Letters that Luamanda writes to her children.",
-        opcaoD_pt:
-          "Diálogos entre Luamanda e sua mãe sobre o passado.",
+        opcaoD_pt: "Diálogos entre Luamanda e sua mãe sobre o passado.",
         opcaoD_en: "Dialogues between Luamanda and her mother about the past.",
         opcaoE_pt: "Um sonho em que Luamanda revisita sua infância.",
         opcaoE_en: "A dream in which Luamanda revisits her childhood.",
@@ -722,9 +726,9 @@ async function main() {
       },
       {
         pergunta_pt:
-          "O que a frase \"Querença haveria de sempre umedecer seus sonhos para que eles florescessem e se cumprissem vivos e reais\" revela sobre Duzu-Querença?",
+          'O que a frase "Querença haveria de sempre umedecer seus sonhos para que eles florescessem e se cumprissem vivos e reais" revela sobre Duzu-Querença?',
         pergunta_en:
-          "What does the sentence \"Querença would always have to moisten her dreams so they would flourish and come true, alive and real\" reveal about Duzu-Querença?",
+          'What does the sentence "Querença would always have to moisten her dreams so they would flourish and come true, alive and real" reveal about Duzu-Querença?',
         opcaoA_pt: "Que Duzu era uma agricultora que cuidava de plantas.",
         opcaoA_en: "That Duzu was a farmer who tended plants.",
         opcaoB_pt:
@@ -748,9 +752,9 @@ async function main() {
       },
       {
         pergunta_pt:
-          "No conto \"Beijo na face\", o que o espelho representa para Salinda?",
+          'No conto "Beijo na face", o que o espelho representa para Salinda?',
         pergunta_en:
-          "In the story \"Kiss on the Face\", what does the mirror represent for Salinda?",
+          'In the story "Kiss on the Face", what does the mirror represent for Salinda?',
         opcaoA_pt:
           "Um espaço de reconhecimento de si mesma e do amor que sente pela amiga.",
         opcaoA_en:
@@ -771,11 +775,11 @@ async function main() {
       },
       {
         pergunta_pt:
-          "A metáfora do \"cooper\" no conto \"O Cooper de Cida\" representa:",
+          'A metáfora do "cooper" no conto "O Cooper de Cida" representa:',
         pergunta_en:
-          "The metaphor of \"cooper\" in the story \"Cida's Run\" represents:",
+          'The metaphor of "cooper" in the story "Cida\'s Run" represents:',
         opcaoA_pt:
-          "O esforço exaustivo e contínuo de Cida para se manter na \"corda bamba do tempo\", equilibrando trabalho, filhos e casa.",
+          'O esforço exaustivo e contínuo de Cida para se manter na "corda bamba do tempo", equilibrando trabalho, filhos e casa.',
         opcaoA_en:
           "The exhausting and continuous effort of Cida to stay on the 'tightrope of time,' balancing work, children, and home.",
         opcaoB_pt: "A prática de corrida que Cida adota para emagrecer.",
@@ -795,23 +799,25 @@ async function main() {
       },
       {
         pergunta_pt:
-          "O que torna o final do conto \"Zaíta esqueceu de guardar os brinquedos\" tão devastador?",
+          'O que torna o final do conto "Zaíta esqueceu de guardar os brinquedos" tão devastador?',
         pergunta_en:
-          "What makes the ending of the story \"Zaíta Forgot to Put Away the Toys\" so devastating?",
-        opcaoA_pt: "Zaíta descobre que o irmão é traficante e vai embora de casa.",
-        opcaoA_en: "Zaíta discovers that her brother is a trafficker and leaves home.",
+          'What makes the ending of the story "Zaíta Forgot to Put Away the Toys" so devastating?',
+        opcaoA_pt:
+          "Zaíta descobre que o irmão é traficante e vai embora de casa.",
+        opcaoA_en:
+          "Zaíta discovers that her brother is a trafficker and leaves home.",
         opcaoB_pt: "A irmã gêmea Naíta some sem deixar rastros.",
         opcaoB_en: "The twin sister Naíta disappears without a trace.",
         opcaoC_pt:
           "Zaíta é morta por uma bala perdida, e a última frase da irmã é sobre os brinquedos esquecidos no chão.",
         opcaoC_en:
           "Zaíta is killed by a stray bullet, and the sister's final line is about the toys left on the ground.",
-        opcaoD_pt: "Zaíta perde a figurinha-flor que procurava e chora até adormecer.",
-        opcaoD_en: "Zaíta loses the flower sticker she was looking for and cries herself to sleep.",
-        opcaoE_pt:
-          "O barraco da família é destruído num tiroteio.",
-        opcaoE_en:
-          "The family's shanty is destroyed in a shootout.",
+        opcaoD_pt:
+          "Zaíta perde a figurinha-flor que procurava e chora até adormecer.",
+        opcaoD_en:
+          "Zaíta loses the flower sticker she was looking for and cries herself to sleep.",
+        opcaoE_pt: "O barraco da família é destruído num tiroteio.",
+        opcaoE_en: "The family's shanty is destroyed in a shootout.",
         resposta: "E",
         explicacao_pt:
           "Zaíta é assassinada por uma bala perdida num confronto na favela. A frase final — 'Zaíta, você esqueceu de guardar os brinquedos!' — dita pela irmã Naíta, é uma das mais dilacerantes da obra. A crueldade está no contraste: a morte de uma criança é reduzida, aos olhos da irmã que ainda não compreende, a um brinquedo esquecido.",
@@ -821,9 +827,9 @@ async function main() {
       },
       {
         pergunta_pt:
-          "No conto \"Os amores de Kimbá\", por que o protagonista era chamado de Zezinho antes de ganhar o apelido?",
+          'No conto "Os amores de Kimbá", por que o protagonista era chamado de Zezinho antes de ganhar o apelido?',
         pergunta_en:
-          "In the story \"The Loves of Kimbá\", why was the protagonist called Zezinho before he got the nickname?",
+          'In the story "The Loves of Kimbá", why was the protagonist called Zezinho before he got the nickname?',
         opcaoA_pt: "Zezinho era seu nome de batismo, dado pelo pai.",
         opcaoA_en: "Zezinho was his baptismal name, given by his father.",
         opcaoB_pt: "Kimbá era apenas um apelido carinhoso da mãe.",
