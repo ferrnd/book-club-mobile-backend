@@ -921,7 +921,7 @@ async function main() {
         linkedin: "",
         email: "",
       },
-        {
+      {
         nome: "Leonardo Lima",
         curso_pt: "Eletro Eletronica",
         curso_en: "Electro Electronics",
