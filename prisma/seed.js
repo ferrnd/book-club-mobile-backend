@@ -697,6 +697,31 @@ async function main() {
       },
       {
         pergunta_pt:
+          "No conto \"Luamanda\", qual é a estrutura que organiza a narrativa da protagonista?",
+        pergunta_en:
+          "In the story \"Luamanda\", what structure organizes the protagonist's narrative?",
+        opcaoA_pt: "Uma linha do tempo cronológica de seus empregos.",
+        opcaoA_en: "A chronological timeline of her jobs.",
+        opcaoB_pt:
+          "Uma série de perguntas sobre o amor em cada fase de sua vida amorosa e erótica.",
+        opcaoB_en:
+          "A series of questions about love in each phase of her romantic and erotic life.",
+        opcaoC_pt: "Cartas que Luamanda escreve para seus filhos.",
+        opcaoC_en: "Letters that Luamanda writes to her children.",
+        opcaoD_pt:
+          "Diálogos entre Luamanda e sua mãe sobre o passado.",
+        opcaoD_en: "Dialogues between Luamanda and her mother about the past.",
+        opcaoE_pt: "Um sonho em que Luamanda revisita sua infância.",
+        opcaoE_en: "A dream in which Luamanda revisits her childhood.",
+        resposta: "B",
+        explicacao_pt:
+          "O conto é estruturado em perguntas: 'Amor dói?', 'Amor é terra morta?', 'Amor é terremoto?', 'O amor é um poço misterioso?', 'O amor se guarda só na ponta de um falo?' Cada pergunta corresponde a uma fase da vida afetivo-sexual de Luamanda, da infância à maturidade, incluindo uma relação com outra mulher.",
+        explicacao_en:
+          "The story is structured as questions: 'Does love hurt?', 'Is love dead land?', 'Is love an earthquake?', 'Is love a mysterious well?', 'Is love kept only at the tip of a phallus?' Each question corresponds to a phase of Luamanda's affective-sexual life, from childhood to maturity, including a relationship with another woman.",
+        resposta: "B",
+      },
+      {
+        pergunta_pt:
           "O que a frase \"Querença haveria de sempre umedecer seus sonhos para que eles florescessem e se cumprissem vivos e reais\" revela sobre Duzu-Querença?",
         pergunta_en:
           "What does the sentence \"Querença would always have to moisten her dreams so they would flourish and come true, alive and real\" reveal about Duzu-Querença?",
