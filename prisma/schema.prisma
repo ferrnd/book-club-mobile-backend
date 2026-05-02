@@ -155,15 +155,10 @@ model Membro {
     nome      String
     curso_pt  String
     curso_en  String
-    funcao_pt String   @db.Text
-    funcao_en String   @db.Text
-    sobre_pt  String   @db.Text
-    sobre_en  String   @db.Text
     fotoUrl   String?
     github    String?
     linkedin  String?
     email     String?
-    social    String?
     createdAt DateTime @default(now())
     updatedAt DateTime @updatedAt
 
