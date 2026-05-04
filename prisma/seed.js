@@ -46,6 +46,8 @@ async function main() {
             titulo: "Olhos d'Água",
             capa: 'https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/bookCover/olhos-dagua.png',
             autor: 'Conceição Evaristo',
+            detalhesAutor: "",
+            detalhesAutor_en: "",
             anoPublicacao: 2014,
             genero: 'Contos, Escrevivência, Literatura Afro-Brasileira, Realismo Social',
             genero_en: 'Short Stories, Life-writing, Afro-Brazilian Literature, Social Realism',
