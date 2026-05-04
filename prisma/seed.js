@@ -907,7 +907,8 @@ async function main() {
               curso_en: 'Systems Development',
               fotoUrl: '',
               github: 'https://github.com/anaccremasco',
-              linkedin: '',
+              linkedin:
+                  'https://www.linkedin.com/in/ana-clara-cremasco-425799349?utm_source=share_via&utm_content=profile&utm_medium=member_android',
               email: 'anaclara.luizcremasco@gmail.com',
           },
           {
