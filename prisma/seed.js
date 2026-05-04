@@ -863,7 +863,7 @@ async function main() {
               curso_pt: 'Desenvolvimento de Sistemas',
               curso_en: 'Systems Development',
               fotoUrl: '',
-              github: '',
+              github: 'https://github.com/ferrnd',
               linkedin: '',
               email: 'evencio.tech@gmail.com',
           },
