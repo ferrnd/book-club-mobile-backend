@@ -846,6 +846,12 @@ async function main() {
                 conteudo_pt: 'Racismo estrutural no Brasil',
                 conteudo_en: 'Structural racism in Brazil',
             },
+            {
+                tipo_pt: 'Possíveis temas de redação sobre o livro principal',
+                tipo_en: 'Potential essay topics for the main book',
+                conteudo_pt: 'Invisibilidade social das mulheres negras',
+                conteudo_en: 'The social invisibility of Black women',
+            },
         ],
     });
 
