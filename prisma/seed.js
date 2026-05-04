@@ -903,8 +903,8 @@ async function main() {
             {
                 tipo_pt: 'Dicas de Vestibular sobre oConteúdo',
                 tipo_en: 'Potential essay topics for the main book',
-                conteudo_pt: 'Escrevivência',
-                conteudo_en: 'Writing-life',
+                conteudo_pt: 'Escrevivência (fusão entre escrita e vivência pessoal/coletiva)',
+                conteudo_en: 'Writing-life (Experience-based writing)',
             },
             {
                 tipo_pt: 'Dicas de Vestibular sobre oConteúdo',
