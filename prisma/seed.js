@@ -881,7 +881,7 @@ async function main() {
               curso_pt: 'Desenvolvimento de Sistemas',
               curso_en: 'Systems Development',
               fotoUrl: '',
-              github: '',
+              github: 'https://github.com/jppiva',
               linkedin: '',
               email: '',
           },
