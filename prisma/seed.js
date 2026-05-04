@@ -882,6 +882,12 @@ async function main() {
                 conteudo_pt: 'Desumanização de populações marginalizadas',
                 conteudo_en: 'The dehumanization of marginalized populations',
             },
+            {
+                tipo_pt: 'Possíveis temas de redação sobre o livro principal',
+                tipo_en: 'Potential essay topics for the main book',
+                conteudo_pt: 'O papel da literatura na denúncia social',
+                conteudo_en: 'The role of literature in social critique',
+            },
         ],
     });
 
