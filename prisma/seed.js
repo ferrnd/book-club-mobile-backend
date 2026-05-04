@@ -855,6 +855,21 @@ async function main() {
         ],
     });
 
+    console.log("🎥 Adicionando Videos Aulas...")
+
+    await prisma.videoaula.createMany({
+        data: [
+            {
+                titulo_pt: '',
+                titulo_en: '',
+                descricao_pt: '',
+                descricao_en: '',
+                url: '',
+            },
+        ],
+    });
+
+
     console.log('💡 inserindo dicas...');
 
     await prisma.dica.createMany({
