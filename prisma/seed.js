@@ -936,6 +936,12 @@ async function main() {
                 conteudo_pt: 'Maternidade sob condições de precariedade',
                 conteudo_en: 'Motherhood under precarious conditions',
             },
+            {
+                tipo_pt: 'Dicas de Vestibular sobre oConteúdo',
+                tipo_en: 'Potential essay topics for the main book',
+                conteudo_pt: 'Memória como ferramenta de resistência',
+                conteudo_en: 'Memory as a tool for resistance',
+            },
         ],
     });
 
