@@ -865,7 +865,7 @@ async function main() {
               fotoUrl: '',
               github: '',
               linkedin: '',
-              email: '',
+              email: 'evencio.tech@gmail.com',
           },
           {
               nome: 'Cauã Tupinambá',
