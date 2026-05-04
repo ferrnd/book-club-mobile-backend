@@ -23,7 +23,6 @@ model Projeto {
 model Livro {
   id                            Int      @id @default(autoincrement())
   titulo                        String
-  titulo_en                     String
   capa                          String
   autor                         String
   detalhesAutor                 String
