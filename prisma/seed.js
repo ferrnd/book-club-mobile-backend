@@ -864,6 +864,12 @@ async function main() {
                 conteudo_pt: 'Memória e ancestralidade como resistência',
                 conteudo_en: 'Memory and ancestry as forms of resistance',
             },
+            {
+                tipo_pt: 'Possíveis temas de redação sobre o livro principal',
+                tipo_en: 'Potential essay topics for the main book',
+                conteudo_pt: 'Violência urbana e suas consequências',
+                conteudo_en: 'Urban violence and its consequences',
+            },
         ],
     });
 
