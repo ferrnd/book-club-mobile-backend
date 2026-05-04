@@ -912,6 +912,12 @@ async function main() {
                 conteudo_pt: 'Ancestralidade e busca pelas raízes familiares',
                 conteudo_en: 'Ancestry and the search for family roots',
             },
+            {
+                tipo_pt: 'Dicas de Vestibular sobre oConteúdo',
+                tipo_en: 'Potential essay topics for the main book',
+                conteudo_pt: 'Racismo estrutural e violência institucional',
+                conteudo_en: 'Structural racism and institutional violence',
+            },
         ],
     });
 
