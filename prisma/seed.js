@@ -898,7 +898,7 @@ async function main() {
               fotoUrl:
                   'https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/joao-pedro-piva.png?token=GHSAT0AAAAAAD4FPUYAWQWLQHTGID2AOEN22PYQHLQ',
               github: 'https://github.com/jppiva',
-              linkedin: '',
+              linkedin: 'https://www.linkedin.com/in/jo%C3%A3o-pedro-piva-nogueira-2643b835a/',
               email: 'joaopedropiva17@gmail.com',
           },
           {
