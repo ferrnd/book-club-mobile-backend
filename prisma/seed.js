@@ -904,7 +904,13 @@ async function main() {
                 tipo_pt: 'Dicas de Vestibular sobre oConteúdo',
                 tipo_en: 'Potential essay topics for the main book',
                 conteudo_pt: 'Escrevivência',
-                conteudo_en: '(Writing-life',
+                conteudo_en: 'Writing-life',
+            },
+            {
+                tipo_pt: 'Dicas de Vestibular sobre oConteúdo',
+                tipo_en: 'Potential essay topics for the main book',
+                conteudo_pt: 'Ancestralidade e busca pelas raízes familiares',
+                conteudo_en: 'Ancestry and the search for family roots',
             },
         ],
     });
