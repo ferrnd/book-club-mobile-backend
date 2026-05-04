@@ -854,7 +854,7 @@ async function main() {
     ],
   });
 
-    console.log("💡 inserindo dicas");
+    console.log("💡 inserindo dicas...");
 
      await prisma.dica.createMany({
          data: [
