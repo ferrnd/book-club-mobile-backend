@@ -854,6 +854,19 @@ async function main() {
     ],
   });
 
+    console.log("💡 inserindo dicas");
+
+     await prisma.dica.createMany({
+         data: [
+             {
+                 tipo_pt: '',
+                 tipo_en: '',
+                 conteudo_pt: '',
+                 conteudo_en: '',
+             },
+         ],
+     });
+
   console.log("👥 Inserindo membros...");
 
   await prisma.membro.createMany({
