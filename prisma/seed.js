@@ -874,7 +874,7 @@ async function main() {
               fotoUrl: '',
               github: 'https://github.com/dev-tupizin',
               linkedin: '',
-              email: '',
+              email: 'cauatupinamba@gmail.com',
           },
           {
               nome: 'João Pedro Piva',
