@@ -841,10 +841,10 @@ async function main() {
     await prisma.dica.createMany({
         data: [
             {
-                tipo_pt: '',
-                tipo_en: '',
-                conteudo_pt: '',
-                conteudo_en: '',
+                tipo_pt: 'Possíveis temas de redação sobre o livro principal',
+                tipo_en: 'Potential essay topics for the main book',
+                conteudo_pt: 'Racismo estrutural no Brasil',
+                conteudo_en: 'Structural racism in Brazil',
             },
         ],
     });
