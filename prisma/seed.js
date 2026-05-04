@@ -883,7 +883,7 @@ async function main() {
               fotoUrl: '',
               github: 'https://github.com/jppiva',
               linkedin: '',
-              email: '',
+              email: 'joaopedropiva17@gmail.com',
           },
           {
               nome: 'Ana Clara Cremasco',
