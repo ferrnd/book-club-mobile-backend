@@ -888,7 +888,7 @@ async function main() {
               fotoUrl:
                   'https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/caua-tupinamba.png?token=GHSAT0AAAAAAD4FPUYAPNDTOGHTBQ6QLGUI2PYQOIA',
               github: 'https://github.com/dev-tupizin',
-              linkedin: '',
+              linkedin: 'https://www.linkedin.com/in/cau%C3%A3-tupinamba-7858a1349/',
               email: 'cauatupinamba@gmail.com',
           },
           {
