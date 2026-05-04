@@ -924,6 +924,12 @@ async function main() {
                 conteudo_pt: 'Protagonismo feminino negro e sororidade',
                 conteudo_en: 'Black female protagonism and sisterhood',
             },
+            {
+                tipo_pt: 'Dicas de Vestibular sobre oConteúdo',
+                tipo_en: 'Potential essay topics for the main book',
+                conteudo_pt: 'Fome e vulnerabilidade socioeconômica',
+                conteudo_en: 'Hunger and socioeconomic vulnerability',
+            },
         ],
     });
 
