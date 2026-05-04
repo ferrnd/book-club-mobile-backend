@@ -926,7 +926,8 @@ async function main() {
               curso_en: 'Systems Development',
               fotoUrl: '',
               github: 'https://github.com/mariaeandrade',
-              linkedin: '',
+              linkedin:
+                  'https://www.linkedin.com/in/maria-eduarda-andrade-6878a2349?utm_source=share_via&utm_content=profile&utm_medium=member_ios',
               email: 'dudadeandrade13@gmail.com',
           },
           {
