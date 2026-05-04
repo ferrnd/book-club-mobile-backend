@@ -880,7 +880,8 @@ async function main() {
               nome: 'João Pedro Piva',
               curso_pt: 'Desenvolvimento de Sistemas',
               curso_en: 'Systems Development',
-              fotoUrl: '',
+              fotoUrl:
+                  'https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/joao-pedro-piva.png?token=GHSAT0AAAAAAD4FPUYAWQWLQHTGID2AOEN22PYQHLQ',
               github: 'https://github.com/jppiva',
               linkedin: '',
               email: 'joaopedropiva17@gmail.com',
