@@ -930,6 +930,12 @@ async function main() {
                 conteudo_pt: 'Fome e vulnerabilidade socioeconômica',
                 conteudo_en: 'Hunger and socioeconomic vulnerability',
             },
+            {
+                tipo_pt: 'Dicas de Vestibular sobre oConteúdo',
+                tipo_en: 'Potential essay topics for the main book',
+                conteudo_pt: 'Maternidade sob condições de precariedade',
+                conteudo_en: 'Motherhood under precarious conditions',
+            },
         ],
     });
 
