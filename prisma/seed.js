@@ -894,6 +894,12 @@ async function main() {
                 conteudo_pt: 'Infância em contextos de vulnerabilidade',
                 conteudo_en: 'Childhood in contexts of vulnerability',
             },
+            {
+                tipo_pt: 'Possíveis temas de redação sobre o livro principal',
+                tipo_en: 'Potential essay topics for the main book',
+                conteudo_pt: 'Resistência e sobrevivência nas periferias',
+                conteudo_en: 'Resistance and survival in the outskirts (urban peripheries)',
+            },
         ],
     });
 
