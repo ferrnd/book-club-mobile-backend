@@ -892,7 +892,7 @@ async function main() {
               fotoUrl: '',
               github: 'https://github.com/anaccremasco',
               linkedin: '',
-              email: '',
+              email: 'anaclara.luizcremasco@gmail.com',
           },
           {
               nome: 'Daniel Casalli',
