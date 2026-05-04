@@ -901,7 +901,7 @@ async function main() {
               fotoUrl: '',
               github: 'https://github.com/daniel-casalli02',
               linkedin: '',
-              email: '',
+              email: 'casallidan7@gmail.com',
           },
           {
               nome: 'Maria Eduarda de Andrade',
