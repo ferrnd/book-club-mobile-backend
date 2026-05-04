@@ -942,6 +942,12 @@ async function main() {
                 conteudo_pt: 'Memória como ferramenta de resistência',
                 conteudo_en: 'Memory as a tool for resistance',
             },
+            {
+                tipo_pt: 'Dicas de Vestibular sobre oConteúdo',
+                tipo_en: 'Potential essay topics for the main book',
+                conteudo_pt: 'Subjetividade e humanização de corpos marginalizados',
+                conteudo_en: 'Subjectivity and the humanization of marginalized bodies',
+            },
         ],
     });
 
