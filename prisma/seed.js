@@ -871,7 +871,8 @@ async function main() {
               nome: 'Cauã Tupinambá',
               curso_pt: 'Desenvolvimento de Sistemas',
               curso_en: 'Systems Development',
-              fotoUrl: '',
+              fotoUrl:
+                  'https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/caua-tupinamba.png?token=GHSAT0AAAAAAD4FPUYAPNDTOGHTBQ6QLGUI2PYQOIA',
               github: 'https://github.com/dev-tupizin',
               linkedin: '',
               email: 'cauatupinamba@gmail.com',
