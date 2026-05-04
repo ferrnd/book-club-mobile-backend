@@ -910,7 +910,7 @@ async function main() {
               fotoUrl: '',
               github: 'https://github.com/mariaeandrade',
               linkedin: '',
-              email: '',
+              email: 'dudadeandrade13@gmail.com',
           },
           {
               nome: 'Gustavo Lima',
