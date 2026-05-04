@@ -876,6 +876,12 @@ async function main() {
                 conteudo_pt: 'A fome como problema social e político',
                 conteudo_en: 'Hunger as a social and political issue',
             },
+            {
+                tipo_pt: 'Possíveis temas de redação sobre o livro principal',
+                tipo_en: 'Potential essay topics for the main book',
+                conteudo_pt: 'Desumanização de populações marginalizadas',
+                conteudo_en: 'The dehumanization of marginalized populations',
+            },
         ],
     });
 
