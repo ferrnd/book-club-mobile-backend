@@ -900,7 +900,8 @@ async function main() {
               nome: 'Daniel Casalli',
               curso_pt: 'Desenvolvimento de Sistemas',
               curso_en: 'Systems Development',
-              fotoUrl: '',
+              fotoUrl:
+                  'https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/daniel-casalli.png?token=GHSAT0AAAAAAD4FPUYAXZI63VOAHVWLV5QM2PYQTRQ',
               github: 'https://github.com/daniel-casalli02',
               linkedin: '',
               email: 'casallidan7@gmail.com',
