@@ -852,6 +852,12 @@ async function main() {
                 conteudo_pt: 'Invisibilidade social das mulheres negras',
                 conteudo_en: 'The social invisibility of Black women',
             },
+            {
+                tipo_pt: 'Possíveis temas de redação sobre o livro principal',
+                tipo_en: 'Potential essay topics for the main book',
+                conteudo_pt: 'Pobreza e desigualdade social',
+                conteudo_en: 'Poverty and social inequality',
+            },
         ],
     });
 
