@@ -97,7 +97,7 @@ async function main() {
         },
     });
 
-    console.log('Inserindo Autor...');
+    console.log('👤 Inserindo Autor...');
 
     await prisma.autor.create({
         data: {
