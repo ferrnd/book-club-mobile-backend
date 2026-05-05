@@ -866,6 +866,13 @@ async function main() {
                 descricao_en: 'video class about the main book',
                 url: 'https://www.youtube.com/',
             },
+            {
+                titulo_pt: 'video aula 2',
+                titulo_en: 'video class 2',
+                descricao_pt: 'video aula sobre o livro principal',
+                descricao_en: 'video class about the main book',
+                url: 'https://www.youtube.com/',
+            },
         ],
     });
 
