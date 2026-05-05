@@ -100,8 +100,8 @@ model Citacao {
     conto       Conto    @relation(fields: [contoId], references: [id])
     contoId     Int
     personagem  String
-    explicao_pt String   @db.Text
-    explicao_en String   @db.Text
+    explicacao_pt String   @db.Text
+    explicacao_en String   @db.Text
     createdAt   DateTime @default(now())
     updatedAt   DateTime @updatedAt
 
