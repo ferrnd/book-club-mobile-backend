@@ -52,7 +52,8 @@ model Autor {
     nome              String
     fotoUrl           String?
     nascimento        String
-    nacionalidade     String
+    nacionalidade_pt  String
+    nacionalidade_en  String
     biografia_pt      String   @db.Text
     biografia_en      String   @db.Text
     estilo_escrita_pt String   @db.Text
