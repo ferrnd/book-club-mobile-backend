@@ -1,15 +1,22 @@
 {
-  "name": "Watery Eyes - BackEnd",
+  "name": "book-club-mobile-backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "Collaborative and bilingual (PT/EN) digital platform for literature study, focused on Brazilian college entrance exams. SENAI/SESI Capstone Project.",
   "main": "server.js",
   "type": "module",
   "private": true,
   "scripts": {
     "dev": "cls && nodemon src/server.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "SENAI",
+    "NodeJS",
+    "Express",
+    "API",
+    "Prisma",
+    "PostgreSQL"
+  ],
+  "author": "Fernando Santos Evêncio da Silva",
   "license": "MIT",
   "dependencies": {
     "@prisma/adapter-pg": "^7.3.0",
