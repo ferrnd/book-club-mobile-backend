@@ -1,55 +1,52 @@
 import prisma from '../lib/services/prismaClient.js';
 
-export default class ExemploModel {
-    constructor({ id = null, nome, estado = true, preco = null } = {}) {
+export default class LivroModel {
+    constructor({ id = null, titulo, capa = null, autor = null } = {}) {
         this.id = id;
-        this.nome = nome;
-        this.estado = estado;
-        this.preco = preco;
+        this.titulo = titulo;
+        this.capa = capa;
+        this.autor = autor;
     }
 
     async criar() {
-        return prisma.exemplo.create({
+        return prisma.livro.create({
             data: {
-                nome: this.nome,
-                estado: this.estado,
-                preco: this.preco,
+                titulo: this.titulo,
+                capa: this.capa,
+                autor: this.autor,
             },
         });
     }
 
     async atualizar() {
-        return prisma.exemplo.update({
+        return prisma.livro.update({
             where: { id: this.id },
-            data: { nome: this.nome, estado: this.estado, preco: this.preco },
+            data: { titulo: this.titulo, capa: this.capa, autor: this.autor },
         });
     }
 
     async deletar() {
-        return prisma.exemplo.delete({ where: { id: this.id } });
+        return prisma.livro.delete({ where: { id: this.id } });
     }
 
     static async buscarTodos(filtros = {}) {
         const where = {};
 
-        if (filtros.nome) {
-            where.nome = { contains: filtros.nome, mode: 'insensitive' };
+        if (filtros.titulo) {
+            where.titulo = { contains: filtros.titulo, mode: 'insensitive' };
         }
-        if (filtros.estado !== undefined) {
-            where.estado = filtros.estado === 'true';
-        }
-        if (filtros.preco !== undefined) {
-            where.preco = parseFloat(filtros.preco);
+        if (filtros.autor) {
+            where.autor = { contains: filtros.autor, mode: 'insensitive' };
         }
 
-        return prisma.exemplo.findMany({ where });
+        return prisma.livro.findMany({ where });
     }
 
     static async buscarPorId(id) {
-        const data = await prisma.exemplo.findUnique({ where: { id } });
+        const data = await prisma.livro.findUnique({ where: { id } });
         if (!data) {
             return null;
         }
-        return new ExemploModel(data);
+        return new LivroModel(data);
     }
 }
