@@ -860,11 +860,11 @@ async function main() {
     await prisma.videoaula.createMany({
         data: [
             {
-                titulo_pt: '',
-                titulo_en: '',
-                descricao_pt: '',
-                descricao_en: '',
-                url: '',
+                titulo_pt: 'video aula 1',
+                titulo_en: 'video class 1',
+                descricao_pt: 'video aula sobre o livro principal',
+                descricao_en: 'video class about the main book',
+                url: 'https://www.youtube.com/',
             },
         ],
     });
