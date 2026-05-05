@@ -1010,7 +1010,7 @@ async function main() {
                 curso_pt: 'Desenvolvimento de Sistemas',
                 curso_en: 'Systems Development',
                 fotoUrl:
-                    'https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/caua-tupinamba.png?token=GHSAT0AAAAAAD4FPUYAPNDTOGHTBQ6QLGUI2PYQOIA',
+                    'https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/caua-tupinamba.png',
                 github: 'https://github.com/dev-tupizin',
                 linkedin: 'https://www.linkedin.com/in/cau%C3%A3-tupinamba-7858a1349/',
                 email: 'cauatupinamba@gmail.com',
@@ -1020,7 +1020,7 @@ async function main() {
                 curso_pt: 'Desenvolvimento de Sistemas',
                 curso_en: 'Systems Development',
                 fotoUrl:
-                    'https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/joao-pedro-piva.png?token=GHSAT0AAAAAAD4FPUYAWQWLQHTGID2AOEN22PYQHLQ',
+                    'https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/joao-pedro-piva.png',
                 github: 'https://github.com/jppiva',
                 linkedin: 'https://www.linkedin.com/in/jo%C3%A3o-pedro-piva-nogueira-2643b835a/',
                 email: 'joaopedropiva17@gmail.com',
@@ -1040,7 +1040,7 @@ async function main() {
                 curso_pt: 'Desenvolvimento de Sistemas',
                 curso_en: 'Systems Development',
                 fotoUrl:
-                    'https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/daniel-casalli.png?token=GHSAT0AAAAAAD4FPUYAXZI63VOAHVWLV5QM2PYQTRQ',
+                    'https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/daniel-casalli.png',
                 github: 'https://github.com/daniel-casalli02',
                 linkedin: '',
                 email: 'casallidan7@gmail.com',
