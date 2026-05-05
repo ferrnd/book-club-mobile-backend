@@ -12,16 +12,16 @@ async function main() {
     console.log('🌱 Resetando tabela...');
 
     // Remove todos os registros
-    await prisma.projeto.deleteMany();
-    await prisma.livro.deleteMany();
-    await prisma.autor.deleteMany();
-    await prisma.conto.deleteMany();
-    await prisma.personagem.deleteMany();
-    await prisma.citacao.deleteMany();
-    await prisma.quiz.deleteMany();
-    await prisma.videoAula.deleteMany();
-    await prisma.dica.deleteMany();
-    await prisma.membro.deleteMany();
+   await prisma.citacao.deleteMany();     
+   await prisma.personagem.deleteMany(); 
+   await prisma.conto.deleteMany();      
+   await prisma.projeto.deleteMany();
+   await prisma.livro.deleteMany();
+   await prisma.autor.deleteMany();
+   await prisma.quiz.deleteMany();
+   await prisma.videoAula.deleteMany();
+   await prisma.dica.deleteMany();
+   await prisma.membro.deleteMany();
 
     console.log('📦 Inserindo Dados Do Projeto...');
 
