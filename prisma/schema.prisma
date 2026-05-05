@@ -25,8 +25,8 @@ model Livro {
   titulo                        String
   capa                          String
   autor                         String
-  detalhesAutor                 String
-  detalhesAutor_en              String
+  detalhesAutor                 String   @db.Text
+  detalhesAutor_en              String   @db.Text
   anoPublicacao                 Int
   genero                        String
   genero_en                     String
