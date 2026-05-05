@@ -19,7 +19,7 @@ async function main() {
     await prisma.personagem.deleteMany();
     await prisma.citacao.deleteMany();
     await prisma.quiz.deleteMany();
-    await prisma.videoaula.deleteMany();
+    await prisma.videoAula.deleteMany();
     await prisma.dica.deleteMany();
     await prisma.membro.deleteMany();
 
@@ -857,7 +857,7 @@ async function main() {
 
     console.log("🎥 Adicionando Videos Aulas...")
 
-    await prisma.videoaula.createMany({
+    await prisma.videoAula.createMany({
         data: [
             {
                 titulo_pt: 'video aula 1',
