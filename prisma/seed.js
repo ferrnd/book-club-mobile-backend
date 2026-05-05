@@ -330,7 +330,7 @@ async function main() {
 
     console.log('👥 Inserindo personagens...');
 
-    const contos = await prisma.conto.findMany({
+    const contosData = await prisma.conto.findMany({
         select: { id: true, titulo_pt: true },
     });
 
@@ -348,7 +348,7 @@ async function main() {
                     "Companheira de Davenga, chefe de uma quadrilha numa favela. Aprende a conviver com a vida do crime sem se envolver diretamente — 'cega, surda e muda' quanto aos assuntos dos homens. Tem presença firme e é respeitada. Apaixonada por Davenga, enxuga as lágrimas dele no 'gozo-pranto'. Sua noite de paz se rompe com a chegada dos companheiros sem o marido — prenúncio trágico.",
                 descricao_en:
                     "Companion to Davenga, leader of a criminal gang in a favela. She learns to live with the life of crime without directly involving herself — 'blind, deaf and mute' to the affairs of men. She has a firm presence and is respected. In love with Davenga, she wipes his tears in the 'climax-tears'. Her night of peace is shattered by the arrival of his companions without him — a tragic omen.",
-                contoId: contos.find((c) => c.titulo_pt === 'Ana Davenga')?.id,
+                contoId: contosData.find((c) => c.titulo_pt === 'Ana Davenga')?.id,
             },
             {
                 nome: 'Maria',
@@ -362,7 +362,7 @@ async function main() {
                     'Trabalhadora doméstica que mora numa favela e serve numa casa de família rica. Enfrenta violência simbólica e física no transporte e nas ruas. Seu cotidiano revela as múltiplas camadas de opressão — de classe, raça e gênero — que recaem sobre mulheres negras que sustentam casas alheias enquanto lutam para manter a sua.',
                 descricao_en:
                     "A domestic worker who lives in a favela and serves a wealthy family. She faces symbolic and physical violence in transportation and on the streets. Her daily life reveals the multiple layers of oppression — of class, race, and gender — that fall upon Black women who sustain other people's homes while struggling to maintain their own.",
-                contoId: contos.find((c) => c.titulo_pt === 'Maria')?.id,
+                contoId: contosData.find((c) => c.titulo_pt === 'Maria')?.id,
             },
             {
                 nome: 'Cida',
@@ -376,7 +376,7 @@ async function main() {
                     "Doméstica cuja rotina de trabalho é retratada como uma corrida sem fim. O 'cooper' do título é metáfora poderosa: ela corre o tempo todo, mas no mesmo lugar. Representa o esforço exaustivo de mulheres negras trabalhadoras que equilibram o sustento da família com as demandas de patrões, transporte, casa e filhos — tudo isso na 'corda bamba do tempo'.",
                 descricao_en:
                     "A domestic worker whose work routine is portrayed as an endless race. The 'cooper' of the title is a powerful metaphor: she runs all the time, but in the same place. She represents the exhausting effort of working Black women who balance family sustenance with the demands of employers, transportation, home, and children — all of this on the 'tightrope of time'.",
-                contoId: contos.find((c) => c.titulo_pt === 'O cooper de Cida')?.id,
+                contoId: contosData.find((c) => c.titulo_pt === 'O cooper de Cida')?.id,
             },
             {
                 nome: 'Lumbiá',
@@ -390,7 +390,7 @@ async function main() {
                     "Menino abandonado pela sociedade, símbolo do extermínio da infância negra pobre nas grandes cidades. Sua regressão física ao estado fetal é descrita pelo prefácio como uma 'síntese irreparável' — não há saída, não há futuro possível para quem nasceu onde ele nasceu. Representa os meninos perdidos que são 'herdeiros de mães sem nome, herança que as mulheres deixaram e que ninguém quis receber'.",
                 descricao_en:
                     "A boy abandoned by society, a symbol of the extermination of poor Black childhood in big cities. His physical regression to the fetal state is described by the foreword as an 'irreparable synthesis' — there is no way out, no possible future for one born where he was born. He represents the lost boys who are 'heirs of mothers without names, an inheritance that women left behind and no one wanted to receive'.",
-                contoId: contos.find((c) => c.titulo_pt === 'Lumbiá')?.id,
+                contoId: contosData.find((c) => c.titulo_pt === 'Lumbiá')?.id,
             },
             {
                 nome: 'Zaíta',
@@ -404,7 +404,7 @@ async function main() {
                     "Criança que vive numa favela dominada por tiroteios entre grupos rivais. Seu irmão mais velho é líder do grupo mais armado. Zaíta procura uma figurinha em forma de flor — símbolo da inocência que persiste no meio da tragédia. É assassinada por uma bala perdida num confronto. A última frase da irmã — 'Zaíta, você esqueceu de guardar os brinquedos!' — é um dos momentos mais devastadores da literatura brasileira contemporânea.",
                 descricao_en:
                     "A child living in a favela dominated by shootouts between rival groups. Her older brother is the leader of the most armed group. Zaíta searches for a small figure in the shape of a flower — a symbol of innocence that persists amid tragedy. She is killed by a stray bullet in a confrontation. The last phrase of her sister — 'Zaíta, you forgot to put away the toys!' — is one of the most devastating moments in contemporary Brazilian literature.",
-                contoId: contos.find(
+                contoId: contosData.find(
                     (c) => c.titulo_pt === 'Zaíta esqueceu de guardar os brinquedos',
                 )?.id,
             },
@@ -420,7 +420,7 @@ async function main() {
                     "Ex-prostituta que viveu anos nas ruas. Carrega em si a 'querença' — o desejo fundo de reinventar a vida. Umedecia seus sonhos para que eles 'florescessem e se cumprissem vivos e reais'. Representa a resistência silenciosa de quem sobrevive à margem da sociedade, guardando dentro de si uma chama de dignidade que o mundo tenta apagar.",
                 descricao_en:
                     "A former prostitute who lived on the streets for years. She carries within her the 'querença' — the deep desire to reinvent her life. She moistened her dreams so that they 'would flourish and come true, alive and real.' She represents the silent resistance of one who survives on society's margins, keeping within herself a flame of dignity that the world tries to extinguish.",
-                contoId: contos.find((c) => c.titulo_pt === 'Duzu-Querença')?.id,
+                contoId: contosData.find((c) => c.titulo_pt === 'Duzu-Querença')?.id,
             },
             {
                 nome: 'Luamanda',
@@ -434,7 +434,7 @@ async function main() {
                     "Mulher em processo de rememoração profunda de sua vida amorosa e erótica. Seu nome é uma aglutinação de 'lua' e 'mandar' — ela é regida pela lua e pelo desejo. Reflete sobre seus amores: o platônico aos onze anos, o primeiro relacionamento aos treze, a grande paixão que lhe deu cinco filhos, e também amores em 'braços iguais aos seus'. Questiona sem pudor: 'O amor se guarda só na ponta de um falo ou nasce também dos lábios vaginais de um coração de uma mulher para a outra?'",
                 descricao_en:
                     "A woman in a process of deep remembrance of her romantic and erotic life. Her name is an agglutination of 'moon' and 'to command' — she is governed by the moon and desire. She reflects on her loves: the platonic one at eleven, her first relationship at thirteen, the great passion that gave her five children, and also loves in 'arms like her own.' She questions without shame: 'Is love kept only at the tip of a phallus or is it also born from the vaginal lips of a woman's heart to another woman's?'",
-                contoId: contos.find((c) => c.titulo_pt === 'Luamanda')?.id,
+                contoId: contosData.find((c) => c.titulo_pt === 'Luamanda')?.id,
             },
             {
                 nome: 'Ayoluwa',
@@ -448,7 +448,7 @@ async function main() {
                     "Ayoluwa é o raio de sol que encerra a obra. Seu nome, que em iorubá significa 'a alegria do nosso povo', define sua função na narrativa: ela é a prova de que o projeto de morte não venceu. Sua personagem é uma mensagem de futurismo negro, indicando que, apesar das águas de lágrimas que banham o livro, novas vidas continuarão a nascer com a missão de renovar a esperança e a alegria da comunidade.",
                 descricao_en:
                     "Ayoluwa is the ray of sunshine that closes the work. Her name, which in Yoruba means 'the joy of our people,' defines her role in the narrative: she is proof that the project of death has not triumphed. Her character is a message of Black futurism, indicating that despite the waters of tears that bathe the book, new lives will continue to be born with the mission to renew hope and joy in the community.",
-                contoId: contos.find((c) => c.titulo_pt === 'Ayoluwa, a alegria de nosso povo')?.id,
+                contoId: contosData.find((c) => c.titulo_pt === 'Ayoluwa, a alegria de nosso povo')?.id,
             },
             {
                 nome: 'Natalina',
@@ -462,7 +462,7 @@ async function main() {
                     'Protagonista de uma trajetória de maternidades não escolhidas. Sua história questiona radicalmente a maternidade compulsória: grávida pela primeira vez quase criança, tentou interromper a gestação com chás que a mãe preparava. Viveu a tensão entre o que o corpo carregava e o que a alma desejava. Representa mulheres que nunca tiveram o direito de dizer quantos filhos queriam ter.',
                 descricao_en:
                     'Protagonist of a trajectory of unchosen motherhood. Her story radically questions compulsory maternity: pregnant for the first time as almost a child, she tried to interrupt the pregnancy with teas that her mother prepared. She lived the tension between what her body carried and what her soul desired. She represents women who never had the right to say how many children they wanted to have.',
-                contoId: contos.find((c) => c.titulo_pt === 'Quantos filhos Natalina teve?')?.id,
+                contoId: contosData.find((c) => c.titulo_pt === 'Quantos filhos Natalina teve?')?.id,
             },
             {
                 nome: 'Salinda',
@@ -476,7 +476,7 @@ async function main() {
                     'Personagem que atravessa o tema da violência sexual e do abuso. Sua história denuncia a violação do corpo feminino negro como algo corriqueiro e silenciado. Representa a dor de tantas mulheres que carregam no rosto e no corpo memórias de violências que o mundo prefere ignorar. Sua resistência é a de quem sobrevive ao insuportável e ainda assim continua existindo.',
                 descricao_en:
                     'Character who traverses the theme of sexual violence and abuse. Her story denounces the violation of the Black female body as something routine and silenced. She represents the pain of so many women who carry in their faces and bodies memories of violence that the world prefers to ignore. Her resistance is that of one who survives the unbearable and still continues to exist.',
-                contoId: contos.find((c) => c.titulo_pt === 'Beijo na face')?.id,
+                contoId: contosData.find((c) => c.titulo_pt === 'Beijo na face')?.id,
             },
             {
                 nome: 'Di Lixão',
@@ -490,7 +490,7 @@ async function main() {
                     "Menino de rua que representa o abandono completo do Estado em relação à infância negra periférica. Assim como Lumbiá, Di Lixão é um dos 'meninos perdidos' da obra. Seu nome é sua sentença social. A brutalidade poética de Conceição Evaristo o retrata sem sentimentalismos, mas com toda a força de quem denuncia que essa criança existiu — e que a sociedade decidiu descartá-la.",
                 descricao_en:
                     "Street boy who represents the complete abandonment by the State in relation to peripheral Black childhood. Like Lumbiá, Di Lixão is one of the 'lost boys' of the work. His name is his social sentence. The poetic brutality of Conceição Evaristo portrays him without sentimentalisms, but with all the force of one who denounces that this child existed — and that society decided to discard him.",
-                contoId: contos.find((c) => c.titulo_pt === 'Di lixão')?.id,
+                contoId: contosData.find((c) => c.titulo_pt === 'Di lixão')?.id,
             },
             {
                 nome: 'Kimbá',
@@ -504,7 +504,7 @@ async function main() {
                     "Jovem que acorda antes de todos num barraco onde vivem sua vó Lidumira, mãe, tias e duas irmãs, além do irmão mais velho Raimundo — sempre bêbado. Kimbá decide que é preciso 'movimentar a vida até a morte' e parte. A descoberta de que era atraente também para homens é descrita como 'perturbadora' para ele. Representa o jovem negro que tenta construir um caminho próprio fora da violência do morro, carregando ao mesmo tempo a beleza e a vulnerabilidade de existir num mundo que criminaliza corpos como o seu.",
                 descricao_en:
                     "Young man who wakes before everyone else in a shack where his grandmother Lidumira, mother, aunts, and two sisters live, as well as his older brother Raimundo — always drunk. Kimbá decides that it is necessary to 'move life until death' and leaves. The discovery that he was also attractive to men is described as 'disturbing' for him. He represents the young Black man who tries to build his own path outside the violence of the favela, carrying at the same time the beauty and vulnerability of existing in a world that criminalizes bodies like his.",
-                contoId: contos.find((c) => c.titulo_pt === 'Os amores de Kimbá')?.id,
+                contoId: contosData.find((c) => c.titulo_pt === 'Os amores de Kimbá')?.id,
             },
         ],
     });
