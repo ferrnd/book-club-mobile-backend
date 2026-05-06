@@ -3,6 +3,7 @@ import 'dotenv/config';
 import livrosRoutes from './routes/livroRoute.js';
 import projetoRoutes from './routes/projetoRoute.js';
 import autorRoutes from './routes/autorRoute.js';
+import contoRoutes from './routes/contoRoute.js';
 
 const app = express();
 const PORT = process.env.PORT || 3001;
@@ -16,6 +17,7 @@ app.get('/', (req, res) => {
 app.use('/', livrosRoutes);
 app.use('/', projetoRoutes);
 app.use('/', autorRoutes);
+app.use('/', contoRoutes);
 
 app.use((req, res) => {
     res.status(404).json({ error: 'Rota não encontrada' });
