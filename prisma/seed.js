@@ -1001,7 +1001,7 @@ async function main() {
                 nome: 'Fernando Santos',
                 curso_pt: 'Desenvolvimento de Sistemas',
                 curso_en: 'Systems Development',
-                fotoUrl: '',
+                fotoUrl: 'https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/fernando-santos.jpeg',
                 github: 'https://github.com/ferrnd',
                 linkedin: 'https://www.linkedin.com/in/ferrnd/',
                 email: 'evencio.tech@gmail.com',
