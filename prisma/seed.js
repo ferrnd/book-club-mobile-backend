@@ -1003,7 +1003,7 @@ async function main() {
                 curso_en: 'Systems Development',
                 fotoUrl: '',
                 github: 'https://github.com/ferrnd',
-                linkedin: '',
+                linkedin: 'https://www.linkedin.com/in/ferrnd/',
                 email: 'evencio.tech@gmail.com',
             },
             {
