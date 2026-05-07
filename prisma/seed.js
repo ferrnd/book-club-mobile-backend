@@ -965,6 +965,12 @@ async function main() {
           "Resistance and survival in the outskirts (urban peripheries)",
       },
       {
+        tipo_pt: "Interpretação da equipe sobre o livro principal",
+        tipo_en: "Team's interpretation about the main book",
+        conteudo_pt: "",
+        conteudo_en:"",
+      },
+      {
         tipo_pt: "Dicas de Vestibular sobre o Conteúdo",
         tipo_en: "Potential essay topics for the main book",
         conteudo_pt:
