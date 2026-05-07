@@ -40,7 +40,7 @@ async function main() {
     },
   });
 
-  console.log("📦 Inserindo Dados Do Livro...");
+  console.log("📘 Inserindo Dados Do Livro...");
 
   await prisma.livro.create({
     data: {
