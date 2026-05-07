@@ -1103,7 +1103,7 @@ async function main() {
         nome: "Rafaela Barros",
         curso_pt: "Eletro Eletronica",
         curso_en: "Electro Electronics",
-        fotoUrl: "",
+        fotoUrl: "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/rafaela-barros.png",
         github: "",
         linkedin: "",
         email: "",
