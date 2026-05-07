@@ -1013,6 +1013,60 @@ async function main() {
         conteudo_pt: "Subjetividade e humanização de corpos marginalizados",
         conteudo_en: "Subjectivity and the humanization of marginalized bodies",
       },
+      {
+        tipo_pt: "Curiosidades",
+        tipo_en: "Curiosities",
+        conteudo_pt: "É uma coletânea de 15 contos publicada em 2014 pela editora Pallas, com segunda edição em 2016.",
+        conteudo_en: "It is a collection of 15 short stories published in 2014 by Pallas publisher, with a second edition in 2016.",
+      },
+      {
+        tipo_pt: "Curiosidades",
+        tipo_en: "Curiosities",
+        conteudo_pt: "O título vem do conto homônimo, que abre a obra, no qual a narradora tenta recordar a cor dos olhos da mãe — uma imagem que mistura memória, saudade e identidade.",
+        conteudo_en: "The title comes from the homonymous short story that opens the work, in which the narrator tries to recall the color of her mother's eyes — an image that blends memory, longing, and identity.",
+      },
+      {
+        tipo_pt: "Curiosidades",
+        tipo_en: "Curiosities",
+        conteudo_pt: "O livro ganhou o Prêmio Jabuti de 2015 na categoria Contos e Cronicas, um dos maiores reconhecimentos literários do Brasil.",
+        conteudo_en: "The book won the 2015 Jabuti Prize in the Short Stories and Chronicles category, one of the greatest literary awards in Brazil.",
+      },
+      {
+        tipo_pt: "Curiosidades",
+        tipo_en: "Curiosities",
+        conteudo_pt: "Os contos são fortemente marcados pelo conceito de \"escrevivência\", termo criado pela própria Conceição Evaristo para definir uma escrita que nasce da vivência — especialmente da vivência de mulheres negras e periféricas.",
+        conteudo_en: "The short stories are strongly marked by the concept of 'writing-life', a term created by Conceição Evaristo herself to define a writing that is born from experience — especially the experience of Black and peripheral women.",
+      },
+      {
+        tipo_pt: "Curiosidades",
+        tipo_en: "Curiosities",
+        conteudo_pt: "As personagens centrais são, em sua maioria, mulheres negras em situação de vulnerabilidade: mães, avós, trabalhadoras domésticas, moradoras de favela. Evaristo as trata com profundidade e dignidade, fugindo dos estereótipos.",
+        conteudo_en: "The central characters are, for the most part, Black women in situations of vulnerability: mothers, grandmothers, domestic workers, residents of shantytowns. Evaristo treats them with depth and dignity, avoiding stereotypes.",
+      },
+      {
+        tipo_pt: "Curiosidades",
+        tipo_en: "Curiosities",
+        conteudo_pt: "A linguagem oscila entre o lírico e o cru, misturando poesia e brutalidade de forma muito particular.",
+        conteudo_en: "The language oscillates between the lyrical and the raw, mixing poetry and brutality in a very particular way.",
+      },
+      {
+        tipo_pt: "Curiosidades",
+        tipo_en: "Curiosities",
+        conteudo_pt: "Os contos exploram violência doméstica, racismo estrutural, maternidade, pobreza, solidariedade entre mulheres e a força da ancestralidade africana.",
+        conteudo_en: "The short stories explore domestic violence, structural racism, motherhood, poverty, solidarity among women, and the strength of African ancestry.",
+      },
+      {
+        tipo_pt: "Curiosidades",
+        tipo_en: "Curiosities",
+        conteudo_pt: "O conto \"Duzu-Querença\" é frequentemente destacado pela crítica como um dos mais poderosos, retratando a trajetória de uma mulher que vai da infância à velhice em condições de extrema exclusão.",
+        conteudo_en: "The short story 'Duzu-Querença' is frequently highlighted by critics as one of the most powerful, depicting the trajectory of a woman from childhood to old age under conditions of extreme exclusion.",
+      },
+      {
+        tipo_pt: "Curiosidades",
+        tipo_en: "Curiosities",
+        conteudo_pt: "Há uma forte presença da memória coletiva — as histórias individuais ecoam experiências de toda uma comunidade.",
+        conteudo_en: "There is a strong presence of collective memory — individual stories echo the experiences of an entire community.",
+      },
     ],
   });
 
