@@ -1187,7 +1187,7 @@ async function main() {
         fotoUrl: "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/ana-gabriely.jpeg",
         github: "",
         linkedin: "",
-        email: "",
+        email: "anagabrielyandrade10@gmail.com",
       },
       {
         nome: "Lucas Magalhaes",
