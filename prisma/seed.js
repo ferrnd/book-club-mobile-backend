@@ -1130,7 +1130,7 @@ async function main() {
         nome: "Ana Gabriely Paslauski",
         curso_pt: "Mecanica",
         curso_en: "Mechanics",
-        fotoUrl: "",
+        fotoUrl: "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/ana-gabriely.jpeg",
         github: "",
         linkedin: "",
         email: "",
