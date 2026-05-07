@@ -1085,7 +1085,7 @@ async function main() {
         nome: "Gustavo Lima",
         curso_pt: "Eletro Eletronica",
         curso_en: "Electro Electronics",
-        fotoUrl: "",
+        fotoUrl: "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/gustavo-lima.png",
         github: "",
         linkedin: "",
         email: "",
