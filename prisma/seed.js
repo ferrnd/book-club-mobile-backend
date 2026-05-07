@@ -1148,7 +1148,7 @@ async function main() {
         fotoUrl: "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/gustavo-lima.png",
         github: "",
         linkedin: "",
-        email: "",
+        email: "guzinholma4@gmail.com",
       },
       {
         nome: "Leonardo Lima",
