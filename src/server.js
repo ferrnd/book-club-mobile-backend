@@ -5,6 +5,7 @@ import projetoRoutes from './routes/projetoRoute.js';
 import autorRoutes from './routes/autorRoute.js';
 import contoRoutes from './routes/contoRoute.js';
 import membroRoutes from './routes/membroRoute.js';
+import personagemRoutes from './routes/personagemRoute.js'
 import citacaoRoutes from './routes/citacaoRoute.js'
 import dicaRoutes from './routes/dicaRoute.js'
 
@@ -22,6 +23,7 @@ app.use('/', projetoRoutes);
 app.use('/', autorRoutes);
 app.use('/', contoRoutes);
 app.use('/', membroRoutes);
+app.use('/', personagemRoutes);
 app.use('/', citacaoRoutes);
 app.use('/', dicaRoutes);
 
