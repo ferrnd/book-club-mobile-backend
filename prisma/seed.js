@@ -1211,7 +1211,7 @@ async function main() {
         fotoUrl: "",
         github: "",
         linkedin: "",
-        email: "",
+        email: "guizaga.silva@gmail.com",
       },
     ],
   });
