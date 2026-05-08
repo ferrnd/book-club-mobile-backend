@@ -5,6 +5,8 @@ import projetoRoutes from './routes/projetoRoute.js';
 import autorRoutes from './routes/autorRoute.js';
 import contoRoutes from './routes/contoRoute.js';
 import membroRoutes from './routes/membroRoute.js';
+import citacaoRoutes from './routes/citacaoRoute.js'
+import dicaRoutes from './routes/dicaRoute.js'
 
 const app = express();
 const PORT = process.env.PORT || 3001;
@@ -20,6 +22,8 @@ app.use('/', projetoRoutes);
 app.use('/', autorRoutes);
 app.use('/', contoRoutes);
 app.use('/', membroRoutes);
+app.use('/', citacaoRoutes);
+app.use('/', dicaRoutes);
 
 app.use((req, res) => {
     res.status(404).json({ error: 'Rota não encontrada' });
