@@ -1199,7 +1199,7 @@ async function main() {
         nome: "Lucas Magalhaes",
         curso_pt: "Mecanica",
         curso_en: "Mechanics",
-        fotoUrl: "",
+        fotoUrl: "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/lucas-conde.jpeg",
         github: "",
         linkedin: "",
         email: "",
