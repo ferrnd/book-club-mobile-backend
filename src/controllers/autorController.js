@@ -90,12 +90,10 @@ export const atualizar = async (req, res) => {
 
     const data = await autor.atualizar();
 
-    return res
-      .status(200)
-      .json({
-        message: `O registro "${data.nome}" foi atualizado com sucesso!`,
-        data,
-      });
+    return res.status(200).json({
+      message: `O registro "${data.nome}" foi atualizado com sucesso!`,
+      data,
+    });
   } catch (error) {
     console.error("Erro ao atualizar:", error);
     return res.status(500).json({ error: "Erro ao atualizar registro." });
