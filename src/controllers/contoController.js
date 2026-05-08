@@ -78,16 +78,13 @@ export const atualizar = async (req, res) => {
     if (req.body.analise_en !== undefined) {
       conto.analise_en = req.body.analise_en;
     }
-    
 
     const data = await conto.atualizar();
 
-    return res
-      .status(200)
-      .json({
-        message: `O registro "${data.titulo_pt}" foi atualizado com sucesso!`,
-        data,
-      });
+    return res.status(200).json({
+      message: `O registro "${data.titulo_pt}" foi atualizado com sucesso!`,
+      data,
+    });
   } catch (error) {
     console.error("Erro ao atualizar:", error);
     return res.status(500).json({ error: "Erro ao atualizar registro." });
