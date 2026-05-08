@@ -19,7 +19,6 @@ export default class MembroModel {
     this.email = email;
     this.github = github;
     this.linkedin = linkedin;
-
   }
 
   async atualizar() {
