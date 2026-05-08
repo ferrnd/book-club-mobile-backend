@@ -133,12 +133,10 @@ export const atualizar = async (req, res) => {
 
     const data = await livro.atualizar();
 
-    return res
-      .status(200)
-      .json({
-        message: `O registro "${data.titulo}" foi atualizado com sucesso!`,
-        data,
-      });
+    return res.status(200).json({
+      message: `O registro "${data.titulo}" foi atualizado com sucesso!`,
+      data,
+    });
   } catch (error) {
     console.error("Erro ao atualizar:", error);
     return res.status(500).json({ error: "Erro ao atualizar registro." });
