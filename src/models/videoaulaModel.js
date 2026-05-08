@@ -18,7 +18,7 @@ export default class videoaulaModel {
     }
 
     async atualizar() {
-        return prisma.videoaula.update({
+        return prisma.videoAula.update({
             where: { id: this.id },
             data: {
                 titulo_pt: this.titulo_pt,
@@ -31,12 +31,12 @@ export default class videoaulaModel {
     }
 
     static async buscarTodos() {
-        const data = await prisma.videoaula.findMany();
+        const data = await prisma.videoAula.findMany();
         return data.map((item) => new videoaulaModel(item));
     }
 
     static async buscarPorId(id) {
-        const data = await prisma.videoaula.findUnique({ where: { id } });
+        const data = await prisma.videoAula.findUnique({ where: { id } });
         if (!data) {
             return null;
         }
