@@ -7,15 +7,15 @@ export default class CitacaoModel {
         texto_en,
         personagem,
         explicacao_pt = null,
-        explicacao_eng = null
+        explicacao_eng = null,
     } = {}) {
         this.id = id;
         this.texto_pt = texto_pt;
-        this.texto_en = texto_en;        this.personagem = personagem;
+        this.texto_en = texto_en;
+        this.personagem = personagem;
         this.explicacao_pt = explicacao_pt;
         this.explicacao_eng = explicacao_eng;
     }
-
 
     async atualizar() {
         return prisma.citacao.update({
@@ -30,10 +30,9 @@ export default class CitacaoModel {
         });
     }
 
-    static async buscarTodos(filtros = {}) {
-        return prisma.citacao.findMany({  });
+    static async buscarTodos() {
+        return prisma.citacao.findMany();
     }
-
     static async buscarPorId(id) {
         const data = await prisma.citacao.findUnique({ where: { id } });
         if (!data) {
