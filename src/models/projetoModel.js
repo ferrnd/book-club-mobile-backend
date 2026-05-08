@@ -9,7 +9,6 @@ export default class ProjetoModel {
     apresentacao_en = null,
     objetivo_pt = null,
     objetivo_en = null,
-    
   } = {}) {
     this.id = id;
     this.nome_pt = nome_pt;
