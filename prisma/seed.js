@@ -1208,7 +1208,7 @@ async function main() {
         nome: "Guilherme Batista",
         curso_pt: "Mecanica",
         curso_en: "Mechanics",
-        fotoUrl: "",
+        fotoUrl: "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/guilherme-batista.jpeg",
         github: "",
         linkedin: "",
         email: "guizaga.silva@gmail.com",
