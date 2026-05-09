@@ -157,7 +157,7 @@ npm run dev  ||  npx prisma studio
 ```
 ---
 
-## 👥 Equipe 
+## 👥 Integrantes Da Equipe 
 | Integrante | Curso | Função Principal |
 | :--- | :--- | :--- |
 | Fernando Santos | Desenvolvimento de Sistemas | Backend / DB / Frontend / Figma / Trello |
