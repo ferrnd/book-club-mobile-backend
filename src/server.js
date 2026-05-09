@@ -11,6 +11,7 @@ import dicaRoutes from "./routes/dicaRoute.js";
 import quizRoutes from "./routes/quizRoute.js";
 import videoaulaRoute from "./routes/videoaulaRoute.js";
 import { apiKey } from "./lib/middlewares/apiKey.js";
+
 const app = express();
 const PORT = process.env.PORT || 3001;
 
