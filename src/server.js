@@ -10,7 +10,7 @@ import citacaoRoutes from "./routes/citacaoRoute.js";
 import dicaRoutes from "./routes/dicaRoute.js";
 import quizRoutes from "./routes/quizRoute.js";
 import videoaulaRoute from "./routes/videoaulaRoute.js";
-
+import { apiKey } from "./lib/middlewares/apiKey.js";
 const app = express();
 const PORT = process.env.PORT || 3001;
 
@@ -20,16 +20,16 @@ app.get("/", (req, res) => {
   res.send("🚀 API funcionando");
 });
 
-app.use("/", livrosRoutes);
-app.use("/", projetoRoutes);
-app.use("/", autorRoutes);
-app.use("/", contoRoutes);
-app.use("/", membroRoutes);
-app.use("/", personagemRoutes);
-app.use("/", citacaoRoutes);
-app.use("/", dicaRoutes);
-app.use("/", quizRoutes);
-app.use("/", videoaulaRoute);
+app.use("/", apiKey, livrosRoutes);
+app.use("/", apiKey, projetoRoutes);
+app.use("/", apiKey, autorRoutes);
+app.use("/", apiKey, contoRoutes);
+app.use("/", apiKey, membroRoutes);
+app.use("/", apiKey, personagemRoutes);
+app.use("/", apiKey, citacaoRoutes);
+app.use("/", apiKey, dicaRoutes);
+app.use("/", apiKey, quizRoutes);
+app.use("/", apiKey, videoaulaRoute);
 
 app.use((req, res) => {
   res.status(404).json({ error: "Rota não encontrada" });
