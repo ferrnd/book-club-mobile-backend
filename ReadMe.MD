@@ -128,8 +128,9 @@ PUT     /projeto/:id
 Crie um arquivo `.env` na raiz com:
 
 ```env
-DATABASE_URL="postgresql://usuario:senha@host:porta/banco"
 PORT=3000
+
+DATABASE_URL="postgresql://usuario:senha@localhost:porta/banco"
 ```
 ---
 
