@@ -21,16 +21,16 @@ app.get("/", (req, res) => {
   res.send("🚀 API funcionando");
 });
 
-app.use("/", apiKey, livrosRoutes);
-app.use("/", apiKey, projetoRoutes);
-app.use("/", apiKey, autorRoutes);
-app.use("/", apiKey, contoRoutes);
-app.use("/", apiKey, membroRoutes);
-app.use("/", apiKey, personagemRoutes);
-app.use("/", apiKey, citacaoRoutes);
-app.use("/", apiKey, dicaRoutes);
-app.use("/", apiKey, quizRoutes);
-app.use("/", apiKey, videoaulaRoute);
+app.use("/api", apiKey, livrosRoutes);
+app.use("/api", apiKey, projetoRoutes);
+app.use("/api", apiKey, autorRoutes);
+app.use("/api", apiKey, contoRoutes);
+app.use("/api", apiKey, membroRoutes);
+app.use("/api", apiKey, personagemRoutes);
+app.use("/api", apiKey, citacaoRoutes);
+app.use("/api", apiKey, dicaRoutes);
+app.use("/api", apiKey, quizRoutes);
+app.use("/api", apiKey, videoaulaRoute);
 
 app.use((req, res) => {
   res.status(404).json({ error: "Rota não encontrada" });
