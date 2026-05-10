@@ -10,7 +10,7 @@ import citacaoRoutes from "./routes/citacaoRoute.js";
 import dicaRoutes from "./routes/dicaRoute.js";
 import quizRoutes from "./routes/quizRoute.js";
 import videoaulaRoute from "./routes/videoaulaRoute.js";
-import { apiKey } from "./lib/middlewares/apiKey.js";
+import { apiKey, admKey } from "./lib/middlewares/apiKey.js";
 
 const app = express();
 const PORT = process.env.PORT || 3001;
@@ -22,15 +22,15 @@ app.get("/", (req, res) => {
 });
 
 app.use("/api", apiKey, livrosRoutes);
-app.use("/api", apiKey, projetoRoutes);
-app.use("/api", apiKey, autorRoutes);
-app.use("/api", apiKey, contoRoutes);
-app.use("/api", apiKey, membroRoutes);
-app.use("/api", apiKey, personagemRoutes);
-app.use("/api", apiKey, citacaoRoutes);
-app.use("/api", apiKey, dicaRoutes);
-app.use("/api", apiKey, quizRoutes);
-app.use("/api", apiKey, videoaulaRoute);
+app.use("/api", admKey, projetoRoutes);
+app.use("/api", admKey, autorRoutes);
+app.use("/api", admKey, contoRoutes);
+app.use("/api", admKey, membroRoutes);
+app.use("/api", admKey, personagemRoutes);
+app.use("/api", admKey, citacaoRoutes);
+app.use("/api", admKey, dicaRoutes);
+app.use("/api", admKey, quizRoutes);
+app.use("/api", admKey, videoaulaRoute);
 
 app.use((req, res) => {
   res.status(404).json({ error: "Rota não encontrada" });
