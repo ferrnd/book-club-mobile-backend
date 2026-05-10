@@ -1157,7 +1157,7 @@ async function main() {
         fotoUrl: "",
         github: "",
         linkedin: "",
-        email: "",
+        email: "leonardo.lima04@icloud.com",
       },
       {
         nome: "Rafaela Barros",
