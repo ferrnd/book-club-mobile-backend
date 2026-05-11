@@ -1079,141 +1079,147 @@ async function main() {
   console.log("👥 Inserindo membros...");
 
   await prisma.membro.createMany({
-    data: [
-      {
-        nome: "Fernando Santos",
-        curso_pt: "Desenvolvimento de Sistemas",
-        curso_en: "Systems Development",
-        fotoUrl:
-          "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/fernando-santos.jpeg",
-        github: "https://github.com/ferrnd",
-        linkedin: "https://www.linkedin.com/in/ferrnd/",
-        email: "evencio.tech@gmail.com",
-      },
-      {
-        nome: "Cauã Tupinambá",
-        curso_pt: "Desenvolvimento de Sistemas",
-        curso_en: "Systems Development",
-        fotoUrl:
-          "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/caua-tupinamba.png",
-        github: "https://github.com/dev-tupizin",
-        linkedin: "https://www.linkedin.com/in/cau%C3%A3-tupinamba-7858a1349/",
-        email: "cauatupinamba@gmail.com",
-      },
-      {
-        nome: "João Pedro Piva",
-        curso_pt: "Desenvolvimento de Sistemas",
-        curso_en: "Systems Development",
-        fotoUrl:
-          "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/joao-pedro-piva.png",
-        github: "https://github.com/jppiva",
-        linkedin:
-          "https://www.linkedin.com/in/jo%C3%A3o-pedro-piva-nogueira-2643b835a/",
-        email: "joaopedropiva17@gmail.com",
-      },
-      {
-        nome: "Ana Clara Cremasco",
-        curso_pt: "Desenvolvimento de Sistemas",
-        curso_en: "Systems Development",
-        fotoUrl: "",
-        github: "https://github.com/anaccremasco",
-        linkedin:
-          "https://www.linkedin.com/in/ana-clara-cremasco-425799349?utm_source=share_via&utm_content=profile&utm_medium=member_android",
-        email: "anaclara.luizcremasco@gmail.com",
-      },
-      {
-        nome: "Daniel Casalli",
-        curso_pt: "Desenvolvimento de Sistemas",
-        curso_en: "Systems Development",
-        fotoUrl:
-          "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/daniel-casalli.png",
-        github: "https://github.com/daniel-casalli02",
-        linkedin: "",
-        email: "casallidan7@gmail.com",
-      },
-      {
-        nome: "Maria Eduarda de Andrade",
-        curso_pt: "Desenvolvimento de Sistemas",
-        curso_en: "Systems Development",
-        fotoUrl: "",
-        github: "https://github.com/mariaeandrade",
-        linkedin:
-          "https://www.linkedin.com/in/maria-eduarda-andrade-6878a2349?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
-        email: "dudadeandrade13@gmail.com",
-      },
-      {
-        nome: "Gustavo Lima",
-        curso_pt: "Eletro Eletronica",
-        curso_en: "Electro Electronics",
-        fotoUrl: "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/gustavo-lima.png",
-        github: "",
-        linkedin: "",
-        email: "guzinholma4@gmail.com",
-      },
-      {
-        nome: "Leonardo Lima",
-        curso_pt: "Eletro Eletronica",
-        curso_en: "Electro Electronics",
-        fotoUrl: "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/leonardo-lima.jpeg",
-        github: "",
-        linkedin: "",
-        email: "leonardo.lima04@icloud.com",
-      },
-      {
-        nome: "Rafaela Barros",
-        curso_pt: "Eletro Eletronica",
-        curso_en: "Electro Electronics",
-        fotoUrl: "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/rafaela-barros.png",
-        github: "",
-        linkedin: "",
-        email: "",
-      },
-      {
-        nome: "Natalie",
-        curso_pt: "Eletro Eletronica",
-        curso_en: "Electro Electronics",
-        fotoUrl: "",
-        github: "",
-        linkedin: "",
-        email: "",
-      },
-      {
-        nome: "Giovanni Cocielo",
-        curso_pt: "Eletro Eletronica",
-        curso_en: "Electro Electronics",
-        fotoUrl: "",
-        github: "",
-        linkedin: "",
-        email: "",
-      },
-      {
-        nome: "Ana Gabriely Paslauski",
-        curso_pt: "Mecanica",
-        curso_en: "Mechanics",
-        fotoUrl: "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/ana-gabriely.jpeg",
-        github: "",
-        linkedin: "",
-        email: "anagabrielyandrade10@gmail.com",
-      },
-      {
-        nome: "Lucas Magalhaes",
-        curso_pt: "Mecanica",
-        curso_en: "Mechanics",
-        fotoUrl: "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/lucas-conde.jpeg",
-        github: "",
-        linkedin: "",
-        email: "",
-      },
-      {
-        nome: "Guilherme Batista",
-        curso_pt: "Mecanica",
-        curso_en: "Mechanics",
-        fotoUrl: "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/guilherme-batista.jpeg",
-        github: "",
-        linkedin: "",
-        email: "guizaga.silva@gmail.com",
-      },
-    ],
+      data: [
+          {
+              nome: 'Fernando Santos',
+              curso_pt: 'Desenvolvimento de Sistemas',
+              curso_en: 'Systems Development',
+              fotoUrl:
+                  'https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/fernando-santos.jpeg',
+              github: 'https://github.com/ferrnd',
+              linkedin: 'https://www.linkedin.com/in/ferrnd/',
+              email: 'evencio.tech@gmail.com',
+          },
+          {
+              nome: 'Cauã Tupinambá',
+              curso_pt: 'Desenvolvimento de Sistemas',
+              curso_en: 'Systems Development',
+              fotoUrl:
+                  'https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/caua-tupinamba.png',
+              github: 'https://github.com/dev-tupizin',
+              linkedin: 'https://www.linkedin.com/in/cau%C3%A3-tupinamba-7858a1349/',
+              email: 'cauatupinamba@gmail.com',
+          },
+          {
+              nome: 'João Pedro Piva',
+              curso_pt: 'Desenvolvimento de Sistemas',
+              curso_en: 'Systems Development',
+              fotoUrl:
+                  'https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/joao-pedro-piva.png',
+              github: 'https://github.com/jppiva',
+              linkedin: 'https://www.linkedin.com/in/jo%C3%A3o-pedro-piva-nogueira-2643b835a/',
+              email: 'joaopedropiva17@gmail.com',
+          },
+          {
+              nome: 'Ana Clara Cremasco',
+              curso_pt: 'Desenvolvimento de Sistemas',
+              curso_en: 'Systems Development',
+              fotoUrl:
+                  'https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/ana-cremasco.jpeg',
+              github: 'https://github.com/anaccremasco',
+              linkedin:
+                  'https://www.linkedin.com/in/ana-clara-cremasco-425799349?utm_source=share_via&utm_content=profile&utm_medium=member_android',
+              email: 'anaclara.luizcremasco@gmail.com',
+          },
+          {
+              nome: 'Daniel Casalli',
+              curso_pt: 'Desenvolvimento de Sistemas',
+              curso_en: 'Systems Development',
+              fotoUrl:
+                  'https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/daniel-casalli.png',
+              github: 'https://github.com/daniel-casalli02',
+              linkedin: '',
+              email: 'casallidan7@gmail.com',
+          },
+          {
+              nome: 'Maria Eduarda de Andrade',
+              curso_pt: 'Desenvolvimento de Sistemas',
+              curso_en: 'Systems Development',
+              fotoUrl: '',
+              github: 'https://github.com/mariaeandrade',
+              linkedin:
+                  'https://www.linkedin.com/in/maria-eduarda-andrade-6878a2349?utm_source=share_via&utm_content=profile&utm_medium=member_ios',
+              email: 'dudadeandrade13@gmail.com',
+          },
+          {
+              nome: 'Gustavo Lima',
+              curso_pt: 'Eletro Eletronica',
+              curso_en: 'Electro Electronics',
+              fotoUrl:
+                  'https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/gustavo-lima.png',
+              github: '',
+              linkedin: '',
+              email: 'guzinholma4@gmail.com',
+          },
+          {
+              nome: 'Leonardo Lima',
+              curso_pt: 'Eletro Eletronica',
+              curso_en: 'Electro Electronics',
+              fotoUrl:
+                  'https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/leonardo-lima.jpeg',
+              github: '',
+              linkedin: '',
+              email: 'leonardo.lima04@icloud.com',
+          },
+          {
+              nome: 'Rafaela Barros',
+              curso_pt: 'Eletro Eletronica',
+              curso_en: 'Electro Electronics',
+              fotoUrl:
+                  'https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/rafaela-barros.png',
+              github: '',
+              linkedin: '',
+              email: '',
+          },
+          {
+              nome: 'Natalie',
+              curso_pt: 'Eletro Eletronica',
+              curso_en: 'Electro Electronics',
+              fotoUrl: '',
+              github: '',
+              linkedin: '',
+              email: '',
+          },
+          {
+              nome: 'Giovanni Cocielo',
+              curso_pt: 'Eletro Eletronica',
+              curso_en: 'Electro Electronics',
+              fotoUrl: '',
+              github: '',
+              linkedin: '',
+              email: '',
+          },
+          {
+              nome: 'Ana Gabriely Paslauski',
+              curso_pt: 'Mecanica',
+              curso_en: 'Mechanics',
+              fotoUrl:
+                  'https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/ana-gabriely.jpeg',
+              github: '',
+              linkedin: '',
+              email: 'anagabrielyandrade10@gmail.com',
+          },
+          {
+              nome: 'Lucas Magalhaes',
+              curso_pt: 'Mecanica',
+              curso_en: 'Mechanics',
+              fotoUrl:
+                  'https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/lucas-conde.jpeg',
+              github: '',
+              linkedin: '',
+              email: '',
+          },
+          {
+              nome: 'Guilherme Batista',
+              curso_pt: 'Mecanica',
+              curso_en: 'Mechanics',
+              fotoUrl:
+                  'https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/guilherme-batista.jpeg',
+              github: '',
+              linkedin: '',
+              email: 'guizaga.silva@gmail.com',
+          },
+      ],
   });
 
   console.log("✅ Seed concluído!");
