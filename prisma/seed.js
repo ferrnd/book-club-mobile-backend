@@ -1135,7 +1135,8 @@ async function main() {
               nome: 'Maria Eduarda de Andrade',
               curso_pt: 'Desenvolvimento de Sistemas',
               curso_en: 'Systems Development',
-              fotoUrl: '',
+              fotoUrl:
+                  'https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/maria-andrade.jpeg',
               github: 'https://github.com/mariaeandrade',
               linkedin:
                   'https://www.linkedin.com/in/maria-eduarda-andrade-6878a2349?utm_source=share_via&utm_content=profile&utm_medium=member_ios',
