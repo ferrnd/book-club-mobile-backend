@@ -1170,7 +1170,7 @@ async function main() {
                   'https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/rafaela-barros.png',
               github: '',
               linkedin: '',
-              email: '',
+              email: 'rafaelabarroslucio@gmail.com',
           },
           {
               nome: 'Natalie',
