@@ -843,12 +843,12 @@ async function main() {
           "Zaíta loses the flower sticker she was looking for and cries herself to sleep.",
         opcaoE_pt: "O barraco da família é destruído num tiroteio.",
         opcaoE_en: "The family's shanty is destroyed in a shootout.",
-        resposta: "E",
+        resposta: "C",
         explicacao_pt:
           "Zaíta é assassinada por uma bala perdida num confronto na favela. A frase final — 'Zaíta, você esqueceu de guardar os brinquedos!' — dita pela irmã Naíta, é uma das mais dilacerantes da obra. A crueldade está no contraste: a morte de uma criança é reduzida, aos olhos da irmã que ainda não compreende, a um brinquedo esquecido.",
         explicacao_en:
           "Zaíta is killed by a stray bullet in a confrontation in the favela. The final line — 'Zaíta, you forgot to put away the toys!' — said by her sister Naíta, is one of the most devastating in the work. The cruelty lies in the contrast: a child's death is reduced, in her sister's still-uncomprehending eyes, to a forgotten toy.",
-        resposta: "E",
+        resposta: "C",
       },
       {
         pergunta_pt:
@@ -869,7 +869,7 @@ async function main() {
           "A friend nicknamed him Kimbá because he thought he looked like someone from Nigeria.",
         opcaoE_pt: "Kimbá foi o nome que ele escolheu ao sair do morro.",
         opcaoE_en: "Kimbá was the name he chose when he left the hill.",
-        resposta: "D",
+        resposta: "C",
         explicacao_pt:
           "O protagonista era chamado Zezinho e ganhou o apelido Kimbá de um amigo rico e viajado que o achou parecido com alguém da Nigéria. O apelido carrega uma dimensão de identidade diaspórica — uma ligação simbólica com a África que o amigo enxerga nele, mesmo que Kimbá ainda não a veja em si mesmo.",
         explicacao_en:
