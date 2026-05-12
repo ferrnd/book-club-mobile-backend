@@ -1185,7 +1185,7 @@ async function main() {
               nome: 'Giovanni Cocielo',
               curso_pt: 'Eletro Eletronica',
               curso_en: 'Electro Electronics',
-              fotoUrl: '',
+              fotoUrl: 'https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/giovanni-cocielo.jpeg',
               github: '',
               linkedin: '',
               email: '',
