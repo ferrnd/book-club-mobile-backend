@@ -14,6 +14,7 @@ export const criar = async (req, res) => {
       caracteristicas_en,
       descricao_pt,
       descricao_en,
+      contoId,
     } = req.body;
 
     if (!nome) {
@@ -39,6 +40,9 @@ export const criar = async (req, res) => {
         .status(400)
         .json({ error: 'O campo "descricao_en" é obrigatório!' });
     }
+    if (!contoId) {
+      return res.status(400).json({ error: 'O campo "contoId" é obrigatório!' });
+    }
 
     const personagem = new PersonagemModel({
       nome,
@@ -46,6 +50,7 @@ export const criar = async (req, res) => {
       caracteristicas_en,
       descricao_pt,
       descricao_en,
+      contoId: parseInt(contoId),
     });
     const data = await personagem.criar();
 

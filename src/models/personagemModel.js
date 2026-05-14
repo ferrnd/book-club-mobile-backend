@@ -8,6 +8,7 @@ export default class personagemModel {
     caracteristicas_en,
     descricao_pt,
     descricao_en,
+    contoId,
   } = {}) {
     this.id = id;
     this.nome = nome;
@@ -15,6 +16,7 @@ export default class personagemModel {
     this.caracteristicas_en = caracteristicas_en;
     this.descricao_pt = descricao_pt;
     this.descricao_en = descricao_en;
+    this.contoId = contoId;
   }
 
   async criar() {
@@ -25,6 +27,9 @@ export default class personagemModel {
         caracteristicas_en: this.caracteristicas_en,
         descricao_pt: this.descricao_pt,
         descricao_en: this.descricao_en,
+        conto: {
+          connect: { id: this.contoId } 
+        },
       },
     });
   }
