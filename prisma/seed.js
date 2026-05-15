@@ -1179,7 +1179,7 @@ async function main() {
               fotoUrl: '',
               github: '',
               linkedin: '',
-              email: '',
+              email: 'natalierib08@gmail.com',
           },
           {
               nome: 'Giovanni Cocielo',
