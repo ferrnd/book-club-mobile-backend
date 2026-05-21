@@ -1176,16 +1176,18 @@ async function main() {
               nome: 'Natalie',
               curso_pt: 'Eletro Eletronica',
               curso_en: 'Electro Electronics',
-              fotoUrl: '',
+              fotoUrl:
+                  'https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/natalie.png',
               github: '',
               linkedin: '',
-              email: '',
+              email: 'natalierib08@gmail.com',
           },
           {
               nome: 'Giovanni Cocielo',
               curso_pt: 'Eletro Eletronica',
               curso_en: 'Electro Electronics',
-              fotoUrl: 'https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/giovanni-cocielo.jpeg',
+              fotoUrl:
+                  'https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/giovanni-cocielo.jpeg',
               github: '',
               linkedin: '',
               email: '',
