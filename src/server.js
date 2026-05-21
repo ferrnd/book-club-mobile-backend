@@ -10,12 +10,15 @@ import citacaoRoutes from "./routes/citacaoRoute.js";
 import dicaRoutes from "./routes/dicaRoute.js";
 import quizRoutes from "./routes/quizRoute.js";
 import videoaulaRoute from "./routes/videoaulaRoute.js";
-import { apiKey, admKey } from "./lib/middlewares/apiKey.js";
+import { apiKey } from "./lib/middlewares/apiKey.js";
+import cors from "cors";
 
 const app = express();
 const PORT = process.env.PORT || 3001;
 
 app.use(express.json());
+
+app.use(cors());
 
 app.get("/", (req, res) => {
   res.send("🚀 API funcionando");
