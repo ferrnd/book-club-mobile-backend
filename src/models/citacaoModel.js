@@ -35,7 +35,8 @@ export default class CitacaoModel {
     include: {
       conto: {
         select: {
-          titulo_pt: true
+          titulo_pt: true,
+          titulo_en: true
         }
       }
     }
