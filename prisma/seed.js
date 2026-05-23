@@ -908,54 +908,90 @@ async function main() {
         tipo_en: "Potential essay topics for the main book",
         conteudo_pt: "Racismo estrutural no Brasil",
         conteudo_en: "Structural racism in Brazil",
+        explicacao_pt:
+          "O livro aborda as diversas formas de racismo estrutural que permeiam a sociedade brasileira, desde a infância até a vida adulta dos personagens. A autora denuncia como o racismo está presente em instituições, no mercado de trabalho, na educação e nas relações sociais, impactando profundamente a vida das pessoas negras.",
+        explicacao_en:
+          "The book addresses the various forms of structural racism that permeate Brazilian society, from childhood to the adult lives of the characters. The author denounces how racism is present in institutions, the labor market, education, and social relations, profoundly impacting the lives of Black people.",
       },
       {
         tipo_pt: "Possíveis temas de redação sobre o livro principal",
         tipo_en: "Potential essay topics for the main book",
         conteudo_pt: "Invisibilidade social das mulheres negras",
         conteudo_en: "The social invisibility of Black women",
+        explicacao_pt:
+          "O livro destaca a invisibilidade social das mulheres negras, mostrando como elas enfrentam discriminação por serem tanto mulheres quanto pessoas de cor. A autora aborda como essa invisibilidade se manifesta em diferentes contextos da vida, desde a família até o mercado de trabalho.",
+        explicacao_en:
+          "The book highlights the social invisibility of Black women, showing how they face discrimination for being both women and people of color. The author addresses how this invisibility manifests in different contexts of life, from the family to the labor market.",
       },
       {
         tipo_pt: "Possíveis temas de redação sobre o livro principal",
         tipo_en: "Potential essay topics for the main book",
         conteudo_pt: "Pobreza e desigualdade social",
         conteudo_en: "Poverty and social inequality",
+        explicacao_pt:
+          "O livro aborda a pobreza e a desigualdade social como temas centrais, mostrando como essas condições afetam diferentes grupos da sociedade. A autora destaca a interseção entre classes sociais e raça, evidenciando as desigualdades estruturais que perpetuam a exclusão.",
+        explicacao_en:
+          "The book addresses poverty and social inequality as central themes, showing how these conditions affect different groups in society. The author highlights the intersection of social classes and race, evidencing the structural inequalities that perpetuate exclusion.",
       },
       {
         tipo_pt: "Possíveis temas de redação sobre o livro principal",
         tipo_en: "Potential essay topics for the main book",
         conteudo_pt: "Memória e ancestralidade como resistência",
         conteudo_en: "Memory and ancestry as forms of resistance",
+        explicacao_pt:
+          "O livro explora a memória e a ancestralidade como formas de resistência, mostrando como os personagens se conectam com suas raízes e utilizam essa conexão para enfrentar os desafios da vida.",
+        explicacao_en:
+          "The book explores memory and ancestry as forms of resistance, showing how the characters connect with their roots and use this connection to face the challenges of life.",
       },
       {
         tipo_pt: "Possíveis temas de redação sobre o livro principal",
         tipo_en: "Potential essay topics for the main book",
         conteudo_pt: "Violência urbana e suas consequências",
         conteudo_en: "Urban violence and its consequences",
+        explicacao_pt:
+          "O livro aborda a violência urbana, especialmente nas favelas, e suas consequências para os moradores. A autora mostra como a violência afeta a vida cotidiana, as relações familiares e as perspectivas de futuro dos personagens.",
+        explicacao_en:
+          "The book addresses urban violence, especially in the favelas, and its consequences for the residents. The author shows how violence affects daily life, family relationships, and future prospects of the characters.",
       },
       {
         tipo_pt: "Possíveis temas de redação sobre o livro principal",
         tipo_en: "Potential essay topics for the main book",
         conteudo_pt: "A fome como problema social e político",
         conteudo_en: "Hunger as a social and political issue",
+        explicacao_pt:
+          "O livro aborda a fome como um problema social e político, mostrando como a falta de acesso a alimentos básicos afeta diferentes grupos da sociedade. A autora destaca a interseção entre pobreza e fome, evidenciando as desigualdades estruturais que perpetuam a exclusão.",
+        explicacao_en:
+          "The book addresses hunger as a social and political issue, showing how lack of access to basic food affects different groups in society. The author highlights the intersection of poverty and hunger, evidencing the structural inequalities that perpetuate exclusion.",
       },
       {
         tipo_pt: "Possíveis temas de redação sobre o livro principal",
         tipo_en: "Potential essay topics for the main book",
         conteudo_pt: "Desumanização de populações marginalizadas",
         conteudo_en: "The dehumanization of marginalized populations",
+        explicacao_pt:
+          "O livro aborda a desumanização de populações marginalizadas, mostrando como as pessoas negras e pobres são frequentemente tratadas como menos humanas pela sociedade. A autora denuncia essa desumanização e reivindica a dignidade e o respeito para todos os seres humanos.",
+        explicacao_en:
+          "The book addresses the dehumanization of marginalized populations, showing how Black and poor people are often treated as less human by society. The author denounces this dehumanization and claims dignity and respect for all human beings.",
       },
       {
         tipo_pt: "Possíveis temas de redação sobre o livro principal",
         tipo_en: "Potential essay topics for the main book",
         conteudo_pt: "O papel da literatura na denúncia social",
         conteudo_en: "The role of literature in social critique",
+        explicacao_pt:
+          "O livro aborda o papel da literatura na denúncia social, mostrando como os autores utilizam a narrativa para criticar as desigualdades e injustiças da sociedade.",
+        explicacao_en:
+          "The book addresses the role of literature in social critique, showing how authors use narrative to criticize inequalities and injustices in society.",
       },
       {
         tipo_pt: "Possíveis temas de redação sobre o livro principal",
         tipo_en: "Potential essay topics for the main book",
         conteudo_pt: "Infância em contextos de vulnerabilidade",
         conteudo_en: "Childhood in contexts of vulnerability",
+        explicacao_pt:
+          "O livro aborda a infância em contextos de vulnerabilidade, mostrando como as crianças são afetadas por condições adversas e como isso impacta seu desenvolvimento e futuro.",
+        explicacao_en:
+          "The book addresses childhood in contexts of vulnerability, showing how children are affected by adverse conditions and how this impacts their development and future.",
       },
       {
         tipo_pt: "Possíveis temas de redação sobre o livro principal",
@@ -963,12 +999,18 @@ async function main() {
         conteudo_pt: "Resistência e sobrevivência nas periferias",
         conteudo_en:
           "Resistance and survival in the outskirts (urban peripheries)",
+        explicacao_pt:
+          "O livro aborda a resistência e sobrevivência nas periferias, mostrando como os moradores enfrentam as dificuldades do dia a dia e encontram formas de resistir e sobreviver em contextos adversos.",
+        explicacao_en:
+          "The book addresses resistance and survival in the outskirts (urban peripheries), showing how residents face the difficulties of daily life and find ways to resist and survive in adverse contexts.",
       },
       {
         tipo_pt: "Interpretação da equipe sobre o livro principal",
         tipo_en: "Team's interpretation about the main book",
         conteudo_pt: "",
-        conteudo_en:"",
+        conteudo_en: "",
+        explicacao_pt: "",
+        explicacao_en: "",
       },
       {
         tipo_pt: "Dicas de Vestibular sobre o Conteúdo",
@@ -976,102 +1018,188 @@ async function main() {
         conteudo_pt:
           "Escrevivência (fusão entre escrita e vivência pessoal/coletiva)",
         conteudo_en: "Writing-life (Experience-based writing)",
+        explicacao_pt:
+          "Conceição Evaristo é a criadora do conceito de 'escrevivência', que define uma escrita que nasce da vivência — especialmente da vivência de mulheres negras e periféricas. A escrevivência é uma forma de resistência e afirmação identitária, onde a experiência de vida se torna matéria-prima para a criação literária.",
+        explicacao_en:
+          "Conceição Evaristo is the creator of the concept of 'writing-life', which defines a writing that is born from experience — especially the experience of Black and peripheral women. Writing-life is a form of resistance and identity affirmation, where life experience becomes raw material for literary creation.",
       },
       {
         tipo_pt: "Dicas de Vestibular sobre o Conteúdo",
         tipo_en: "Potential essay topics for the main book",
         conteudo_pt: "Ancestralidade e busca pelas raízes familiares",
         conteudo_en: "Ancestry and the search for family roots",
+        explicacao_pt:
+          "A ligação com os antepassados aparece como fonte de força e identidade nos contos. A herança cultural africana, transmitida oralmente entre gerações, é apresentada como um patrimônio que a sociedade tenta apagar mas que persiste na memória das personagens como forma de resistência e pertencimento.",
+        explicacao_en:
+          "The connection with ancestors appears as a source of strength and identity in the stories. The African cultural heritage, transmitted orally between generations, is presented as a patrimony that society tries to erase but which persists in the characters' memory as a form of resistance and belonging.",
       },
       {
         tipo_pt: "Dicas de Vestibular sobre o Conteúdo",
         tipo_en: "Potential essay topics for the main book",
         conteudo_pt: "Racismo estrutural e violência institucional",
         conteudo_en: "Structural racism and institutional violence",
+        explicacao_pt:
+          "O livro aborda o racismo estrutural e a violência institucional, mostrando como essas formas de opressão se manifestam em diferentes contextos sociais e como os personagens lidam com elas.",
+        explicacao_en:
+          "The book addresses structural racism and institutional violence, showing how these forms of oppression manifest in different social contexts and how the characters deal with them.",
       },
       {
         tipo_pt: "Dicas de Vestibular sobre o Conteúdo",
         tipo_en: "Potential essay topics for the main book",
         conteudo_pt: "Protagonismo feminino negro e sororidade",
         conteudo_en: "Black female protagonism and sisterhood",
+        explicacao_pt:
+          "Em Olhos d'Água, as protagonistas são quase sempre mulheres negras que se sustentam mutuamente diante de condições adversas. A sororidade aparece como forma de sobrevivência coletiva — mulheres que acolhem, protegem e reconhecem umas às outras em meio à invisibilidade imposta pela sociedade.",
+        explicacao_en:
+          "In Olhos d'Água, the protagonists are almost always Black women who support each other in the face of adversity. Sisterhood appears as a form of collective survival — women who welcome, protect, and recognize each other amid the invisibility imposed by society.",
       },
       {
         tipo_pt: "Dicas de Vestibular sobre o Conteúdo",
         tipo_en: "Potential essay topics for the main book",
         conteudo_pt: "Fome e vulnerabilidade socioeconômica",
         conteudo_en: "Hunger and socioeconomic vulnerability",
+        explicacao_pt:
+          "A fome aparece de forma literal e simbólica nos contos. A privação material é retratada não como fracasso individual, mas como consequência de uma estrutura social que nega acesso a direitos básicos às populações negras e periféricas, evidenciando a crueldade das desigualdades brasileiras.",
+        explicacao_en:
+          "Hunger appears in both literal and symbolic forms in the stories. Material deprivation is portrayed not as individual failure, but as a consequence of a social structure that denies access to basic rights to Black and peripheral populations, highlighting the cruelty of Brazilian inequalities.",
       },
       {
         tipo_pt: "Dicas de Vestibular sobre o Conteúdo",
         tipo_en: "Potential essay topics for the main book",
         conteudo_pt: "Maternidade sob condições de precariedade",
         conteudo_en: "Motherhood under precarious conditions",
+        explicacao_pt:
+          "Vários contos abordam mães que criam filhos em condições de extrema vulnerabilidade, muitas vezes sozinhas. Evaristo retrata a maternidade sem romantismo, mostrando o peso de proteger filhos em territórios marcados pela violência e pela pobreza, ao mesmo tempo que exalta a força e a resistência dessas mulheres.",
+        explicacao_en:
+          "Several stories address mothers raising children under conditions of extreme vulnerability, often alone. Evaristo portrays motherhood without romanticism, showing the burden of protecting children in territories marked by violence and poverty, while also exalting the strength and resilience of these women.",
       },
       {
         tipo_pt: "Dicas de Vestibular sobre o Conteúdo",
         tipo_en: "Potential essay topics for the main book",
         conteudo_pt: "Memória como ferramenta de resistência",
         conteudo_en: "Memory as a tool for resistance",
+        explicacao_pt:
+          "A memória em Olhos d'Água não é apenas saudade — é um ato político. No conto que dá título ao livro, a narradora busca lembrar a cor dos olhos da mãe como forma de preservar sua identidade e ancestralidade. Lembrar é resistir ao apagamento histórico imposto às comunidades negras.",
+        explicacao_en:
+          "Memory in Olhos d'Água is not merely nostalgia — it is a political act. In the title story, the narrator seeks to remember the color of her mother's eyes as a way of preserving her identity and ancestry. To remember is to resist the historical erasure imposed on Black communities.",
       },
       {
         tipo_pt: "Dicas de Vestibular sobre o Conteúdo",
         tipo_en: "Potential essay topics for the main book",
         conteudo_pt: "Subjetividade e humanização de corpos marginalizados",
         conteudo_en: "Subjectivity and the humanization of marginalized bodies",
+        explicacao_pt:
+          "Evaristo recusa o olhar externo que reduz pessoas negras e pobres a estatísticas ou tipos sociais. Cada conto constrói uma subjetividade rica para suas personagens — seus medos, desejos, memórias e contradições. Esse gesto literário é em si uma forma de resistência, ao afirmar que esses corpos têm interior, história e dignidade.",
+        explicacao_en:
+          "Evaristo refuses the external gaze that reduces Black and poor people to statistics or social types. Each story builds a rich subjectivity for its characters — their fears, desires, memories, and contradictions. This literary gesture is itself a form of resistance, affirming that these bodies have interiority, history, and dignity.",
       },
       {
         tipo_pt: "Curiosidades",
         tipo_en: "Curiosities",
-        conteudo_pt: "É uma coletânea de 15 contos publicada em 2014 pela editora Pallas, com segunda edição em 2016.",
-        conteudo_en: "It is a collection of 15 short stories published in 2014 by Pallas publisher, with a second edition in 2016.",
+        conteudo_pt:
+          "É uma coletânea de 15 contos publicada em 2014 pela editora Pallas, com segunda edição em 2016.",
+        conteudo_en:
+          "It is a collection of 15 short stories published in 2014 by Pallas publisher, with a second edition in 2016.",
+        explicacao_pt:
+          "A editora Pallas é conhecida por publicar obras de temática afro-brasileira e periférica. A segunda edição em 2016 reflete a grande repercussão do livro, que rapidamente se tornou referência nos estudos de literatura brasileira contemporânea.",
+        explicacao_en:
+          "Pallas publisher is known for publishing works with Afro-Brazilian and peripheral themes. The second edition in 2016 reflects the book's great impact, which quickly became a reference in contemporary Brazilian literature studies.",
       },
       {
         tipo_pt: "Curiosidades",
         tipo_en: "Curiosities",
-        conteudo_pt: "O título vem do conto homônimo, que abre a obra, no qual a narradora tenta recordar a cor dos olhos da mãe — uma imagem que mistura memória, saudade e identidade.",
-        conteudo_en: "The title comes from the homonymous short story that opens the work, in which the narrator tries to recall the color of her mother's eyes — an image that blends memory, longing, and identity.",
+        conteudo_pt:
+          "O título vem do conto homônimo, que abre a obra, no qual a narradora tenta recordar a cor dos olhos da mãe — uma imagem que mistura memória, saudade e identidade.",
+        conteudo_en:
+          "The title comes from the homonymous short story that opens the work, in which the narrator tries to recall the color of her mother's eyes — an image that blends memory, longing, and identity.",
+        explicacao_pt:
+          "Abrir a coletânea com esse conto é uma escolha significativa: a pergunta 'de que cor eram os olhos de minha mãe?' funciona como chave de leitura para toda a obra. A busca pela memória materna representa a busca pela identidade negra e pela ancestralidade, temas que atravessam todos os outros contos.",
+        explicacao_en:
+          "Opening the collection with this story is a significant choice: the question 'what color were my mother's eyes?' functions as a reading key for the entire work. The search for maternal memory represents the search for Black identity and ancestry, themes that run through all the other stories.",
       },
       {
         tipo_pt: "Curiosidades",
         tipo_en: "Curiosities",
-        conteudo_pt: "O livro ganhou o Prêmio Jabuti de 2015 na categoria Contos e Cronicas, um dos maiores reconhecimentos literários do Brasil.",
-        conteudo_en: "The book won the 2015 Jabuti Prize in the Short Stories and Chronicles category, one of the greatest literary awards in Brazil.",
+        conteudo_pt:
+          "O livro ganhou o Prêmio Jabuti de 2015 na categoria Contos e Cronicas, um dos maiores reconhecimentos literários do Brasil.",
+        conteudo_en:
+          "The book won the 2015 Jabuti Prize in the Short Stories and Chronicles category, one of the greatest literary awards in Brazil.",
+        explicacao_pt:
+          "O Prêmio Jabuti existe desde 1959 e é considerado o mais importante prêmio literário do Brasil. Vencer na categoria Contos e Crônicas consolidou Conceição Evaristo como uma das vozes mais importantes da literatura brasileira contemporânea e ampliou significativamente o alcance do livro.",
+        explicacao_en:
+          "The Jabuti Prize has existed since 1959 and is considered the most important literary award in Brazil. Winning in the Short Stories and Chronicles category consolidated Conceição Evaristo as one of the most important voices in contemporary Brazilian literature and significantly expanded the book's reach.",
       },
       {
         tipo_pt: "Curiosidades",
         tipo_en: "Curiosities",
-        conteudo_pt: "Os contos são fortemente marcados pelo conceito de \"escrevivência\", termo criado pela própria Conceição Evaristo para definir uma escrita que nasce da vivência — especialmente da vivência de mulheres negras e periféricas.",
-        conteudo_en: "The short stories are strongly marked by the concept of 'writing-life', a term created by Conceição Evaristo herself to define a writing that is born from experience — especially the experience of Black and peripheral women.",
+        conteudo_pt:
+          'Os contos são fortemente marcados pelo conceito de "escrevivência", termo criado pela própria Conceição Evaristo para definir uma escrita que nasce da vivência — especialmente da vivência de mulheres negras e periféricas.',
+        conteudo_en:
+          "The short stories are strongly marked by the concept of 'writing-life', a term created by Conceição Evaristo herself to define a writing that is born from experience — especially the experience of Black and peripheral women.",
+        explicacao_pt:
+          "A escrevivência rompe com a ideia de que literatura erudita e experiência de vida são campos separados. Para Evaristo, escrever é um ato de sobrevivência e denúncia. Os contos de Olhos d'Água são o exemplo mais acabado desse conceito: cada história carrega a marca da vivência coletiva de mulheres negras brasileiras.",
+        explicacao_en:
+          "Writing-life breaks with the idea that erudite literature and life experience are separate fields. For Evaristo, writing is an act of survival and denunciation. The stories in Olhos d'Água are the most complete example of this concept: each story carries the mark of the collective experience of Black Brazilian women.",
       },
       {
         tipo_pt: "Curiosidades",
         tipo_en: "Curiosities",
-        conteudo_pt: "As personagens centrais são, em sua maioria, mulheres negras em situação de vulnerabilidade: mães, avós, trabalhadoras domésticas, moradoras de favela. Evaristo as trata com profundidade e dignidade, fugindo dos estereótipos.",
-        conteudo_en: "The central characters are, for the most part, Black women in situations of vulnerability: mothers, grandmothers, domestic workers, residents of shantytowns. Evaristo treats them with depth and dignity, avoiding stereotypes.",
+        conteudo_pt:
+          "As personagens centrais são, em sua maioria, mulheres negras em situação de vulnerabilidade: mães, avós, trabalhadoras domésticas, moradoras de favela. Evaristo as trata com profundidade e dignidade, fugindo dos estereótipos.",
+        conteudo_en:
+          "The central characters are, for the most part, Black women in situations of vulnerability: mothers, grandmothers, domestic workers, residents of shantytowns. Evaristo treats them with depth and dignity, avoiding stereotypes.",
+        explicacao_pt:
+          "Na literatura brasileira tradicional, mulheres negras frequentemente aparecem como personagens secundárias ou estereotipadas. Evaristo inverte essa lógica: suas personagens são o centro da narrativa, com vida interior complexa, contradições e desejos próprios. Esse gesto é político tanto quanto literário.",
+        explicacao_en:
+          "In traditional Brazilian literature, Black women often appear as secondary or stereotyped characters. Evaristo inverts this logic: her characters are the center of the narrative, with complex inner lives, contradictions, and their own desires. This gesture is as political as it is literary.",
       },
       {
         tipo_pt: "Curiosidades",
         tipo_en: "Curiosities",
-        conteudo_pt: "A linguagem oscila entre o lírico e o cru, misturando poesia e brutalidade de forma muito particular.",
-        conteudo_en: "The language oscillates between the lyrical and the raw, mixing poetry and brutality in a very particular way.",
+        conteudo_pt:
+          "A linguagem oscila entre o lírico e o cru, misturando poesia e brutalidade de forma muito particular.",
+        conteudo_en:
+          "The language oscillates between the lyrical and the raw, mixing poetry and brutality in a very particular way.",
+        explicacao_pt:
+          "Evaristo usa a beleza da linguagem poética para narrar situações de extrema dureza — violência, fome, abuso, morte. Esse contraste não é acidental: ele reproduz a própria condição das personagens, que carregam beleza, dignidade e dor ao mesmo tempo. A forma literária espelha o conteúdo humano.",
+        explicacao_en:
+          "Evaristo uses the beauty of poetic language to narrate situations of extreme hardship — violence, hunger, abuse, death. This contrast is not accidental: it reproduces the very condition of the characters, who carry beauty, dignity, and pain at the same time. The literary form mirrors the human content.",
       },
       {
         tipo_pt: "Curiosidades",
         tipo_en: "Curiosities",
-        conteudo_pt: "Os contos exploram violência doméstica, racismo estrutural, maternidade, pobreza, solidariedade entre mulheres e a força da ancestralidade africana.",
-        conteudo_en: "The short stories explore domestic violence, structural racism, motherhood, poverty, solidarity among women, and the strength of African ancestry.",
+        conteudo_pt:
+          "Os contos exploram violência doméstica, racismo estrutural, maternidade, pobreza, solidariedade entre mulheres e a força da ancestralidade africana.",
+        conteudo_en:
+          "The short stories explore domestic violence, structural racism, motherhood, poverty, solidarity among women, and the strength of African ancestry.",
+        explicacao_pt:
+          "A diversidade temática da obra reflete a complexidade da experiência de mulheres negras no Brasil. Ao reunir esses temas em uma coletânea, Evaristo constrói um painel amplo e profundo da condição humana nas periferias brasileiras, sem hierarquizar dores nem simplificar realidades.",
+        explicacao_en:
+          "The thematic diversity of the work reflects the complexity of the experience of Black women in Brazil. By bringing these themes together in a collection, Evaristo builds a broad and deep panorama of the human condition in Brazilian peripheries, without hierarchizing suffering or simplifying realities.",
       },
       {
         tipo_pt: "Curiosidades",
         tipo_en: "Curiosities",
-        conteudo_pt: "O conto \"Duzu-Querença\" é frequentemente destacado pela crítica como um dos mais poderosos, retratando a trajetória de uma mulher que vai da infância à velhice em condições de extrema exclusão.",
-        conteudo_en: "The short story 'Duzu-Querença' is frequently highlighted by critics as one of the most powerful, depicting the trajectory of a woman from childhood to old age under conditions of extreme exclusion.",
+        conteudo_pt:
+          'O conto "Duzu-Querença" é frequentemente destacado pela crítica como um dos mais poderosos, retratando a trajetória de uma mulher que vai da infância à velhice em condições de extrema exclusão.',
+        conteudo_en:
+          "The short story 'Duzu-Querença' is frequently highlighted by critics as one of the most powerful, depicting the trajectory of a woman from childhood to old age under conditions of extreme exclusion.",
+        explicacao_pt:
+          "Duzu-Querença é uma personagem que condensa muitas das violências abordadas no livro: pobreza extrema, exploração sexual, marginalização. Ao acompanhar sua vida inteira em poucas páginas, Evaristo mostra como essas condições não são episódios isolados, mas uma estrutura que aprisiona gerações inteiras.",
+        explicacao_en:
+          "Duzu-Querença is a character who condenses many of the forms of violence addressed in the book: extreme poverty, sexual exploitation, marginalization. By following her entire life in just a few pages, Evaristo shows how these conditions are not isolated episodes, but a structure that imprisons entire generations.",
       },
       {
         tipo_pt: "Curiosidades",
         tipo_en: "Curiosities",
-        conteudo_pt: "Há uma forte presença da memória coletiva — as histórias individuais ecoam experiências de toda uma comunidade.",
-        conteudo_en: "There is a strong presence of collective memory — individual stories echo the experiences of an entire community.",
+        conteudo_pt:
+          "Há uma forte presença da memória coletiva — as histórias individuais ecoam experiências de toda uma comunidade.",
+        conteudo_en:
+          "There is a strong presence of collective memory — individual stories echo the experiences of an entire community.",
+        explicacao_pt:
+          "Cada personagem de Olhos d'Água carrega em si uma história que transcende o individual. Ao narrar uma mulher específica, Evaristo evoca a experiência de milhares de mulheres negras brasileiras. Essa dimensão coletiva da memória é uma característica central da escrevivência: o particular sempre fala pelo coletivo.",
+        explicacao_en:
+          "Each character in Olhos d'Água carries within them a story that transcends the individual. By narrating a specific woman, Evaristo evokes the experience of thousands of Black Brazilian women. This collective dimension of memory is a central characteristic of writing-life: the particular always speaks for the collective.",
       },
     ],
   });
@@ -1079,150 +1207,151 @@ async function main() {
   console.log("👥 Inserindo membros...");
 
   await prisma.membro.createMany({
-      data: [
-          {
-              nome: 'Fernando Santos',
-              curso_pt: 'Desenvolvimento de Sistemas',
-              curso_en: 'Systems Development',
-              fotoUrl:
-                  'https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/fernando-santos.jpeg',
-              github: 'https://github.com/ferrnd',
-              linkedin: 'https://www.linkedin.com/in/ferrnd/',
-              email: 'evencio.tech@gmail.com',
-          },
-          {
-              nome: 'Cauã Tupinambá',
-              curso_pt: 'Desenvolvimento de Sistemas',
-              curso_en: 'Systems Development',
-              fotoUrl:
-                  'https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/caua-tupinamba.png',
-              github: 'https://github.com/dev-tupizin',
-              linkedin: 'https://www.linkedin.com/in/cau%C3%A3-tupinamba-7858a1349/',
-              email: 'cauatupinamba@gmail.com',
-          },
-          {
-              nome: 'João Pedro Piva',
-              curso_pt: 'Desenvolvimento de Sistemas',
-              curso_en: 'Systems Development',
-              fotoUrl:
-                  'https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/joao-pedro-piva.png',
-              github: 'https://github.com/jppiva',
-              linkedin: 'https://www.linkedin.com/in/jo%C3%A3o-pedro-piva-nogueira-2643b835a/',
-              email: 'joaopedropiva17@gmail.com',
-          },
-          {
-              nome: 'Ana Clara Cremasco',
-              curso_pt: 'Desenvolvimento de Sistemas',
-              curso_en: 'Systems Development',
-              fotoUrl:
-                  'https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/ana-cremasco.jpeg',
-              github: 'https://github.com/anaccremasco',
-              linkedin:
-                  'https://www.linkedin.com/in/ana-clara-cremasco-425799349?utm_source=share_via&utm_content=profile&utm_medium=member_android',
-              email: 'anaclara.luizcremasco@gmail.com',
-          },
-          {
-              nome: 'Daniel Casalli',
-              curso_pt: 'Desenvolvimento de Sistemas',
-              curso_en: 'Systems Development',
-              fotoUrl:
-                  'https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/daniel-casalli.png',
-              github: 'https://github.com/daniel-casalli02',
-              linkedin: '',
-              email: 'casallidan7@gmail.com',
-          },
-          {
-              nome: 'Maria Eduarda de Andrade',
-              curso_pt: 'Desenvolvimento de Sistemas',
-              curso_en: 'Systems Development',
-              fotoUrl:
-                  'https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/maria-andrade.jpeg',
-              github: 'https://github.com/mariaeandrade',
-              linkedin:
-                  'https://www.linkedin.com/in/maria-eduarda-andrade-6878a2349?utm_source=share_via&utm_content=profile&utm_medium=member_ios',
-              email: 'dudadeandrade13@gmail.com',
-          },
-          {
-              nome: 'Gustavo Lima',
-              curso_pt: 'Eletro Eletronica',
-              curso_en: 'Electro Electronics',
-              fotoUrl:
-                  'https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/gustavo-lima.png',
-              github: '',
-              linkedin: '',
-              email: 'guzinholma4@gmail.com',
-          },
-          {
-              nome: 'Leonardo Lima',
-              curso_pt: 'Eletro Eletronica',
-              curso_en: 'Electro Electronics',
-              fotoUrl:
-                  'https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/leonardo-lima.jpeg',
-              github: '',
-              linkedin: '',
-              email: 'leonardo.lima04@icloud.com',
-          },
-          {
-              nome: 'Rafaela Barros',
-              curso_pt: 'Eletro Eletronica',
-              curso_en: 'Electro Electronics',
-              fotoUrl:
-                  'https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/rafaela-barros.png',
-              github: '',
-              linkedin: '',
-              email: 'rafaelabarroslucio@gmail.com',
-          },
-          {
-              nome: 'Natalie',
-              curso_pt: 'Eletro Eletronica',
-              curso_en: 'Electro Electronics',
-              fotoUrl:
-                  'https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/natalie.png',
-              github: '',
-              linkedin: '',
-              email: 'natalierib08@gmail.com',
-          },
-          {
-              nome: 'Giovanni Cocielo',
-              curso_pt: 'Eletro Eletronica',
-              curso_en: 'Electro Electronics',
-              fotoUrl:
-                  'https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/giovanni-cocielo.jpeg',
-              github: '',
-              linkedin: '',
-              email: '',
-          },
-          {
-              nome: 'Ana Gabriely Paslauski',
-              curso_pt: 'Mecanica',
-              curso_en: 'Mechanics',
-              fotoUrl:
-                  'https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/ana-gabriely.jpeg',
-              github: '',
-              linkedin: '',
-              email: 'anagabrielyandrade10@gmail.com',
-          },
-          {
-              nome: 'Lucas Magalhaes',
-              curso_pt: 'Mecanica',
-              curso_en: 'Mechanics',
-              fotoUrl:
-                  'https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/lucas-conde.jpeg',
-              github: '',
-              linkedin: '',
-              email: '',
-          },
-          {
-              nome: 'Guilherme Batista',
-              curso_pt: 'Mecanica',
-              curso_en: 'Mechanics',
-              fotoUrl:
-                  'https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/guilherme-batista.jpeg',
-              github: '',
-              linkedin: '',
-              email: 'guizaga.silva@gmail.com',
-          },
-      ],
+    data: [
+      {
+        nome: "Fernando Santos",
+        curso_pt: "Desenvolvimento de Sistemas",
+        curso_en: "Systems Development",
+        fotoUrl:
+          "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/fernando-santos.jpeg",
+        github: "https://github.com/ferrnd",
+        linkedin: "https://www.linkedin.com/in/ferrnd/",
+        email: "evencio.tech@gmail.com",
+      },
+      {
+        nome: "Cauã Tupinambá",
+        curso_pt: "Desenvolvimento de Sistemas",
+        curso_en: "Systems Development",
+        fotoUrl:
+          "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/caua-tupinamba.png",
+        github: "https://github.com/dev-tupizin",
+        linkedin: "https://www.linkedin.com/in/cau%C3%A3-tupinamba-7858a1349/",
+        email: "cauatupinamba@gmail.com",
+      },
+      {
+        nome: "João Pedro Piva",
+        curso_pt: "Desenvolvimento de Sistemas",
+        curso_en: "Systems Development",
+        fotoUrl:
+          "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/joao-pedro-piva.png",
+        github: "https://github.com/jppiva",
+        linkedin:
+          "https://www.linkedin.com/in/jo%C3%A3o-pedro-piva-nogueira-2643b835a/",
+        email: "joaopedropiva17@gmail.com",
+      },
+      {
+        nome: "Ana Clara Cremasco",
+        curso_pt: "Desenvolvimento de Sistemas",
+        curso_en: "Systems Development",
+        fotoUrl:
+          "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/ana-cremasco.jpeg",
+        github: "https://github.com/anaccremasco",
+        linkedin:
+          "https://www.linkedin.com/in/ana-clara-cremasco-425799349?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+        email: "anaclara.luizcremasco@gmail.com",
+      },
+      {
+        nome: "Daniel Casalli",
+        curso_pt: "Desenvolvimento de Sistemas",
+        curso_en: "Systems Development",
+        fotoUrl:
+          "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/daniel-casalli.png",
+        github: "https://github.com/daniel-casalli02",
+        linkedin: "",
+        email: "casallidan7@gmail.com",
+      },
+      {
+        nome: "Maria Eduarda de Andrade",
+        curso_pt: "Desenvolvimento de Sistemas",
+        curso_en: "Systems Development",
+        fotoUrl:
+          "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/maria-andrade.jpeg",
+        github: "https://github.com/mariaeandrade",
+        linkedin:
+          "https://www.linkedin.com/in/maria-eduarda-andrade-6878a2349?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
+        email: "dudadeandrade13@gmail.com",
+      },
+      {
+        nome: "Gustavo Lima",
+        curso_pt: "Eletro Eletronica",
+        curso_en: "Electro Electronics",
+        fotoUrl:
+          "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/gustavo-lima.png",
+        github: "",
+        linkedin: "",
+        email: "guzinholma4@gmail.com",
+      },
+      {
+        nome: "Leonardo Lima",
+        curso_pt: "Eletro Eletronica",
+        curso_en: "Electro Electronics",
+        fotoUrl:
+          "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/leonardo-lima.jpeg",
+        github: "",
+        linkedin: "",
+        email: "leonardo.lima04@icloud.com",
+      },
+      {
+        nome: "Rafaela Barros",
+        curso_pt: "Eletro Eletronica",
+        curso_en: "Electro Electronics",
+        fotoUrl:
+          "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/rafaela-barros.png",
+        github: "",
+        linkedin: "",
+        email: "rafaelabarroslucio@gmail.com",
+      },
+      {
+        nome: "Natalie",
+        curso_pt: "Eletro Eletronica",
+        curso_en: "Electro Electronics",
+        fotoUrl:
+          "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/natalie.png",
+        github: "",
+        linkedin: "",
+        email: "natalierib08@gmail.com",
+      },
+      {
+        nome: "Giovanni Cocielo",
+        curso_pt: "Eletro Eletronica",
+        curso_en: "Electro Electronics",
+        fotoUrl:
+          "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/giovanni-cocielo.jpeg",
+        github: "",
+        linkedin: "",
+        email: "",
+      },
+      {
+        nome: "Ana Gabriely Paslauski",
+        curso_pt: "Mecanica",
+        curso_en: "Mechanics",
+        fotoUrl:
+          "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/ana-gabriely.jpeg",
+        github: "",
+        linkedin: "",
+        email: "anagabrielyandrade10@gmail.com",
+      },
+      {
+        nome: "Lucas Magalhaes",
+        curso_pt: "Mecanica",
+        curso_en: "Mechanics",
+        fotoUrl:
+          "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/lucas-conde.jpeg",
+        github: "",
+        linkedin: "",
+        email: "",
+      },
+      {
+        nome: "Guilherme Batista",
+        curso_pt: "Mecanica",
+        curso_en: "Mechanics",
+        fotoUrl:
+          "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/guilherme-batista.jpeg",
+        github: "",
+        linkedin: "",
+        email: "guizaga.silva@gmail.com",
+      },
+    ],
   });
 
   console.log("✅ Seed concluído!");
