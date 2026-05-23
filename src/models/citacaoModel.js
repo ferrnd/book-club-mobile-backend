@@ -31,7 +31,15 @@ export default class CitacaoModel {
   }
 
   static async buscarTodos() {
-    return prisma.citacao.findMany();
+    return prisma.citacao.findMany({
+    include: {
+      conto: {
+        select: {
+          titulo_pt: true
+        }
+      }
+    }
+  });
   }
   static async buscarPorId(id) {
     const data = await prisma.citacao.findUnique({ where: { id } });
