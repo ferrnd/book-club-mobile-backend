@@ -146,13 +146,15 @@ model VideoAula {
 }
 
 model Dica {
-    id          Int      @id @default(autoincrement())
-    tipo_pt     String
-    tipo_en     String
-    conteudo_pt String   @db.Text
-    conteudo_en String   @db.Text
-    createdAt   DateTime @default(now())
-    updatedAt   DateTime @updatedAt
+    id            Int      @id @default(autoincrement())
+    tipo_pt       String
+    tipo_en       String
+    conteudo_pt   String   @db.Text
+    conteudo_en   String   @db.Text
+    explicacao_pt String   @db.Text
+    explicacao_en String   @db.Text
+    createdAt     DateTime @default(now())
+    updatedAt     DateTime @updatedAt
 
     @@map("dica")
 }
