@@ -108,7 +108,7 @@ async function main() {
       nome: "Conceição Evaristo",
       fotoUrl:
         "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/author/conceicao-evaristo.png",
-      nascimento: "29 de novembro de 1946, nascida em Belo Horizonte (MG)",
+      nascimento: "29 de novembro de 1946, Belo Horizonte - Minas gerais, Brasil",
       nacionalidade_pt: "Brasileira",
       nacionalidade_en: "Brazilian",
       biografia_pt:
