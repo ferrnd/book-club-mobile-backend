@@ -342,31 +342,47 @@ async function main() {
   await prisma.personagem.createMany({
     data: [
       {
-        nome: "Ana Davenga",
+        nome: "Ayoluwa",
         fotoUrl:
-          "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/characters/ana-davenga-novo.png",
+        "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/characters/ayoluwa.png",
         caracteristicas_pt:
-          "Mulher negra adulta, de corpo cheio e exuberante. Seios grandes e salientes, quadris marcados. Pele negra. Presença física imponente — quando dança no samba, seu corpo se move com graça e sensualidade natural. Veste-se de forma simples, como moradora de favela. Expressão no rosto que alterna entre a preocupação e o afeto profundo.",
+        "Etnia: Bebê negro, pele retinta, muito lisa e saudável. Cabelo: Pequenos fios de cabelo crespo bem macios começando a crescer. Rosto: Bochechas grandes, olhos negros imensos e brilhantes. Corpo: Bebê gordinho, enrolado em um tecido de estampa africana (tipo Kente ou Ankara). O Diferencial: Transmite uma pureza absoluta e uma esperança que ilumina o ambiente.",
         caracteristicas_en:
-          "An adult Black woman with a full, exuberant body. She has large, prominent breasts and shapely hips. Deep black skin. A commanding physical presence—when she dances samba, her body moves with grace and natural sensuality. She dresses simply, like a resident of the favela. Her facial expression shifts between worry and profound affection.",
+          "Ethnicity: Black baby, very dark, smooth and healthy skin. Hair: Small soft curly hair beginning to grow. Face: Large cheeks, huge and bright black eyes. Body: Chubby baby, wrapped in African-patterned fabric (like Kente or Ankara). The Differentiator: Transmits absolute purity and a hope that illuminates the environment.",
+          descricao_pt:
+          "Ayoluwa é o raio de sol que encerra a obra. Seu nome, que em iorubá significa 'a alegria do nosso povo', define sua função na narrativa: ela é a prova de que o projeto de morte não venceu. Sua personagem é uma mensagem de futurismo negro, indicando que, apesar das águas de lágrimas que banham o livro, novas vidas continuarão a nascer com a missão de renovar a esperança e a alegria da comunidade.",
+          descricao_en:
+          "Ayoluwa is the ray of sunshine that closes the work. Her name, which in Yoruba means 'the joy of our people,' defines her role in the narrative: she is proof that the project of death has not triumphed. Her character is a message of Black futurism, indicating that despite the waters of tears that bathe the book, new lives will continue to be born with the mission to renew hope and joy in the community.",
+        contoId: contosData.find(
+          (c) => c.titulo_pt === "Ayoluwa, a alegria de nosso povo",
+        )?.id,
+      },
+      {
+        nome: "Di Lixão",
+        fotoUrl:
+          "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/characters/di-lixao.png",
+        caracteristicas_pt:
+          "Menino negro cuja alcunha já diz tudo sobre o lugar que a sociedade lhe reservou — ele veio do lixo, vive no lixo, é tratado como lixo. Corpo de criança marcado pela fome, pela rua e pelo abandono. Sua aparência carrega a sujeira literal e simbólica do descarte social.",
+        caracteristicas_en:
+          "Black boy whose nickname says everything about the place society has reserved for him — he came from garbage, lives in garbage, is treated as garbage. A child's body marked by hunger, the street, and abandonment. His appearance carries the literal and symbolic dirt of social discarding.",
         descricao_pt:
-          "Companheira de Davenga, chefe de uma quadrilha numa favela. Aprende a conviver com a vida do crime sem se envolver diretamente — 'cega, surda e muda' quanto aos assuntos dos homens. Tem presença firme e é respeitada. Apaixonada por Davenga, enxuga as lágrimas dele no 'gozo-pranto'. Sua noite de paz se rompe com a chegada dos companheiros sem o marido — prenúncio trágico.",
+        "Menino de rua que representa o abandono completo do Estado em relação à infância negra periférica. Assim como Lumbiá, Di Lixão é um dos 'meninos perdidos' da obra. Seu nome é sua sentença social. A brutalidade poética de Conceição Evaristo o retrata sem sentimentalismos, mas com toda a força de quem denuncia que essa criança existiu — e que a sociedade decidiu descartá-la.",
         descricao_en:
-          "Companion to Davenga, leader of a criminal gang in a favela. She learns to live with the life of crime without directly involving herself — 'blind, deaf and mute' to the affairs of men. She has a firm presence and is respected. In love with Davenga, she wipes his tears in the 'climax-tears'. Her night of peace is shattered by the arrival of his companions without him — a tragic omen.",
-        contoId: contosData.find((c) => c.titulo_pt === "Ana Davenga")?.id,
+        "Street boy who represents the complete abandonment by the State in relation to peripheral Black childhood. Like Lumbiá, Di Lixão is one of the 'lost boys' of the work. His name is his social sentence. The poetic brutality of Conceição Evaristo portrays him without sentimentalisms, but with all the force of one who denounces that this child existed — and that society decided to discard him.",
+        contoId: contosData.find((c) => c.titulo_pt === "Di lixão")?.id,
       },
       {
         nome: "Maria",
         fotoUrl:
-          "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/characters/maria.png",
+        "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/characters/maria.png",
         caracteristicas_pt:
-          "Mulher negra e periférica, moradora de favela. Vestimenta simples de quem trabalha como doméstica. Corpo cansado pela rotina do trabalho e pelo peso das longas esperas nos pontos de ônibus — corpo marcado pela invisibilidade social que lhe é imposta.",
+        "Mulher negra e periférica, moradora de favela. Vestimenta simples de quem trabalha como doméstica. Corpo cansado pela rotina do trabalho e pelo peso das longas esperas nos pontos de ônibus — corpo marcado pela invisibilidade social que lhe é imposta.",
         caracteristicas_en:
-          "Black peripheral woman, favela resident. Simple clothing of someone who works as a domestic servant. Body tired from work routine and the weight of long waits at bus stops — a body marked by the social invisibility imposed on her.",
+        "Black peripheral woman, favela resident. Simple clothing of someone who works as a domestic servant. Body tired from work routine and the weight of long waits at bus stops — a body marked by the social invisibility imposed on her.",
         descricao_pt:
-          "Trabalhadora doméstica que mora numa favela e serve numa casa de família rica. Enfrenta violência simbólica e física no transporte e nas ruas. Seu cotidiano revela as múltiplas camadas de opressão — de classe, raça e gênero — que recaem sobre mulheres negras que sustentam casas alheias enquanto lutam para manter a sua.",
+        "Trabalhadora doméstica que mora numa favela e serve numa casa de família rica. Enfrenta violência simbólica e física no transporte e nas ruas. Seu cotidiano revela as múltiplas camadas de opressão — de classe, raça e gênero — que recaem sobre mulheres negras que sustentam casas alheias enquanto lutam para manter a sua.",
         descricao_en:
-          "A domestic worker who lives in a favela and serves a wealthy family. She faces symbolic and physical violence in transportation and on the streets. Her daily life reveals the multiple layers of oppression — of class, race, and gender — that fall upon Black women who sustain other people's homes while struggling to maintain their own.",
+        "A domestic worker who lives in a favela and serves a wealthy family. She faces symbolic and physical violence in transportation and on the streets. Her daily life reveals the multiple layers of oppression — of class, race, and gender — that fall upon Black women who sustain other people's homes while struggling to maintain their own.",
         contoId: contosData.find((c) => c.titulo_pt === "Maria")?.id,
       },
       {
@@ -436,32 +452,16 @@ async function main() {
         caracteristicas_en:
           "A fifty-year-old woman who appears much younger. 'She was whole, despite so many stumbles and accidents along her life-road.' A body that defied time, preserving a vitality that surprised even herself in the mirror. Black, marked by the beauty that spanned five decades.",
         descricao_pt:
-          "Mulher em processo de rememoração profunda de sua vida amorosa e erótica. Seu nome é uma aglutinação de 'lua' e 'mandar' — ela é regida pela lua e pelo desejo. Reflete sobre seus amores: o platônico aos onze anos, o primeiro relacionamento aos treze, a grande paixão que lhe deu cinco filhos, e também amores em 'braços iguais aos seus'. Questiona sem pudor: 'O amor se guarda só na ponta de um falo ou nasce também dos lábios vaginais de um coração de uma mulher para a outra?'",
+        "Mulher em processo de rememoração profunda de sua vida amorosa e erótica. Seu nome é uma aglutinação de 'lua' e 'mandar' — ela é regida pela lua e pelo desejo. Reflete sobre seus amores: o platônico aos onze anos, o primeiro relacionamento aos treze, a grande paixão que lhe deu cinco filhos, e também amores em 'braços iguais aos seus'. Questiona sem pudor: 'O amor se guarda só na ponta de um falo ou nasce também dos lábios vaginais de um coração de uma mulher para a outra?'",
         descricao_en:
-          "A woman in a process of deep remembrance of her romantic and erotic life. Her name is an agglutination of 'moon' and 'to command' — she is governed by the moon and desire. She reflects on her loves: the platonic one at eleven, her first relationship at thirteen, the great passion that gave her five children, and also loves in 'arms like her own.' She questions without shame: 'Is love kept only at the tip of a phallus or is it also born from the vaginal lips of a woman's heart to another woman's?'",
+        "A woman in a process of deep remembrance of her romantic and erotic life. Her name is an agglutination of 'moon' and 'to command' — she is governed by the moon and desire. She reflects on her loves: the platonic one at eleven, her first relationship at thirteen, the great passion that gave her five children, and also loves in 'arms like her own.' She questions without shame: 'Is love kept only at the tip of a phallus or is it also born from the vaginal lips of a woman's heart to another woman's?'",
         contoId: contosData.find((c) => c.titulo_pt === "Luamanda")?.id,
-      },
-      {
-        nome: "Ayoluwa",
-        fotoUrl:
-          "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/characters/ayoluwa.png",
-        caracteristicas_pt:
-          "Etnia: Bebê negro, pele retinta, muito lisa e saudável. Cabelo: Pequenos fios de cabelo crespo bem macios começando a crescer. Rosto: Bochechas grandes, olhos negros imensos e brilhantes. Corpo: Bebê gordinho, enrolado em um tecido de estampa africana (tipo Kente ou Ankara). O Diferencial: Transmite uma pureza absoluta e uma esperança que ilumina o ambiente.",
-        caracteristicas_en:
-          "Ethnicity: Black baby, very dark, smooth and healthy skin. Hair: Small soft curly hair beginning to grow. Face: Large cheeks, huge and bright black eyes. Body: Chubby baby, wrapped in African-patterned fabric (like Kente or Ankara). The Differentiator: Transmits absolute purity and a hope that illuminates the environment.",
-        descricao_pt:
-          "Ayoluwa é o raio de sol que encerra a obra. Seu nome, que em iorubá significa 'a alegria do nosso povo', define sua função na narrativa: ela é a prova de que o projeto de morte não venceu. Sua personagem é uma mensagem de futurismo negro, indicando que, apesar das águas de lágrimas que banham o livro, novas vidas continuarão a nascer com a missão de renovar a esperança e a alegria da comunidade.",
-        descricao_en:
-          "Ayoluwa is the ray of sunshine that closes the work. Her name, which in Yoruba means 'the joy of our people,' defines her role in the narrative: she is proof that the project of death has not triumphed. Her character is a message of Black futurism, indicating that despite the waters of tears that bathe the book, new lives will continue to be born with the mission to renew hope and joy in the community.",
-        contoId: contosData.find(
-          (c) => c.titulo_pt === "Ayoluwa, a alegria de nosso povo",
-        )?.id,
       },
       {
         nome: "Natalina",
         fotoUrl:
           "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/characters/natalina.png",
-        caracteristicas_pt:
+          caracteristicas_pt:
           "Negra, começa a história ainda quase menina — 'ia fazer catorze anos' na primeira gravidez, com 'corpão de moça' aos onze. Corpo que amadurece precocemente, marcado pelas gestações repetidas, pelos chás que tomou, pelas náuseas do terceiro filho. Corpo jovem obrigado a envelhecer rápido demais.",
         caracteristicas_en:
           "Black, begins the story still almost a girl — 'she was about to turn fourteen' in her first pregnancy, with a 'voluptuous body' at eleven. A body that matures prematurely, marked by repeated pregnancies, the teas she took, the nausea of the third child. A young body forced to age far too quickly.",
@@ -481,40 +481,40 @@ async function main() {
           "Mulher negra marcada fisicamente pelo sofrimento de uma violência sofrida. Corpo que carrega as marcas do que foi feito a ela sem consentimento. Aparência que guarda, na face, o paradoxo do título — um beijo que não deveria existir, dado onde não devia ser dado.",
         caracteristicas_en:
           "Black woman physically marked by the suffering of violence endured. A body that carries the marks of what was done to her without consent. An appearance that holds, in her face, the paradox of the title — a kiss that should not exist, given where it should not be given.",
-        descricao_pt:
+          descricao_pt:
           "Personagem que atravessa o tema da violência sexual e do abuso. Sua história denuncia a violação do corpo feminino negro como algo corriqueiro e silenciado. Representa a dor de tantas mulheres que carregam no rosto e no corpo memórias de violências que o mundo prefere ignorar. Sua resistência é a de quem sobrevive ao insuportável e ainda assim continua existindo.",
         descricao_en:
           "Character who traverses the theme of sexual violence and abuse. Her story denounces the violation of the Black female body as something routine and silenced. She represents the pain of so many women who carry in their faces and bodies memories of violence that the world prefers to ignore. Her resistance is that of one who survives the unbearable and still continues to exist.",
         contoId: contosData.find((c) => c.titulo_pt === "Beijo na face")?.id,
       },
       {
-        nome: "Di Lixão",
-        fotoUrl:
-          "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/characters/di-lixao.png",
-        caracteristicas_pt:
-          "Menino negro cuja alcunha já diz tudo sobre o lugar que a sociedade lhe reservou — ele veio do lixo, vive no lixo, é tratado como lixo. Corpo de criança marcado pela fome, pela rua e pelo abandono. Sua aparência carrega a sujeira literal e simbólica do descarte social.",
-        caracteristicas_en:
-          "Black boy whose nickname says everything about the place society has reserved for him — he came from garbage, lives in garbage, is treated as garbage. A child's body marked by hunger, the street, and abandonment. His appearance carries the literal and symbolic dirt of social discarding.",
-        descricao_pt:
-          "Menino de rua que representa o abandono completo do Estado em relação à infância negra periférica. Assim como Lumbiá, Di Lixão é um dos 'meninos perdidos' da obra. Seu nome é sua sentença social. A brutalidade poética de Conceição Evaristo o retrata sem sentimentalismos, mas com toda a força de quem denuncia que essa criança existiu — e que a sociedade decidiu descartá-la.",
-        descricao_en:
-          "Street boy who represents the complete abandonment by the State in relation to peripheral Black childhood. Like Lumbiá, Di Lixão is one of the 'lost boys' of the work. His name is his social sentence. The poetic brutality of Conceição Evaristo portrays him without sentimentalisms, but with all the force of one who denounces that this child existed — and that society decided to discard him.",
-        contoId: contosData.find((c) => c.titulo_pt === "Di lixão")?.id,
-      },
-      {
         nome: "Kimbá",
         fotoUrl:
-          "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/characters/kimba.png",
+        "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/characters/kimba.png",
         caracteristicas_pt:
-          "Jovem negro alto, forte e visivelmente bonito — ele próprio tem consciência disso e gosta. Corpo atlético e imponente. Caminha com passos firmes e calmos. Antes chamado Zezinho, ganhou o apelido Kimbá de um amigo que o achava parecido com alguém da Nigéria. Tem presença física marcante, do tipo que atrai olhares — de mulheres e, para seu próprio desconforto, de homens também.",
+        "Jovem negro alto, forte e visivelmente bonito — ele próprio tem consciência disso e gosta. Corpo atlético e imponente. Caminha com passos firmes e calmos. Antes chamado Zezinho, ganhou o apelido Kimbá de um amigo que o achava parecido com alguém da Nigéria. Tem presença física marcante, do tipo que atrai olhares — de mulheres e, para seu próprio desconforto, de homens também.",
         caracteristicas_en:
-          "A tall, strong, and strikingly handsome young Black man—he is well aware of his looks and embraces them. He has an athletic, imposing physique and walks with firm, calm strides. Formerly known as Zezinho, he was nicknamed Kimbá by a friend who thought he resembled someone from Nigeria. He has a powerful physical presence that draws eyes—from women and, to his own discomfort, from men as well.",
+        "A tall, strong, and strikingly handsome young Black man—he is well aware of his looks and embraces them. He has an athletic, imposing physique and walks with firm, calm strides. Formerly known as Zezinho, he was nicknamed Kimbá by a friend who thought he resembled someone from Nigeria. He has a powerful physical presence that draws eyes—from women and, to his own discomfort, from men as well.",
         descricao_pt:
-          "Jovem que acorda antes de todos num barraco onde vivem sua vó Lidumira, mãe, tias e duas irmãs, além do irmão mais velho Raimundo — sempre bêbado. Kimbá decide que é preciso 'movimentar a vida até a morte' e parte. A descoberta de que era atraente também para homens é descrita como 'perturbadora' para ele. Representa o jovem negro que tenta construir um caminho próprio fora da violência do morro, carregando ao mesmo tempo a beleza e a vulnerabilidade de existir num mundo que criminaliza corpos como o seu.",
+        "Jovem que acorda antes de todos num barraco onde vivem sua vó Lidumira, mãe, tias e duas irmãs, além do irmão mais velho Raimundo — sempre bêbado. Kimbá decide que é preciso 'movimentar a vida até a morte' e parte. A descoberta de que era atraente também para homens é descrita como 'perturbadora' para ele. Representa o jovem negro que tenta construir um caminho próprio fora da violência do morro, carregando ao mesmo tempo a beleza e a vulnerabilidade de existir num mundo que criminaliza corpos como o seu.",
         descricao_en:
-          "Young man who wakes before everyone else in a shack where his grandmother Lidumira, mother, aunts, and two sisters live, as well as his older brother Raimundo — always drunk. Kimbá decides that it is necessary to 'move life until death' and leaves. The discovery that he was also attractive to men is described as 'disturbing' for him. He represents the young Black man who tries to build his own path outside the violence of the favela, carrying at the same time the beauty and vulnerability of existing in a world that criminalizes bodies like his.",
+        "Young man who wakes before everyone else in a shack where his grandmother Lidumira, mother, aunts, and two sisters live, as well as his older brother Raimundo — always drunk. Kimbá decides that it is necessary to 'move life until death' and leaves. The discovery that he was also attractive to men is described as 'disturbing' for him. He represents the young Black man who tries to build his own path outside the violence of the favela, carrying at the same time the beauty and vulnerability of existing in a world that criminalizes bodies like his.",
         contoId: contosData.find((c) => c.titulo_pt === "Os amores de Kimbá")
-          ?.id,
+        ?.id,
+      },
+      {
+        nome: "Ana Davenga",
+        fotoUrl:
+          "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/characters/ana-davenga-novo.png",
+        caracteristicas_pt:
+          "Mulher negra adulta, de corpo cheio e exuberante. Seios grandes e salientes, quadris marcados. Pele negra. Presença física imponente — quando dança no samba, seu corpo se move com graça e sensualidade natural. Veste-se de forma simples, como moradora de favela. Expressão no rosto que alterna entre a preocupação e o afeto profundo.",
+        caracteristicas_en:
+          "An adult Black woman with a full, exuberant body. She has large, prominent breasts and shapely hips. Deep black skin. A commanding physical presence—when she dances samba, her body moves with grace and natural sensuality. She dresses simply, like a resident of the favela. Her facial expression shifts between worry and profound affection.",
+        descricao_pt:
+          "Companheira de Davenga, chefe de uma quadrilha numa favela. Aprende a conviver com a vida do crime sem se envolver diretamente — 'cega, surda e muda' quanto aos assuntos dos homens. Tem presença firme e é respeitada. Apaixonada por Davenga, enxuga as lágrimas dele no 'gozo-pranto'. Sua noite de paz se rompe com a chegada dos companheiros sem o marido — prenúncio trágico.",
+        descricao_en:
+          "Companion to Davenga, leader of a criminal gang in a favela. She learns to live with the life of crime without directly involving herself — 'blind, deaf and mute' to the affairs of men. She has a firm presence and is respected. In love with Davenga, she wipes his tears in the 'climax-tears'. Her night of peace is shattered by the arrival of his companions without him — a tragic omen.",
+        contoId: contosData.find((c) => c.titulo_pt === "Ana Davenga")?.id,
       },
     ],
   });
