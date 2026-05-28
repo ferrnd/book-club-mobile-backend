@@ -1257,7 +1257,7 @@ async function main() {
         fotoUrl:
           "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/daniel-casalli.png",
         github: "https://github.com/daniel-casalli02",
-        linkedin: "",
+        linkedin: "https://www.linkedin.com/in/daniel-casalli-a5379a349?utm_source=share_via&utm_content=profile&utm_medium=member_android",
         email: "casallidan7@gmail.com",
       },
       {
