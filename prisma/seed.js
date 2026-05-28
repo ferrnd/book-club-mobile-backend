@@ -1312,6 +1312,36 @@ async function main() {
         email: "natalierib08@gmail.com",
       },
       {
+        nome: "Ana Gabriely Paslauski",
+        curso_pt: "Mecanica",
+        curso_en: "Mechanics",
+        fotoUrl:
+        "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/ana-gabriely.jpeg",
+        github: "",
+        linkedin: "",
+        email: "anagabrielyandrade10@gmail.com",
+      },
+      {
+        nome: "Guilherme Batista",
+        curso_pt: "Mecanica",
+        curso_en: "Mechanics",
+        fotoUrl:
+        "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/guilherme-batista.jpeg",
+        github: "",
+        linkedin: "",
+        email: "guizaga.silva@gmail.com",
+      },
+      {
+        nome: "Lucas Magalhaes",
+        curso_pt: "Mecanica",
+        curso_en: "Mechanics",
+        fotoUrl:
+        "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/lucas-conde.jpeg",
+        github: "",
+        linkedin: "",
+        email: "",
+      },
+      {
         nome: "Giovanni Cocielo",
         curso_pt: "Eletro Eletronica",
         curso_en: "Electro Electronics",
@@ -1320,36 +1350,6 @@ async function main() {
         github: "",
         linkedin: "",
         email: "",
-      },
-      {
-        nome: "Ana Gabriely Paslauski",
-        curso_pt: "Mecanica",
-        curso_en: "Mechanics",
-        fotoUrl:
-          "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/ana-gabriely.jpeg",
-        github: "",
-        linkedin: "",
-        email: "anagabrielyandrade10@gmail.com",
-      },
-      {
-        nome: "Lucas Magalhaes",
-        curso_pt: "Mecanica",
-        curso_en: "Mechanics",
-        fotoUrl:
-          "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/lucas-conde.jpeg",
-        github: "",
-        linkedin: "",
-        email: "",
-      },
-      {
-        nome: "Guilherme Batista",
-        curso_pt: "Mecanica",
-        curso_en: "Mechanics",
-        fotoUrl:
-          "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/guilherme-batista.jpeg",
-        github: "",
-        linkedin: "",
-        email: "guizaga.silva@gmail.com",
       },
     ],
   });
