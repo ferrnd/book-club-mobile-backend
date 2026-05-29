@@ -82,7 +82,17 @@ export default class personagemModel {
       };
     }
 
-    return prisma.personagem.findMany({ where });
+    return prisma.personagem.findMany({ 
+      where,
+      include: {
+        conto: {
+          select: {
+            titulo_pt: true,
+            titulo_en: true
+          }
+        }
+      }
+    });
   }
 
   static async buscarPorId(id) {
