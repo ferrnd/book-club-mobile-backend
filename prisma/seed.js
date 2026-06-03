@@ -45,7 +45,7 @@ async function main() {
   await prisma.livro.create({
     data: {
       titulo: "Olhos d'Água",
-      capa: "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/bookCover/olhos-dagua.png",
+      capa: "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/bookCover/capa-sub.png",
       autor: "Conceição Evaristo",
       detalhesAutor:
         "Conceição Evaristo é uma das vozes mais potentes da literatura brasileira contemporânea. Nascida em uma comunidade em Belo Horizonte, sua trajetória é marcada pelo esforço entre o trabalho doméstico e os estudos, culminando em um doutorado em Letras. Essa vivência é a base de sua produção literária, que ela define pelo conceito de escrevivência: uma escrita que não se separa da vida e que dá voz à memória coletiva do povo afro-brasileiro. Em suas obras, como o premiado Olhos D’água, Conceição retira o negro da condição de objeto ou estereótipo e o coloca como sujeito de sua própria história. Ela explora temas como o racismo estrutural, a ancestralidade e a resiliência das mulheres negras, sempre equilibrando a crueza da realidade social com um lirismo profundo. Sua escrita é um ato de resistência que busca humanizar corpos que historicamente foram marginalizados, transformando dor em literatura de alta qualidade técnica e emocional.",
