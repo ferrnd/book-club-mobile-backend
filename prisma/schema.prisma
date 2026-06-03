@@ -56,6 +56,18 @@ model Autor {
     nacionalidade_en  String
     biografia_pt      String   @db.Text
     biografia_en      String   @db.Text
+    conquistas_pt     String   @db.Text
+    conquistas_en     String   @db.Text
+    formacao_pt       String   @db.Text
+    formacao_en       String   @db.Text
+    marcos_pt         String   @db.Text
+    marcos_en         String   @db.Text
+    inspiracao_pt     String   @db.Text
+    inspiracao_en     String   @db.Text
+    porqueEscrever_pt String   @db.Text
+    porqueEscrever_en String   @db.Text
+    curioso_pt        String   @db.Text
+    curioso_en        String   @db.Text
     estilo_escrita_pt String   @db.Text
     estilo_escrita_en String   @db.Text
     createdAt         DateTime @default(now())
