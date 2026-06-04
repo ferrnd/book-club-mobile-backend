@@ -648,6 +648,18 @@ async function main() {
           (c) => c.titulo_pt === "A gente combinamos de não morrer",
         )?.id,
       },
+      {
+        texto_pt: "Escrever é uma maneira de sangrar",
+        texto_en: "Writing is a way to bleed",
+        explicacao_pt:
+          "Esta frase, dita pela narradora no final do conto, é uma das mais potentes de toda a obra e resume a relação da autora com a literatura. Conceição Evaristo entende a escrita como um ato doloroso, mas necessário — um ato de derramar a dor, o sofrimento e a memória de um povo que foi silenciado por séculos. A escrita se torna, assim, uma forma de catarse e de resistência.",
+        explicacao_en:
+          "This phrase, spoken by the narrator at the end of the story, is one of the most powerful in the entire work and summarizes the author's relationship with literature. Conceição Evaristo understands writing as a painful but necessary act — an act of pouring out the pain, suffering, and memory of a people silenced for centuries. Writing thus becomes a form of catharsis and resistance.",
+        personagem: "narradora",
+        contoId: citacoes.find(
+          (c) => c.titulo_pt === "A gente combinamos de não morrer",
+        )?.id,
+      },
     ],
   });
 
@@ -907,18 +919,32 @@ async function main() {
   await prisma.videoAula.createMany({
     data: [
       {
-        titulo_pt: "video aula 1",
-        titulo_en: "video class 1",
-        descricao_pt: "video aula sobre o livro principal",
-        descricao_en: "video class about the main book",
-        url: "https://www.youtube.com/",
+        titulo_pt: "CONCEIÇÃO EVARISTO | Writing",
+        titulo_en: "CONCEIÇÃO EVARISTO | Writing",
+        descricao_pt: "Neste vídeo do projeto Leituras Brasileiras, a renomada escritora, poeta e professora Conceição Evaristo compartilha uma reflexão profunda e intimista sobre o seu processo de criação literária e o conceito que cunhou e que guia sua obra: a escrevivência.",
+        descricao_en: "In this video from the project Leituras Brasileiras, the renowned writer, poet, and professor Conceição Evaristo shares a profound and intimate reflection on her literary creation process and the concept she coined that guides her work: escrevivência.",
+        url: "https://youtu.be/QXopKuvxevY",
       },
       {
-        titulo_pt: "video aula 2",
-        titulo_en: "video class 2",
-        descricao_pt: "video aula sobre o livro principal",
-        descricao_en: "video class about the main book",
-        url: "https://www.youtube.com/",
+        titulo_pt: "Resumo dos contos de OLHOS D'ÁGUA | Conceição Evaristo | vestibular UNICAMP",
+        titulo_en: "Summary of the stories of OLHOS D'ÁGUA | Conceição Evaristo | vestibular UNICAMP",
+        descricao_pt: "Esse vídeo oferece um resumo detalhado dos 15 contos que compõem a obra 'Olhos D'Água', de Conceição Evaristo. Com foco no contexto do vestibular e na obra literária.",
+        descricao_en: "This video offers a detailed summary of the 15 stories that make up the book 'Olhos D'Água' by Conceição Evaristo, focusing on the context of the university entrance exam and the literary work.",
+        url: "https://youtu.be/KuTakZaTkpE",
+      },
+      {
+        titulo_pt: "OLHOS D'ÁGUA, Conceição Evaristo | audiobook",
+        titulo_en: "OLHOS D'ÁGUA, Conceição Evaristo | audiobook",
+        descricao_pt: "Ouça o audiobook completo de Olhos D'Água, uma das obras mais marcantes e celebradas da literatura contemporânea brasileira, escrita pela premiada autora Conceição Evaristo.",
+        descricao_en: "Listen to the complete audiobook of Olhos D'Água, one of the most striking and celebrated works of contemporary Brazilian literature, written by the award-winning author Conceição Evaristo.",
+        url: "https://youtu.be/nIiEKgVbBWQ",
+      },
+      {
+        titulo_pt: "Conceição Evaristo é a convidada do Trilha de Letras",
+        titulo_en: "Conceição Evaristo on the Trilha de Letras program",
+        descricao_pt: "Conceição Evaristo conversa sobre sua trajetória literária, sua visão sobre a literatura afro-brasileira e a importância da leitura.",
+        descricao_en: "Conceição Evaristo talks about her literary trajectory, her vision of Afro-Brazilian literature and the importance of reading.",
+        url: "https://www.youtube.com/watch?v=xplu30xQvzg",
       },
     ],
   });
