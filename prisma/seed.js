@@ -953,6 +953,13 @@ async function main() {
         descricao_en: "Explaining the concept of escrevivência and analyzing the work 'Olhos D'Água' by Conceição Evaristo, showing how the author combines real experiences and literature.",
         url: "P-iialWa9J4",
       },
+      {
+        titulo_pt: "Review sobre o livro: Olhos D'Água de Conceição Evaristo",
+        titulo_en: "Review of the book: Olhos D'Água by Conceição Evaristo",
+        descricao_pt: "Nesse vídeo, analisamos a potência dos contos de 'Olhos D'Água', destacando a realidade marcante, a ancestralidade e a sensibilidade que atravessam a obra. Uma review direta para entender o impacto e a importância desse livro essencial da literatura contemporânea.",
+        descricao_en: "In this video, we analyze the power of the stories in 'Olhos D'Água', highlighting the striking reality, ancestry, and sensitivity that run through the work. A straightforward review to understand the impact and importance of this essential book of contemporary literature.",
+        url: "UsfPdPyG80o",
+      },
     ],
   });
 
