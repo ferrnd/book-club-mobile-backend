@@ -946,6 +946,13 @@ async function main() {
         descricao_en: "Conceição Evaristo talks about her literary trajectory, her vision of Afro-Brazilian literature and the importance of reading.",
         url: "xplu30xQvzg",
       },
+      {
+        titulo_pt: "Vídeo explicativo Sobre o conceito Escrevivência e a Obra Olhos D'Água",
+        titulo_en: "Explanatory Video on the Concept of Escrevivência and the Work Olhos D'Água",
+        descricao_pt: "Explicando o conceito de Escrevivência e analisando a obra \"Olhos D'Água\", de Conceição Evaristo, mostrando como a autora une vivências reais e literatura.",
+        descricao_en: "Explaining the concept of escrevivência and analyzing the work 'Olhos D'Água' by Conceição Evaristo, showing how the author combines real experiences and literature.",
+        url: "P-iialWa9J4",
+      },
     ],
   });
 
