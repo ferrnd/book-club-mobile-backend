@@ -108,7 +108,8 @@ async function main() {
       nome: "Conceição Evaristo",
       fotoUrl:
         "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/author/conceicao-evaristo.png",
-      nascimento: "29 de novembro de 1946, Belo Horizonte - Minas gerais, Brasil",
+      nascimento:
+        "29 de novembro de 1946, Belo Horizonte - Minas gerais, Brasil",
       nacionalidade_pt: "Brasileira",
       nacionalidade_en: "Brazilian",
       biografia_pt:
@@ -132,9 +133,9 @@ async function main() {
       inspiracao_en:
         "In her adolescence, her formative readings included Jorge Amado, José Lins do Rego, and Carolina Maria de Jesus; later, Graciliano Ramos, Guimarães Rosa, Drummond, Manuel Bandeira, and Black poets such as Solano Trindade and Abdias do Nascimento. Among her most cited references are Carolina Maria de Jesus, Djamila Ribeiro, Lélia Gonzalez, and Angela Davis — thinkers who, like her, revolutionized the narrative about the lives of Black women. Carolina Maria de Jesus herself holds a special place: Conceição coordinated the Cadernos de Carolina collection (Companhia das Letras, 2021) and describes her as someone who 'created a literary tradition' by narrating her existence as a peripheral woman.",
       porqueEscrever_pt:
-        "Em suas próprias palavras: \"Escrever pode ser uma espécie de vingança, às vezes fico pensando sobre isso. Não sei se vingança, talvez desafio, um modo de ferir o silêncio imposto, ou ainda, executar um gesto de teimosia esperança.\"",
+        'Em suas próprias palavras: "Escrever pode ser uma espécie de vingança, às vezes fico pensando sobre isso. Não sei se vingança, talvez desafio, um modo de ferir o silêncio imposto, ou ainda, executar um gesto de teimosia esperança."',
       porqueEscrever_en:
-        "In her own words: \"Writing can be a kind of revenge, sometimes I think about that. I don't know if revenge, perhaps a challenge, a way to wound the imposed silence, or even to perform a gesture of stubborn hope.\"",
+        'In her own words: "Writing can be a kind of revenge, sometimes I think about that. I don\'t know if revenge, perhaps a challenge, a way to wound the imposed silence, or even to perform a gesture of stubborn hope."',
       curioso_pt:
         "A Casa Escrevivência foi inaugurada propositalmente no bairro da Saúde, no Rio de Janeiro — região conhecida como 'Pequena África' —, num gesto carregado de sentido: estar fisicamente ancorada na memória negra da cidade, próxima ao Muhcab e ao museu dos Pretos Novos. O impulso para criá-la foi prático e poético ao mesmo tempo: ela não suportava ver seus livros parados na estante. 'Livro na estante não significa nada. Ser um acervo para barata e cupim comer', disse ela.",
       curioso_en:
@@ -368,14 +369,14 @@ async function main() {
       {
         nome: "Ayoluwa",
         fotoUrl:
-        "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/characters/ayoluwa.png",
+          "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/characters/ayoluwa.png",
         caracteristicas_pt:
-        "Etnia: Bebê negro, pele retinta, muito lisa e saudável. Cabelo: Pequenos fios de cabelo crespo bem macios começando a crescer. Rosto: Bochechas grandes, olhos negros imensos e brilhantes. Corpo: Bebê gordinho, enrolado em um tecido de estampa africana (tipo Kente ou Ankara). O Diferencial: Transmite uma pureza absoluta e uma esperança que ilumina o ambiente.",
+          "Etnia: Bebê negro, pele retinta, muito lisa e saudável. Cabelo: Pequenos fios de cabelo crespo bem macios começando a crescer. Rosto: Bochechas grandes, olhos negros imensos e brilhantes. Corpo: Bebê gordinho, enrolado em um tecido de estampa africana (tipo Kente ou Ankara). O Diferencial: Transmite uma pureza absoluta e uma esperança que ilumina o ambiente.",
         caracteristicas_en:
           "Ethnicity: Black baby, very dark, smooth and healthy skin. Hair: Small soft curly hair beginning to grow. Face: Large cheeks, huge and bright black eyes. Body: Chubby baby, wrapped in African-patterned fabric (like Kente or Ankara). The Differentiator: Transmits absolute purity and a hope that illuminates the environment.",
-          descricao_pt:
+        descricao_pt:
           "Ayoluwa é o raio de sol que encerra a obra. Seu nome, que em iorubá significa 'a alegria do nosso povo', define sua função na narrativa: ela é a prova de que o projeto de morte não venceu. Sua personagem é uma mensagem de futurismo negro, indicando que, apesar das águas de lágrimas que banham o livro, novas vidas continuarão a nascer com a missão de renovar a esperança e a alegria da comunidade.",
-          descricao_en:
+        descricao_en:
           "Ayoluwa is the ray of sunshine that closes the work. Her name, which in Yoruba means 'the joy of our people,' defines her role in the narrative: she is proof that the project of death has not triumphed. Her character is a message of Black futurism, indicating that despite the waters of tears that bathe the book, new lives will continue to be born with the mission to renew hope and joy in the community.",
         contoId: contosData.find(
           (c) => c.titulo_pt === "Ayoluwa, a alegria de nosso povo",
@@ -390,23 +391,23 @@ async function main() {
         caracteristicas_en:
           "Black boy whose nickname says everything about the place society has reserved for him — he came from garbage, lives in garbage, is treated as garbage. A child's body marked by hunger, the street, and abandonment. His appearance carries the literal and symbolic dirt of social discarding.",
         descricao_pt:
-        "Menino de rua que representa o abandono completo do Estado em relação à infância negra periférica. Assim como Lumbiá, Di Lixão é um dos 'meninos perdidos' da obra. Seu nome é sua sentença social. A brutalidade poética de Conceição Evaristo o retrata sem sentimentalismos, mas com toda a força de quem denuncia que essa criança existiu — e que a sociedade decidiu descartá-la.",
+          "Menino de rua que representa o abandono completo do Estado em relação à infância negra periférica. Assim como Lumbiá, Di Lixão é um dos 'meninos perdidos' da obra. Seu nome é sua sentença social. A brutalidade poética de Conceição Evaristo o retrata sem sentimentalismos, mas com toda a força de quem denuncia que essa criança existiu — e que a sociedade decidiu descartá-la.",
         descricao_en:
-        "Street boy who represents the complete abandonment by the State in relation to peripheral Black childhood. Like Lumbiá, Di Lixão is one of the 'lost boys' of the work. His name is his social sentence. The poetic brutality of Conceição Evaristo portrays him without sentimentalisms, but with all the force of one who denounces that this child existed — and that society decided to discard him.",
+          "Street boy who represents the complete abandonment by the State in relation to peripheral Black childhood. Like Lumbiá, Di Lixão is one of the 'lost boys' of the work. His name is his social sentence. The poetic brutality of Conceição Evaristo portrays him without sentimentalisms, but with all the force of one who denounces that this child existed — and that society decided to discard him.",
         contoId: contosData.find((c) => c.titulo_pt === "Di lixão")?.id,
       },
       {
         nome: "Maria",
         fotoUrl:
-        "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/characters/maria.png",
+          "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/characters/maria.png",
         caracteristicas_pt:
-        "Mulher negra e periférica, moradora de favela. Vestimenta simples de quem trabalha como doméstica. Corpo cansado pela rotina do trabalho e pelo peso das longas esperas nos pontos de ônibus — corpo marcado pela invisibilidade social que lhe é imposta.",
+          "Mulher negra e periférica, moradora de favela. Vestimenta simples de quem trabalha como doméstica. Corpo cansado pela rotina do trabalho e pelo peso das longas esperas nos pontos de ônibus — corpo marcado pela invisibilidade social que lhe é imposta.",
         caracteristicas_en:
-        "Black peripheral woman, favela resident. Simple clothing of someone who works as a domestic servant. Body tired from work routine and the weight of long waits at bus stops — a body marked by the social invisibility imposed on her.",
+          "Black peripheral woman, favela resident. Simple clothing of someone who works as a domestic servant. Body tired from work routine and the weight of long waits at bus stops — a body marked by the social invisibility imposed on her.",
         descricao_pt:
-        "Trabalhadora doméstica que mora numa favela e serve numa casa de família rica. Enfrenta violência simbólica e física no transporte e nas ruas. Seu cotidiano revela as múltiplas camadas de opressão — de classe, raça e gênero — que recaem sobre mulheres negras que sustentam casas alheias enquanto lutam para manter a sua.",
+          "Trabalhadora doméstica que mora numa favela e serve numa casa de família rica. Enfrenta violência simbólica e física no transporte e nas ruas. Seu cotidiano revela as múltiplas camadas de opressão — de classe, raça e gênero — que recaem sobre mulheres negras que sustentam casas alheias enquanto lutam para manter a sua.",
         descricao_en:
-        "A domestic worker who lives in a favela and serves a wealthy family. She faces symbolic and physical violence in transportation and on the streets. Her daily life reveals the multiple layers of oppression — of class, race, and gender — that fall upon Black women who sustain other people's homes while struggling to maintain their own.",
+          "A domestic worker who lives in a favela and serves a wealthy family. She faces symbolic and physical violence in transportation and on the streets. Her daily life reveals the multiple layers of oppression — of class, race, and gender — that fall upon Black women who sustain other people's homes while struggling to maintain their own.",
         contoId: contosData.find((c) => c.titulo_pt === "Maria")?.id,
       },
       {
@@ -476,16 +477,16 @@ async function main() {
         caracteristicas_en:
           "A fifty-year-old woman who appears much younger. 'She was whole, despite so many stumbles and accidents along her life-road.' A body that defied time, preserving a vitality that surprised even herself in the mirror. Black, marked by the beauty that spanned five decades.",
         descricao_pt:
-        "Mulher em processo de rememoração profunda de sua vida amorosa e erótica. Seu nome é uma aglutinação de 'lua' e 'mandar' — ela é regida pela lua e pelo desejo. Reflete sobre seus amores: o platônico aos onze anos, o primeiro relacionamento aos treze, a grande paixão que lhe deu cinco filhos, e também amores em 'braços iguais aos seus'. Questiona sem pudor: 'O amor se guarda só na ponta de um falo ou nasce também dos lábios vaginais de um coração de uma mulher para a outra?'",
+          "Mulher em processo de rememoração profunda de sua vida amorosa e erótica. Seu nome é uma aglutinação de 'lua' e 'mandar' — ela é regida pela lua e pelo desejo. Reflete sobre seus amores: o platônico aos onze anos, o primeiro relacionamento aos treze, a grande paixão que lhe deu cinco filhos, e também amores em 'braços iguais aos seus'. Questiona sem pudor: 'O amor se guarda só na ponta de um falo ou nasce também dos lábios vaginais de um coração de uma mulher para a outra?'",
         descricao_en:
-        "A woman in a process of deep remembrance of her romantic and erotic life. Her name is an agglutination of 'moon' and 'to command' — she is governed by the moon and desire. She reflects on her loves: the platonic one at eleven, her first relationship at thirteen, the great passion that gave her five children, and also loves in 'arms like her own.' She questions without shame: 'Is love kept only at the tip of a phallus or is it also born from the vaginal lips of a woman's heart to another woman's?'",
+          "A woman in a process of deep remembrance of her romantic and erotic life. Her name is an agglutination of 'moon' and 'to command' — she is governed by the moon and desire. She reflects on her loves: the platonic one at eleven, her first relationship at thirteen, the great passion that gave her five children, and also loves in 'arms like her own.' She questions without shame: 'Is love kept only at the tip of a phallus or is it also born from the vaginal lips of a woman's heart to another woman's?'",
         contoId: contosData.find((c) => c.titulo_pt === "Luamanda")?.id,
       },
       {
         nome: "Natalina",
         fotoUrl:
           "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/characters/natalina.png",
-          caracteristicas_pt:
+        caracteristicas_pt:
           "Negra, começa a história ainda quase menina — 'ia fazer catorze anos' na primeira gravidez, com 'corpão de moça' aos onze. Corpo que amadurece precocemente, marcado pelas gestações repetidas, pelos chás que tomou, pelas náuseas do terceiro filho. Corpo jovem obrigado a envelhecer rápido demais.",
         caracteristicas_en:
           "Black, begins the story still almost a girl — 'she was about to turn fourteen' in her first pregnancy, with a 'voluptuous body' at eleven. A body that matures prematurely, marked by repeated pregnancies, the teas she took, the nausea of the third child. A young body forced to age far too quickly.",
@@ -505,7 +506,7 @@ async function main() {
           "Mulher negra marcada fisicamente pelo sofrimento de uma violência sofrida. Corpo que carrega as marcas do que foi feito a ela sem consentimento. Aparência que guarda, na face, o paradoxo do título — um beijo que não deveria existir, dado onde não devia ser dado.",
         caracteristicas_en:
           "Black woman physically marked by the suffering of violence endured. A body that carries the marks of what was done to her without consent. An appearance that holds, in her face, the paradox of the title — a kiss that should not exist, given where it should not be given.",
-          descricao_pt:
+        descricao_pt:
           "Personagem que atravessa o tema da violência sexual e do abuso. Sua história denuncia a violação do corpo feminino negro como algo corriqueiro e silenciado. Representa a dor de tantas mulheres que carregam no rosto e no corpo memórias de violências que o mundo prefere ignorar. Sua resistência é a de quem sobrevive ao insuportável e ainda assim continua existindo.",
         descricao_en:
           "Character who traverses the theme of sexual violence and abuse. Her story denounces the violation of the Black female body as something routine and silenced. She represents the pain of so many women who carry in their faces and bodies memories of violence that the world prefers to ignore. Her resistance is that of one who survives the unbearable and still continues to exist.",
@@ -514,17 +515,17 @@ async function main() {
       {
         nome: "Kimbá",
         fotoUrl:
-        "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/characters/kimba.png",
+          "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/characters/kimba.png",
         caracteristicas_pt:
-        "Jovem negro alto, forte e visivelmente bonito — ele próprio tem consciência disso e gosta. Corpo atlético e imponente. Caminha com passos firmes e calmos. Antes chamado Zezinho, ganhou o apelido Kimbá de um amigo que o achava parecido com alguém da Nigéria. Tem presença física marcante, do tipo que atrai olhares — de mulheres e, para seu próprio desconforto, de homens também.",
+          "Jovem negro alto, forte e visivelmente bonito — ele próprio tem consciência disso e gosta. Corpo atlético e imponente. Caminha com passos firmes e calmos. Antes chamado Zezinho, ganhou o apelido Kimbá de um amigo que o achava parecido com alguém da Nigéria. Tem presença física marcante, do tipo que atrai olhares — de mulheres e, para seu próprio desconforto, de homens também.",
         caracteristicas_en:
-        "A tall, strong, and strikingly handsome young Black man—he is well aware of his looks and embraces them. He has an athletic, imposing physique and walks with firm, calm strides. Formerly known as Zezinho, he was nicknamed Kimbá by a friend who thought he resembled someone from Nigeria. He has a powerful physical presence that draws eyes—from women and, to his own discomfort, from men as well.",
+          "A tall, strong, and strikingly handsome young Black man—he is well aware of his looks and embraces them. He has an athletic, imposing physique and walks with firm, calm strides. Formerly known as Zezinho, he was nicknamed Kimbá by a friend who thought he resembled someone from Nigeria. He has a powerful physical presence that draws eyes—from women and, to his own discomfort, from men as well.",
         descricao_pt:
-        "Jovem que acorda antes de todos num barraco onde vivem sua vó Lidumira, mãe, tias e duas irmãs, além do irmão mais velho Raimundo — sempre bêbado. Kimbá decide que é preciso 'movimentar a vida até a morte' e parte. A descoberta de que era atraente também para homens é descrita como 'perturbadora' para ele. Representa o jovem negro que tenta construir um caminho próprio fora da violência do morro, carregando ao mesmo tempo a beleza e a vulnerabilidade de existir num mundo que criminaliza corpos como o seu.",
+          "Jovem que acorda antes de todos num barraco onde vivem sua vó Lidumira, mãe, tias e duas irmãs, além do irmão mais velho Raimundo — sempre bêbado. Kimbá decide que é preciso 'movimentar a vida até a morte' e parte. A descoberta de que era atraente também para homens é descrita como 'perturbadora' para ele. Representa o jovem negro que tenta construir um caminho próprio fora da violência do morro, carregando ao mesmo tempo a beleza e a vulnerabilidade de existir num mundo que criminaliza corpos como o seu.",
         descricao_en:
-        "Young man who wakes before everyone else in a shack where his grandmother Lidumira, mother, aunts, and two sisters live, as well as his older brother Raimundo — always drunk. Kimbá decides that it is necessary to 'move life until death' and leaves. The discovery that he was also attractive to men is described as 'disturbing' for him. He represents the young Black man who tries to build his own path outside the violence of the favela, carrying at the same time the beauty and vulnerability of existing in a world that criminalizes bodies like his.",
+          "Young man who wakes before everyone else in a shack where his grandmother Lidumira, mother, aunts, and two sisters live, as well as his older brother Raimundo — always drunk. Kimbá decides that it is necessary to 'move life until death' and leaves. The discovery that he was also attractive to men is described as 'disturbing' for him. He represents the young Black man who tries to build his own path outside the violence of the favela, carrying at the same time the beauty and vulnerability of existing in a world that criminalizes bodies like his.",
         contoId: contosData.find((c) => c.titulo_pt === "Os amores de Kimbá")
-        ?.id,
+          ?.id,
       },
       {
         nome: "Ana Davenga",
@@ -911,6 +912,408 @@ async function main() {
         explicacao_en:
           "The protagonist was called Zezinho and received the nickname Kimbá from a wealthy, well-traveled friend who thought he looked like someone from Nigeria. The nickname carries a dimension of diasporic identity — a symbolic link to Africa that the friend sees in him, even if Kimbá does not yet see it in himself.",
       },
+      {
+        pergunta_pt:
+          "Conceição Evaristo nasceu e cresceu em qual cidade, experiência que moldou profundamente sua escrita?",
+        pergunta_en:
+          "Conceição Evaristo was born and raised in which city, an experience that profoundly shaped her writing?",
+        opcaoA_pt: "Salvador, Bahia, numa comunidade de terreiro.",
+        opcaoA_en: "Salvador, Bahia, in a terreiro community.",
+        opcaoB_pt: "São Paulo, na periferia do ABC paulista.",
+        opcaoB_en: "São Paulo, in the outskirts of the ABC region.",
+        opcaoC_pt: "Rio de Janeiro, numa favela da zona sul.",
+        opcaoC_en: "Rio de Janeiro, in a favela in the south zone.",
+        opcaoD_pt:
+          "Belo Horizonte, numa favela, onde viveu até migrar para o Rio de Janeiro já adulta.",
+        opcaoD_en:
+          "Belo Horizonte, in a favela, where she lived until migrating to Rio de Janeiro as an adult.",
+        opcaoE_pt: "Recife, Pernambuco, numa comunidade ribeirinha.",
+        opcaoE_en: "Recife, Pernambuco, in a riverside community.",
+        resposta: "D",
+        explicacao_pt:
+          "Conceição Evaristo nasceu em 1946 em Belo Horizonte, numa favela, em condições de extrema pobreza. Ela e a família trabalhavam como domésticas. Essa vivência nas margens da cidade mineira alimenta diretamente sua escrita — a favela, as mulheres trabalhadoras e a pobreza não são cenário em seus textos, são experiência encarnada.",
+        explicacao_en:
+          "Conceição Evaristo was born in 1946 in Belo Horizonte, in a favela, in conditions of extreme poverty. She and her family worked as domestic workers. This experience on the margins of the city in Minas Gerais directly feeds her writing — the favela, working women, and poverty are not scenery in her texts; they are embodied experience.",
+      },
+      {
+        pergunta_pt:
+          'O conceito de "escrevivência", criado por Conceição Evaristo, pode ser definido como:',
+        pergunta_en:
+          'The concept of "escrevivência", created by Conceição Evaristo, can be defined as:',
+        opcaoA_pt:
+          "A técnica narrativa de escrever contos curtos com linguagem poética.",
+        opcaoA_en:
+          "The narrative technique of writing short stories with poetic language.",
+        opcaoB_pt:
+          "A prática de escrever diários íntimos como forma de terapia.",
+        opcaoB_en:
+          "The practice of writing intimate diaries as a form of therapy.",
+        opcaoC_pt: "Um gênero literário que mistura romance e autobiografia.",
+        opcaoC_en: "A literary genre that mixes novel and autobiography.",
+        opcaoD_pt: "A tradição oral africana transposta para a escrita formal.",
+        opcaoD_en: "The African oral tradition transposed into formal writing.",
+        opcaoE_pt:
+          "A escrita como ato coletivo e político das mulheres negras, onde vida vivida e literatura são inseparáveis.",
+        opcaoE_en:
+          "Writing as a collective and political act of Black women, where lived experience and literature are inseparable.",
+        resposta: "E",
+        explicacao_pt:
+          "Escrevivência é o conceito cunhado por Evaristo para descrever uma escrita que não separa o ato literário da experiência vivida — mas vai além do autobiográfico. É a vivência da mulher negra, coletiva e histórica, que sangra para dentro da literatura. Escrever, para Evaristo, é um ato de sobrevivência, resistência e afirmação de existência.",
+        explicacao_en:
+          "Escrevivência is the concept coined by Evaristo to describe a writing that does not separate the literary act from lived experience — but goes beyond the autobiographical. It is the collective and historical experience of Black women that bleeds into literature. Writing, for Evaristo, is an act of survival, resistance, and affirmation of existence.",
+      },
+      {
+        pergunta_pt:
+          "Em qual coleção literária Conceição Evaristo publicou seus primeiros textos, antes de lançar livros autorais?",
+        pergunta_en:
+          "In which literary collection did Conceição Evaristo publish her first texts, before releasing authored books?",
+        opcaoA_pt: "Na revista Raça Brasil, em colunas de opinião.",
+        opcaoA_en: "In Raça Brasil magazine, in opinion columns.",
+        opcaoB_pt:
+          "Nos Cadernos Negros, publicação coletiva do movimento Quilombhoje.",
+        opcaoB_en:
+          "In Cadernos Negros, a collective publication of the Quilombhoje movement.",
+        opcaoC_pt:
+          "Na coleção Feminismos Plurais, organizada por Djamila Ribeiro.",
+        opcaoC_en:
+          "In the Feminismos Plurais collection, organized by Djamila Ribeiro.",
+        opcaoD_pt:
+          "Na antologia Mulheres de Areia, organizada por Carolina Maria de Jesus.",
+        opcaoD_en:
+          "In the anthology Mulheres de Areia, organized by Carolina Maria de Jesus.",
+        opcaoE_pt: "Na Revista do Instituto Geográfico Brasileiro.",
+        opcaoE_en: "In the Journal of the Brazilian Geographic Institute.",
+        resposta: "B",
+        explicacao_pt:
+          "Os Cadernos Negros são uma publicação coletiva iniciada em 1978 pelo grupo Quilombhoje, em São Paulo, dedicada à literatura afro-brasileira. Foi nessa série que Evaristo publicou seus primeiros contos e poemas, a partir da década de 1990, encontrando um espaço de visibilidade fora do circuito editorial mainstream.",
+        explicacao_en:
+          "Cadernos Negros is a collective publication started in 1978 by the Quilombhoje group in São Paulo, dedicated to Afro-Brazilian literature. It was in this series that Evaristo published her first stories and poems, starting in the 1990s, finding a space for visibility outside the mainstream publishing circuit.",
+      },
+      {
+        pergunta_pt:
+          'A linguagem de Conceição Evaristo em "Olhos d\'água" é frequentemente descrita pela crítica literária como:',
+        pergunta_en:
+          'The language of Conceição Evaristo in "Olhos d\'água" is frequently described by literary critics as:',
+        opcaoA_pt:
+          "Poético-lírica e ao mesmo tempo política, fundindo beleza estética com denúncia social.",
+        opcaoA_en:
+          "Poetic-lyrical and at the same time political, merging aesthetic beauty with social denunciation.",
+        opcaoB_pt: "Fria e distanciada, típica do realismo documental.",
+        opcaoB_en: "Cold and distanced, typical of documentary realism.",
+        opcaoC_pt:
+          "Hermética e experimental, de difícil acesso ao leitor comum.",
+        opcaoC_en:
+          "Hermetic and experimental, difficult to access for the common reader.",
+        opcaoD_pt: "Regionalista e presa aos costumes do interior mineiro.",
+        opcaoD_en: "Regionalist and tied to the customs of rural Minas Gerais.",
+        opcaoE_pt: "Jornalística e objetiva, próxima da reportagem.",
+        opcaoE_en: "Journalistic and objective, close to reportage.",
+        resposta: "A",
+        explicacao_pt:
+          "A crítica literária destaca em Evaristo uma linguagem simultaneamente lírica e combativa — frases com musicalidade e densidade poética que carregam dentro de si a dor, a resistência e a denúncia. Essa fusão entre beleza e política é uma das marcas mais distintivas de 'Olhos d'água' e de toda a sua obra.",
+        explicacao_en:
+          "Literary critics highlight in Evaristo a language that is simultaneously lyrical and combative — sentences with musicality and poetic density that carry within them pain, resistance, and denunciation. This fusion of beauty and politics is one of the most distinctive marks of 'Olhos d'água' and of her entire body of work.",
+      },
+      {
+        pergunta_pt:
+          "Qual afirmação sobre o reconhecimento de Conceição Evaristo no mercado literário brasileiro é mais precisa?",
+        pergunta_en:
+          "Which statement about Conceição Evaristo's recognition in the Brazilian literary market is most accurate?",
+        opcaoA_pt:
+          "Evaristo sempre foi reconhecida pelo establishment literário desde seus primeiros textos.",
+        opcaoA_en:
+          "Evaristo has always been recognized by the literary establishment since her first texts.",
+        opcaoB_pt:
+          "Evaristo recusou todos os prêmios literários por princípio político.",
+        opcaoB_en:
+          "Evaristo refused all literary prizes on political principle.",
+        opcaoC_pt:
+          "Evaristo só escreve para um público acadêmico especializado em estudos afro-brasileiros.",
+        opcaoC_en:
+          "Evaristo only writes for an academic audience specialized in Afro-Brazilian studies.",
+        opcaoD_pt:
+          "Evaristo alcançou reconhecimento tardio no Brasil — 'Olhos d'água' perdeu o Prêmio Jabuti de 2017 numa escolha que gerou forte debate sobre racismo no meio literário.",
+        opcaoD_en:
+          "Evaristo achieved late recognition in Brazil — 'Olhos d'água' lost the 2017 Jabuti Prize in a choice that sparked a strong debate about racism in literary circles.",
+        opcaoE_pt:
+          "Evaristo foi descoberta pelo público internacional antes de qualquer reconhecimento no Brasil.",
+        opcaoE_en:
+          "Evaristo was discovered by the international public before any recognition in Brazil.",
+        resposta: "D",
+        explicacao_pt:
+          "Em 2017, 'Olhos d'água' concorreu ao Prêmio Jabuti e perdeu numa decisão que gerou enorme repercussão e acusações de racismo estrutural no mercado editorial. O episódio escancarou como a literatura negra brasileira é sistematicamente preterida pelas instituições culturais. O reconhecimento de Evaristo veio mais das comunidades leitoras e dos movimentos negros do que do establishment.",
+        explicacao_en:
+          "In 2017, 'Olhos d'água' competed for the Jabuti Prize and lost in a decision that generated enormous repercussions and accusations of structural racism in the publishing market. The episode exposed how Black Brazilian literature is systematically sidelined by cultural institutions. Evaristo's recognition came more from reading communities and Black movements than from the establishment.",
+      },
+      {
+        pergunta_pt:
+          'Qual elemento da natureza funciona como símbolo central que conecta mãe e filha no conto "Olhos d\'água"?',
+        pergunta_en:
+          'Which element of nature functions as the central symbol connecting mother and daughter in the story "Olhos d\'água"?',
+        opcaoA_pt: "O fogo das velas nos rituais de candomblé.",
+        opcaoA_en: "The fire of candles in candomblé rituals.",
+        opcaoB_pt: "A terra vermelha da infância no interior.",
+        opcaoB_en: "The red earth of childhood in the countryside.",
+        opcaoC_pt: "O vento que carrega o cheiro da mãe.",
+        opcaoC_en: "The wind that carries the mother's scent.",
+        opcaoD_pt: "A lua cheia que aparece nos sonhos da narradora.",
+        opcaoD_en: "The full moon that appears in the narrator's dreams.",
+        opcaoE_pt:
+          "A água, presente nos olhos da mãe e na memória afetiva da narradora.",
+        opcaoE_en:
+          "Water, present in the mother's eyes and in the narrator's affective memory.",
+        resposta: "E",
+        explicacao_pt:
+          "A água é o símbolo central do conto e do livro inteiro: ela está nos olhos da mãe, no choro e nas 'águas de Mamãe Oxum' — revelação que só chega ao final da narrativa. A narradora percebe que carrega a mãe dentro de si quando seus próprios olhos marejam.",
+        explicacao_en:
+          "Water is the central symbol of the story and the entire book: it is in the mother's eyes, in crying, and in the 'Waters of Mother Oxum' — a revelation that only arrives at the end of the narrative. The narrator realizes she carries her mother within herself when her own eyes well up.",
+      },
+      {
+        pergunta_pt:
+          'Em "Ana Davenga", o que o final do conto sugere sobre o destino do casal?',
+        pergunta_en:
+          'In "Ana Davenga", what does the ending of the story suggest about the couple\'s fate?',
+        opcaoA_pt:
+          "Uma invasão policial interrompe a noite dos dois, sugerindo violência e morte iminentes.",
+        opcaoA_en:
+          "A police raid interrupts their night together, suggesting imminent violence and death.",
+        opcaoB_pt: "Ana descobre que está grávida e Davenga abandona o crime.",
+        opcaoB_en:
+          "Ana discovers she is pregnant and Davenga leaves crime behind.",
+        opcaoC_pt:
+          "Ana e Davenga conseguem fugir e recomeçar a vida em outro estado.",
+        opcaoC_en:
+          "Ana and Davenga manage to escape and start over in another state.",
+        opcaoD_pt: "Davenga é preso e Ana o espera do lado de fora da cadeia.",
+        opcaoD_en:
+          "Davenga is arrested and Ana waits for him outside the prison.",
+        opcaoE_pt: "Os dois são traídos por um comparsa e fogem separados.",
+        opcaoE_en: "The two are betrayed by an accomplice and flee separately.",
+        resposta: "A",
+        explicacao_pt:
+          "O conto termina com a chegada violenta da polícia. A noite de intimidade e amor entre Ana e Davenga é brutalmente interrompida, e o leitor fica com a sensação de que a morte os aguarda. Evaristo não descreve o fim — o silêncio e a irrupção da violência dizem tudo sobre a precariedade da vida nas margens.",
+        explicacao_en:
+          "The story ends with the violent arrival of the police. The night of intimacy and love between Ana and Davenga is brutally interrupted, and the reader is left with the sense that death awaits them. Evaristo does not describe the end — the silence and the eruption of violence say everything about the precariousness of life at the margins.",
+      },
+      {
+        pergunta_pt:
+          'Qual recurso narrativo Conceição Evaristo usa em "Maria" para mostrar a invisibilidade social da protagonista?',
+        pergunta_en:
+          'What narrative device does Conceição Evaristo use in "Maria" to show the protagonist\'s social invisibility?',
+        opcaoA_pt:
+          "Maria usa um diário secreto para registrar seus sentimentos.",
+        opcaoA_en: "Maria uses a secret diary to record her feelings.",
+        opcaoB_pt: "A protagonista desaparece literalmente no meio do conto.",
+        opcaoB_en:
+          "The protagonist literally disappears in the middle of the story.",
+        opcaoC_pt: "Cartas de Maria revelam seus pensamentos mais íntimos.",
+        opcaoC_en: "Letters from Maria reveal her innermost thoughts.",
+        opcaoD_pt:
+          "Maria narra a própria história em primeira pessoa com muita assertividade.",
+        opcaoD_en:
+          "Maria narrates her own story in first person with great assertiveness.",
+        opcaoE_pt:
+          "O narrador descreve Maria em silêncio, sem voz direta, observada mas nunca vista de verdade pelos outros.",
+        opcaoE_en:
+          "The narrator describes Maria in silence, without direct voice, observed but never truly seen by others.",
+        resposta: "E",
+        explicacao_pt:
+          "Maria nunca fala diretamente no conto — ela é narrada de fora, carregando seu filho e sua dor em silêncio. O pai do filho a ignora no ônibus. Evaristo usa esse silêncio narrativo como denúncia: a mulher negra e pobre existe, sofre e ama, mas é tratada como invisível.",
+        explicacao_en:
+          "Maria never speaks directly in the story — she is narrated from the outside, carrying her child and her pain in silence. Her child's father ignores her on the bus. Evaristo uses this narrative silence as a denunciation: the poor Black woman exists, suffers, and loves, but is treated as invisible.",
+      },
+      {
+        pergunta_pt:
+          'Em "Quantos filhos Natalina teve?", como o texto trata os homens que participam da vida reprodutiva de Natalina?',
+        pergunta_en:
+          'In "How many children did Natalina have?", how does the text treat the men who participate in Natalina\'s reproductive life?',
+        opcaoA_pt: "Um homem específico redime Natalina ao reconhecer o filho.",
+        opcaoA_en:
+          "A specific man redeems Natalina by acknowledging the child.",
+        opcaoB_pt:
+          "Os homens sustentam Natalina financeiramente ao longo do conto.",
+        opcaoB_en: "The men support Natalina financially throughout the story.",
+        opcaoC_pt:
+          "Os homens são retratados como figuras amorosas que tentam ajudá-la.",
+        opcaoC_en:
+          "The men are portrayed as loving figures who try to help her.",
+        opcaoD_pt:
+          "Os homens são ausentes ou instrumentalizadores, sem responsabilidade real sobre as consequências.",
+        opcaoD_en:
+          "The men are absent or exploitative, with no real responsibility for the consequences.",
+        opcaoE_pt:
+          "Os homens são os principais narradores da história de Natalina.",
+        opcaoE_en: "The men are the main narrators of Natalina's story.",
+        resposta: "D",
+        explicacao_pt:
+          "Os homens na vida de Natalina aparecem como agentes de gravidez não desejada, sem arcar com as consequências. Natalina é pressionada a aceitar a maternidade, mas recusa. Evaristo aponta para a assimetria brutal: o corpo da mulher como campo de disputa, enquanto os homens passam ilesos.",
+        explicacao_en:
+          "The men in Natalina's life appear as agents of unwanted pregnancy, without bearing the consequences. Natalina is pressured to accept motherhood but refuses. Evaristo points to the brutal asymmetry: the woman's body as a field of dispute, while the men pass unscathed.",
+      },
+      {
+        pergunta_pt:
+          'Em "Luamanda", a relação da protagonista com outra mulher é tratada de que forma pelo texto?',
+        pergunta_en:
+          'In "Luamanda", how does the text treat the protagonist\'s relationship with another woman?',
+        opcaoA_pt: "Como uma traição que destrói sua família.",
+        opcaoA_en: "As a betrayal that destroys her family.",
+        opcaoB_pt:
+          "Como mais uma das perguntas sobre o amor — legítima, intensa e integrada à trajetória afetiva de Luamanda.",
+        opcaoB_en:
+          "As one more of the questions about love — legitimate, intense, and integrated into Luamanda's affective trajectory.",
+        opcaoC_pt: "Como um pecado que Luamanda precisa confessar e superar.",
+        opcaoC_en: "As a sin that Luamanda needs to confess and overcome.",
+        opcaoD_pt: "Como um erro que Luamanda lamenta até o fim da vida.",
+        opcaoD_en:
+          "As a mistake that Luamanda regrets for the rest of her life.",
+        opcaoE_pt:
+          "Como uma fase passageira e sem importância na vida da personagem.",
+        opcaoE_en:
+          "As a passing and unimportant phase in the character's life.",
+        resposta: "B",
+        explicacao_pt:
+          "Evaristo insere a relação homoafetiva de Luamanda sem julgamento ou patologização — ela é uma das perguntas sobre o amor, com a mesma dignidade das outras. O texto afirma a pluralidade do desejo feminino e negro sem precisar se justificar, subvertendo a norma heterossexual dominante na literatura brasileira.",
+        explicacao_en:
+          "Evaristo inserts Luamanda's homoaffective relationship without judgment or pathologization — it is one of the questions about love, with the same dignity as the others. The text affirms the plurality of Black feminine desire without needing to justify itself, subverting the dominant heterosexual norm in Brazilian literature.",
+      },
+      {
+        pergunta_pt:
+          'Em "O Cooper de Cida", qual é a crítica social central que Evaristo faz por meio da rotina da personagem?',
+        pergunta_en:
+          "In \"Cida's Run\", what is the central social critique that Evaristo makes through the character's routine?",
+        opcaoA_pt: "A precariedade do transporte público nas periferias.",
+        opcaoA_en:
+          "The precariousness of public transportation in the outskirts.",
+        opcaoB_pt: "O desemprego estrutural que atinge as mulheres negras.",
+        opcaoB_en: "The structural unemployment that affects Black women.",
+        opcaoC_pt: "A violência doméstica sofrida por Cida e suas vizinhas.",
+        opcaoC_en: "The domestic violence suffered by Cida and her neighbors.",
+        opcaoD_pt: "A falta de políticas públicas de saúde para mulheres.",
+        opcaoD_en: "The lack of public health policies for women.",
+        opcaoE_pt:
+          "A tripla jornada da mulher negra trabalhadora — emprego, filhos e casa — que a deixa sempre em movimento, mas sem avanço real.",
+        opcaoE_en:
+          "The triple shift of the Black working woman — job, children, and home — that keeps her always in motion, but without real progress.",
+        resposta: "E",
+        explicacao_pt:
+          "O cooper — exercício de corrida no lugar — é a metáfora perfeita da mulher negra trabalhadora: Cida corre o dia inteiro no trabalho doméstico, nos ônibus, na criação dos filhos, mas permanece no mesmo ponto de partida. Evaristo denuncia o sistema que exaure as mulheres negras sem jamais recompensá-las com ascensão real.",
+        explicacao_en:
+          "The cooper — running in place — is the perfect metaphor for the Black working woman: Cida runs all day in domestic work, on buses, raising children, but remains at the same starting point. Evaristo denounces the system that exhausts Black women without ever rewarding them with real advancement.",
+      },
+      {
+        pergunta_pt:
+          'Em "Zaíta esqueceu de guardar os brinquedos", qual é o efeito do ponto de vista de Naíta sobre o desfecho trágico?',
+        pergunta_en:
+          'In "Zaíta Forgot to Put Away the Toys", what is the effect of Naíta\'s point of view on the tragic ending?',
+        opcaoA_pt:
+          "Naíta compreende a morte da irmã e isso intensifica o drama.",
+        opcaoA_en:
+          "Naíta understands her sister's death and this intensifies the drama.",
+        opcaoB_pt: "Naíta representa a esperança de que a situação pode mudar.",
+        opcaoB_en: "Naíta represents the hope that the situation can change.",
+        opcaoC_pt: "O ponto de vista de Naíta distancia o leitor da tragédia.",
+        opcaoC_en:
+          "Naíta's point of view distances the reader from the tragedy.",
+        opcaoD_pt:
+          "O olhar inocente de Naíta, que não compreende a morte, torna a tragédia ainda mais devastadora por contraste.",
+        opcaoD_en:
+          "Naíta's innocent gaze, which does not comprehend death, makes the tragedy even more devastating by contrast.",
+        opcaoE_pt:
+          "Naíta é quem narra a violência com detalhes, aumentando o impacto.",
+        opcaoE_en:
+          "Naíta narrates the violence in detail, increasing the impact.",
+        resposta: "D",
+        explicacao_pt:
+          "Evaristo usa a inocência de Naíta como lente devastadora. A irmã morta é reduzida, na percepção da menina, a um brinquedo não guardado — e é exatamente essa incompreensão que parte o coração do leitor. O cotidiano da infância colide com a morte violenta sem que a criança consiga processar o que aconteceu.",
+        explicacao_en:
+          "Evaristo uses Naíta's innocence as a devastating lens. The dead sister is reduced, in the girl's perception, to a toy not put away — and it is precisely this incomprehension that breaks the reader's heart. The everyday life of childhood collides with violent death without the child being able to process what happened.",
+      },
+      {
+        pergunta_pt:
+          'No conto "Os amores de Kimbá", por que o protagonista recebia o apelido de Kimbá?',
+        pergunta_en:
+          'In the story "The Loves of Kimbá", why did the protagonist receive the nickname Kimbá?',
+        opcaoA_pt:
+          "Era o nome de seu avô africano, passado de geração em geração.",
+        opcaoA_en:
+          "It was the name of his African grandfather, passed down through generations.",
+        opcaoB_pt:
+          "Kimbá era apenas um apelido carinhoso dado pela mãe na infância.",
+        opcaoB_en:
+          "Kimbá was just an affectionate nickname given by his mother in childhood.",
+        opcaoC_pt:
+          "Ele escolheu o nome ao sair do morro como forma de identidade.",
+        opcaoC_en:
+          "He chose the name when he left the hill as a form of identity.",
+        opcaoD_pt:
+          "Um amigo rico e viajado o apelidou assim por achá-lo parecido com alguém da Nigéria.",
+        opcaoD_en:
+          "A wealthy, well-traveled friend nicknamed him that because he thought he looked like someone from Nigeria.",
+        opcaoE_pt:
+          "O apelido surgiu na escola por causa de uma brincadeira entre colegas.",
+        opcaoE_en:
+          "The nickname emerged at school because of a joke among classmates.",
+        resposta: "D",
+        explicacao_pt:
+          "O protagonista era chamado Zezinho e ganhou o apelido Kimbá de um amigo rico e viajado que o achou parecido com alguém da Nigéria. O apelido carrega uma dimensão de identidade diaspórica — uma ligação simbólica com a África que o amigo enxerga nele, mesmo que Kimbá ainda não a veja em si mesmo.",
+        explicacao_en:
+          "The protagonist was called Zezinho and received the nickname Kimbá from a wealthy, well-traveled friend who thought he looked like someone from Nigeria. The nickname carries a dimension of diasporic identity — a symbolic link to Africa that the friend sees in him, even if Kimbá does not yet see it in himself.",
+      },
+      {
+        pergunta_pt:
+          'Qual tema perpassa a maioria dos contos de "Olhos d\'água" como fio condutor da obra?',
+        pergunta_en:
+          'What theme runs through most of the stories in "Olhos d\'água" as the unifying thread of the work?',
+        opcaoA_pt: "A busca por ascensão social por meio da educação formal.",
+        opcaoA_en: "The pursuit of social mobility through formal education.",
+        opcaoB_pt: "A nostalgia da vida rural e do retorno à África.",
+        opcaoB_en: "Nostalgia for rural life and return to Africa.",
+        opcaoC_pt:
+          "As experiências, resistências e subjetividades das mulheres negras e pobres no Brasil.",
+        opcaoC_en:
+          "The experiences, resistances, and subjectivities of poor Black women in Brazil.",
+        opcaoD_pt:
+          "A violência urbana vista apenas sob a perspectiva policial.",
+        opcaoD_en: "Urban violence seen only from the police perspective.",
+        opcaoE_pt:
+          "A religiosidade cristã como caminho de redenção das personagens.",
+        opcaoE_en:
+          "Christian religiosity as a path of redemption for the characters.",
+        resposta: "C",
+        explicacao_pt:
+          "A escrevivência de Evaristo coloca no centro da literatura brasileira as mulheres negras e pobres que sempre foram suas margens. Cada conto de 'Olhos d'água' é um ato de resistência: dar voz, corpo e alma a quem o sistema insiste em apagar.",
+        explicacao_en:
+          "Evaristo's escrevivência places at the center of Brazilian literature the poor Black women who have always been its margins. Each story in 'Olhos d'água' is an act of resistance: giving voice, body, and soul to those whom the system insists on erasing.",
+      },
+      {
+        pergunta_pt:
+          'A narradora do conto "Olhos d\'água" só consegue lembrar a cor dos olhos da mãe em qual momento?',
+        pergunta_en:
+          "The narrator of the story \"Olhos d'água\" is only able to remember the color of her mother's eyes at which moment?",
+        opcaoA_pt: "Ao encontrar uma fotografia antiga da mãe numa gaveta.",
+        opcaoA_en:
+          "When she finds an old photograph of her mother in a drawer.",
+        opcaoB_pt:
+          "Quando uma das filhas chora e ela vê o próprio reflexo nos olhos da criança.",
+        opcaoB_en:
+          "When one of her daughters cries and she sees her own reflection in the child's eyes.",
+        opcaoC_pt:
+          "Durante um ritual de candomblé em que sente a presença da mãe.",
+        opcaoC_en:
+          "During a candomblé ritual in which she feels her mother's presence.",
+        opcaoD_pt: "Em um sonho em que a mãe aparece e lhe diz a resposta.",
+        opcaoD_en:
+          "In a dream in which her mother appears and tells her the answer.",
+        opcaoE_pt:
+          "Ao perceber que seus próprios olhos marejam, reconhecendo neles os olhos da mãe — cor de olhos d'água, águas de Mamãe Oxum.",
+        opcaoE_en:
+          "Upon realizing that her own eyes are welling up, recognizing in them her mother's eyes — water-eye-colored, Waters of Mother Oxum.",
+        resposta: "E",
+        explicacao_pt:
+          "A revelação final do conto é que a narradora carrega a mãe dentro de si — literalmente nos olhos. Quando seus próprios olhos marejam, ela finalmente vê: os olhos da mãe eram 'cor de olhos d'água, águas de Mamãe Oxum'. A memória não estava perdida; estava dentro dela o tempo todo.",
+        explicacao_en:
+          "The final revelation of the story is that the narrator carries her mother within herself — literally in her eyes. When her own eyes well up, she finally sees: her mother's eyes were 'water-eye-colored, Waters of Mother Oxum.' The memory was not lost; it was inside her all along.",
+      },
     ],
   });
 
@@ -921,43 +1324,59 @@ async function main() {
       {
         titulo_pt: "CONCEIÇÃO EVARISTO | Writing",
         titulo_en: "CONCEIÇÃO EVARISTO | Writing",
-        descricao_pt: "Neste vídeo do projeto Leituras Brasileiras, a renomada escritora, poeta e professora Conceição Evaristo compartilha uma reflexão profunda e intimista sobre o seu processo de criação literária e o conceito que cunhou e que guia sua obra: a escrevivência.",
-        descricao_en: "In this video from the project Leituras Brasileiras, the renowned writer, poet, and professor Conceição Evaristo shares a profound and intimate reflection on her literary creation process and the concept she coined that guides her work: escrevivência.",
+        descricao_pt:
+          "Neste vídeo do projeto Leituras Brasileiras, a renomada escritora, poeta e professora Conceição Evaristo compartilha uma reflexão profunda e intimista sobre o seu processo de criação literária e o conceito que cunhou e que guia sua obra: a escrevivência.",
+        descricao_en:
+          "In this video from the project Leituras Brasileiras, the renowned writer, poet, and professor Conceição Evaristo shares a profound and intimate reflection on her literary creation process and the concept she coined that guides her work: escrevivência.",
         url: "QXopKuvxevY",
       },
       {
-        titulo_pt: "Resumo dos contos de OLHOS D'ÁGUA | Conceição Evaristo | vestibular UNICAMP",
-        titulo_en: "Summary of the stories of OLHOS D'ÁGUA | Conceição Evaristo | vestibular UNICAMP",
-        descricao_pt: "Esse vídeo oferece um resumo detalhado dos 15 contos que compõem a obra 'Olhos D'Água', de Conceição Evaristo. Com foco no contexto do vestibular e na obra literária.",
-        descricao_en: "This video offers a detailed summary of the 15 stories that make up the book 'Olhos D'Água' by Conceição Evaristo, focusing on the context of the university entrance exam and the literary work.",
+        titulo_pt:
+          "Resumo dos contos de OLHOS D'ÁGUA | Conceição Evaristo | vestibular UNICAMP",
+        titulo_en:
+          "Summary of the stories of OLHOS D'ÁGUA | Conceição Evaristo | vestibular UNICAMP",
+        descricao_pt:
+          "Esse vídeo oferece um resumo detalhado dos 15 contos que compõem a obra 'Olhos D'Água', de Conceição Evaristo. Com foco no contexto do vestibular e na obra literária.",
+        descricao_en:
+          "This video offers a detailed summary of the 15 stories that make up the book 'Olhos D'Água' by Conceição Evaristo, focusing on the context of the university entrance exam and the literary work.",
         url: "KuTakZaTkpE",
       },
       {
         titulo_pt: "OLHOS D'ÁGUA, Conceição Evaristo | audiobook",
         titulo_en: "OLHOS D'ÁGUA, Conceição Evaristo | audiobook",
-        descricao_pt: "Ouça o audiobook completo de Olhos D'Água, uma das obras mais marcantes e celebradas da literatura contemporânea brasileira, escrita pela premiada autora Conceição Evaristo.",
-        descricao_en: "Listen to the complete audiobook of Olhos D'Água, one of the most striking and celebrated works of contemporary Brazilian literature, written by the award-winning author Conceição Evaristo.",
+        descricao_pt:
+          "Ouça o audiobook completo de Olhos D'Água, uma das obras mais marcantes e celebradas da literatura contemporânea brasileira, escrita pela premiada autora Conceição Evaristo.",
+        descricao_en:
+          "Listen to the complete audiobook of Olhos D'Água, one of the most striking and celebrated works of contemporary Brazilian literature, written by the award-winning author Conceição Evaristo.",
         url: "nIiEKgVbBWQ",
       },
       {
         titulo_pt: "Conceição Evaristo é a convidada do Trilha de Letras",
         titulo_en: "Conceição Evaristo on the Trilha de Letras program",
-        descricao_pt: "Conceição Evaristo conversa sobre sua trajetória literária, sua visão sobre a literatura afro-brasileira e a importância da leitura.",
-        descricao_en: "Conceição Evaristo talks about her literary trajectory, her vision of Afro-Brazilian literature and the importance of reading.",
+        descricao_pt:
+          "Conceição Evaristo conversa sobre sua trajetória literária, sua visão sobre a literatura afro-brasileira e a importância da leitura.",
+        descricao_en:
+          "Conceição Evaristo talks about her literary trajectory, her vision of Afro-Brazilian literature and the importance of reading.",
         url: "xplu30xQvzg",
       },
       {
-        titulo_pt: "Vídeo explicativo Sobre o conceito Escrevivência e a Obra Olhos D'Água",
-        titulo_en: "Explanatory Video on the Concept of Escrevivência and the Work Olhos D'Água",
-        descricao_pt: "Explicando o conceito de Escrevivência e analisando a obra \"Olhos D'Água\", de Conceição Evaristo, mostrando como a autora une vivências reais e literatura.",
-        descricao_en: "Explaining the concept of escrevivência and analyzing the work 'Olhos D'Água' by Conceição Evaristo, showing how the author combines real experiences and literature.",
+        titulo_pt:
+          "Vídeo explicativo Sobre o conceito Escrevivência e a Obra Olhos D'Água",
+        titulo_en:
+          "Explanatory Video on the Concept of Escrevivência and the Work Olhos D'Água",
+        descricao_pt:
+          'Explicando o conceito de Escrevivência e analisando a obra "Olhos D\'Água", de Conceição Evaristo, mostrando como a autora une vivências reais e literatura.',
+        descricao_en:
+          "Explaining the concept of escrevivência and analyzing the work 'Olhos D'Água' by Conceição Evaristo, showing how the author combines real experiences and literature.",
         url: "P-iialWa9J4",
       },
       {
         titulo_pt: "Review sobre o livro: Olhos D'Água de Conceição Evaristo",
         titulo_en: "Review of the book: Olhos D'Água by Conceição Evaristo",
-        descricao_pt: "Nesse vídeo, analisamos a potência dos contos de 'Olhos D'Água', destacando a realidade marcante, a ancestralidade e a sensibilidade que atravessam a obra. Uma review direta para entender o impacto e a importância desse livro essencial da literatura contemporânea.",
-        descricao_en: "In this video, we analyze the power of the stories in 'Olhos D'Água', highlighting the striking reality, ancestry, and sensitivity that run through the work. A straightforward review to understand the impact and importance of this essential book of contemporary literature.",
+        descricao_pt:
+          "Nesse vídeo, analisamos a potência dos contos de 'Olhos D'Água', destacando a realidade marcante, a ancestralidade e a sensibilidade que atravessam a obra. Uma review direta para entender o impacto e a importância desse livro essencial da literatura contemporânea.",
+        descricao_en:
+          "In this video, we analyze the power of the stories in 'Olhos D'Água', highlighting the striking reality, ancestry, and sensitivity that run through the work. A straightforward review to understand the impact and importance of this essential book of contemporary literature.",
         url: "UsfPdPyG80o",
       },
     ],
@@ -1321,7 +1740,8 @@ async function main() {
         fotoUrl:
           "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/daniel-casalli.png",
         github: "https://github.com/daniel-casalli02",
-        linkedin: "https://www.linkedin.com/in/daniel-casalli-a5379a349?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+        linkedin:
+          "https://www.linkedin.com/in/daniel-casalli-a5379a349?utm_source=share_via&utm_content=profile&utm_medium=member_android",
         email: "casallidan7@gmail.com",
       },
       {
@@ -1380,7 +1800,7 @@ async function main() {
         curso_pt: "Mecanica",
         curso_en: "Mechanics",
         fotoUrl:
-        "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/ana-gabriely.jpeg",
+          "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/ana-gabriely.jpeg",
         github: "",
         linkedin: "",
         email: "anagabrielyandrade10@gmail.com",
@@ -1390,7 +1810,7 @@ async function main() {
         curso_pt: "Mecanica",
         curso_en: "Mechanics",
         fotoUrl:
-        "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/guilherme-batista.jpeg",
+          "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/guilherme-batista.jpeg",
         github: "",
         linkedin: "",
         email: "guizaga.silva@gmail.com",
@@ -1400,7 +1820,7 @@ async function main() {
         curso_pt: "Mecanica",
         curso_en: "Mechanics",
         fotoUrl:
-        "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/lucas-conde.jpeg",
+          "https://raw.githubusercontent.com/ferrnd/book-club-mobile-backend/refs/heads/main/images/members/lucas-conde.jpeg",
         github: "",
         linkedin: "",
         email: "",
